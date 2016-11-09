@@ -1,0 +1,57 @@
+
+<section class="content-header">
+  <h1>
+   {{PageHeader}}
+  </h1>
+</section>
+<div class="row">
+<div class="col-xs-9">
+ <div class="box">
+   <div class="box-body">
+       <div class="row">
+       	 <div class="col-sm-3">
+       	 	Project Title
+       	 	<input type="text" class="form-control" ng-model="project.ProjectName" />
+       	 </div>
+		   <div class="col-sm-3">
+			   Start Date
+			   <p class="input-group">
+				   <input type="text" class="form-control" id="startdate" uib-datepicker-popup="dd MMM yyyy" ng-click="startdate=true" ng-model="project.StartDate" is-open="startdate"  close-text="Close" readonly />
+              <span class="input-group-btn">
+                <button type="button" class="btn btn-default" ng-click="startdate=true"><i class="glyphicon glyphicon-calendar"></i></button>
+              </span>
+			   </p>
+		   </div>
+		   <div class="col-sm-3">
+			   End Date
+			   <p class="input-group">
+				   <input type="text" class="form-control" id="enddate" uib-datepicker-popup="dd MMMM yyyy" ng-click="enddate=true" ng-model="project.EndDate" is-open="enddate"  close-text="Close" readonly  />
+              <span class="input-group-btn">
+                <button type="button" class="btn btn-default" ng-click="enddate=true"><i class="glyphicon glyphicon-calendar"></i></button>
+              </span>
+			   </p>
+		   </div>
+		   <div class="col-sm-3">
+			   ProjectType
+			   <input type="text" class="form-control" ng-model="project.ProjectType" />
+		   </div>
+       	  <div class="col-sm-6">
+       	 	Project Discription
+       	 	<textarea type="text" rows="3" class="form-control" ng-model="project.Description" />
+       	 </div>
+       </div>
+       <div class="row">
+       	<div class="col-sm-1">
+       		<br />
+       		<input type="button" ng-click="saveproject()" class="btn btn-primary" value="{{btntext}}" />
+       	</div>
+       	<div class="col-sm-1">
+       		<br />
+       		<input type="button" ng-click="cancelproject()" class="btn btn-primary" value="Cancel" />
+       	</div>
+       </div>
+
+   </div>
+ </div>
+</div>
+</div>
