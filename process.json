@@ -1,0 +1,11 @@
+{
+  "apps" :[
+    {
+      "name": "IssueTracker",
+      "script": "server.js",
+      "instances": 1,
+      "node_args": [
+        "--harmony"
+        ]
+    }]
+ }

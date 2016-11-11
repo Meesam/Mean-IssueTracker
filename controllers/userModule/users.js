@@ -3,6 +3,7 @@
 var appconfig=require('../../appconfig');
 var globalobj=require('../../core/global');
 var util=require('util');
+var Q=require('q');
 var mongoose=require('mongoose');
 var Users = mongoose.model('Users');
 var UsersDetails=mongoose.model('UsersDetails');
@@ -22,22 +23,21 @@ db.once("open", function(callback) {
 // Add User
 exports.createUsers=function(users,callback){
   if(users){
-	  console.log('User data is ' + users);
+	  console.log('User data is ' + JSON.stringify(users));
 	  var user=new Users(users);
-	  user.save(function(err){
-		  if(err)
-			  callback(null,err);
-		  else {
-			  var obj={
-				  status:'success',
-				  count:data.length,
-				  data:data
-			  }
-			  callback(globalobj.globalObject(obj));
-		  }
-	  });
+	   user.save(function(err,data){
+	   if(err)
+	    callback(null,err);
+	   else {
+		   var obj={
+		   status:'success',
+		   count:data.length,
+		   data:data
+	     }
+		   callback(globalobj.globalObject(obj));
+	   }
+	 });
    }
-
 };
 
 // Login
@@ -53,7 +53,8 @@ exports.doLogin=function(users,callback){
 					  status:'success',
 					  count:data.length,
 					  data:data,
-					  tokenvalue: data[0].Email
+					 // tokenvalue: data[0].Email
+					  tokenvalue:'meesam.engineer@gmail.com'
 				  }
 			  }
 			 else {

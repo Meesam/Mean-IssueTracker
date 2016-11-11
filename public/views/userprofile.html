@@ -1,10 +1,55 @@
+<style>
+    .tag {
+        font-size: 14px;
+        padding: .3em .4em .4em;
+        margin: 0 .1em;
+    }
+    .tag a {
+        color: #bbb;
+        cursor: pointer;
+        opacity: 0.6;
+    }
+    .tag a:hover {
+        opacity: 1.0
+    }
+    .tag .remove {
+        vertical-align: bottom;
+        top: 0;
+    }
+    .tag a {
+        margin: 0 0 0 .3em;
+    }
+    .tag a .glyphicon-white {
+        color: #fff;
+        margin-bottom: 2px;
+    }
+    .bg-primary{
+        background-color: #3c8dbc;
+    }
+    .bg-warning{
+        background-color: #f39c12;
+    }
+    .example-modal .modal {
+        position: relative;
+        top: auto;
+        bottom: auto;
+        right: auto;
+        left: auto;
+        display: block;
+        z-index: 1;
+    }
+    .example-modal .modal {
+        background: transparent !important;
+    }
+</style>
+
 <div>
     <!-- Content Wrapper. Contains page content -->
     <div>
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>
-                Add User Details
+                {{PageHeader}}
             </h1>
         </section>
 
@@ -44,28 +89,16 @@
                         </div><!-- /.col -->
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label>Multiple</label>
-                                <select class="form-control select2" multiple="multiple" data-placeholder="Select a State" style="width: 100%;">
-                                    <option>Alabama</option>
-                                    <option>Alaska</option>
-                                    <option>California</option>
-                                    <option>Delaware</option>
-                                    <option>Tennessee</option>
-                                    <option>Texas</option>
-                                    <option>Washington</option>
-                                </select>
+                                <label>Date of birth</label>
+                                <p class="input-group">
+                                    <input type="text" class="form-control" id="dob" uib-datepicker-popup="dd MMM yyyy" ng-click="dob=true" ng-model="user.DOB" is-open="dob"  close-text="Close" readonly  />
+                                    <span class="input-group-btn">
+                                     <button type="button" class="btn btn-default" ng-click="dob=true"><i class="glyphicon glyphicon-calendar"></i></button>
+                                   </span>
+                                </p>
                             </div><!-- /.form-group -->
                             <div class="form-group">
-                                <label>Disabled Result</label>
-                                <select class="form-control select2" style="width: 100%;">
-                                    <option selected="selected">Alabama</option>
-                                    <option>Alaska</option>
-                                    <option disabled="disabled">California (disabled)</option>
-                                    <option>Delaware</option>
-                                    <option>Tennessee</option>
-                                    <option>Texas</option>
-                                    <option>Washington</option>
-                                </select>
+                                <input type="button" class="btn btn-primary" ng-click="SaveUser()" value="Create">
                             </div><!-- /.form-group -->
                         </div><!-- /.col -->
                     </div><!-- /.row -->
@@ -77,9 +110,8 @@
 
             <div class="row">
                 <div class="col-md-6">
-
                     <div class="box box-danger">
-                        <div class="box-header">
+                        <div class="box-header with-border">
                             <h3 class="box-title">Email Address</h3>
                             <div class="box-tools pull-right">
                                 <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
@@ -87,60 +119,29 @@
                             </div>
                         </div>
                         <div class="box-body">
-                            <!-- Date dd/mm/yyyy -->
-                            <div class="form-group">
-                                <label>Date masks:</label>
-                                <div class="input-group">
-                                    <div class="input-group-addon">
-                                        <i class="fa fa-calendar"></i>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <span ng-repeat="ue in user.EmailAddress" ng-class="ue.isPrimary ? 'tag label label-primary' : 'tag label label-warning'">
+                                          <span>{{ue.email}}</span>
+                                            <a ng-click="deleteEmail($index)"><i class="remove glyphicon glyphicon-remove-sign glyphicon-white"></i></a>
+                                        </span><!--email-badeges-->
                                     </div>
-                                    <input type="text" class="form-control" data-inputmask="'alias': 'dd/mm/yyyy'" data-mask>
-                                </div><!-- /.input group -->
-                            </div><!-- /.form group -->
-
-                            <!-- Date mm/dd/yyyy -->
-                            <div class="form-group">
-                                <div class="input-group">
-                                    <div class="input-group-addon">
-                                        <i class="fa fa-calendar"></i>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                                            <input type="text" ng-model="user.Email" class="form-control" placeholder="Email">
+                                        </div>
                                     </div>
-                                    <input type="text" class="form-control" data-inputmask="'alias': 'mm/dd/yyyy'" data-mask>
-                                </div><!-- /.input group -->
-                            </div><!-- /.form group -->
-
-                            <!-- phone mask -->
-                            <div class="form-group">
-                                <label>US phone mask:</label>
-                                <div class="input-group">
-                                    <div class="input-group-addon">
-                                        <i class="fa fa-phone"></i>
+                                    <div class="form-group">
+                                        <label>Is Primary</label>
+                                        <input type="checkbox" ng-model="user.IsPrimaryEmail"/>
                                     </div>
-                                    <input type="text" class="form-control" data-inputmask='"mask": "(999) 999-9999"' data-mask>
-                                </div><!-- /.input group -->
-                            </div><!-- /.form group -->
-
-                            <!-- phone mask -->
-                            <div class="form-group">
-                                <label>Intl US phone mask:</label>
-                                <div class="input-group">
-                                    <div class="input-group-addon">
-                                        <i class="fa fa-phone"></i>
+                                    <div class="form-group">
+                                        <input type="button" class="btn btn-primary" ng-click="addEmail()" value="Add New">
                                     </div>
-                                    <input type="text" class="form-control" data-inputmask="'mask': ['999-999-9999 [x99999]', '+099 99 99 9999[9]-9999']" data-mask>
-                                </div><!-- /.input group -->
-                            </div><!-- /.form group -->
-
-                            <!-- IP mask -->
-                            <div class="form-group">
-                                <label>IP mask:</label>
-                                <div class="input-group">
-                                    <div class="input-group-addon">
-                                        <i class="fa fa-laptop"></i>
-                                    </div>
-                                    <input type="text" class="form-control" data-inputmask="'alias': 'ip'" data-mask>
-                                </div><!-- /.input group -->
-                            </div><!-- /.form group -->
-
+                                </div>
+                            </div>
                         </div><!-- /.box-body -->
                     </div><!-- /.box -->
 
@@ -188,7 +189,7 @@
                 </div><!-- /.col (left) -->
                 <div class="col-md-6">
                     <div class="box box-primary">
-                        <div class="box-header">
+                        <div class="box-header with-border">
                             <h3 class="box-title">Contact Detail</h3>
                             <div class="box-tools pull-right">
                                 <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
@@ -198,37 +199,25 @@
                         <div class="box-body">
                             <!-- Date range -->
                             <div class="form-group">
-                                <label>Date range:</label>
-                                <div class="input-group">
-                                    <div class="input-group-addon">
-                                        <i class="fa fa-calendar"></i>
-                                    </div>
-                                    <input type="text" class="form-control pull-right" id="reservation">
-                                </div><!-- /.input group -->
-                            </div><!-- /.form group -->
-
-                            <!-- Date and time range -->
-                            <div class="form-group">
-                                <label>Date and time range:</label>
-                                <div class="input-group">
-                                    <div class="input-group-addon">
-                                        <i class="fa fa-clock-o"></i>
-                                    </div>
-                                    <input type="text" class="form-control pull-right" id="reservationtime">
-                                </div><!-- /.input group -->
-                            </div><!-- /.form group -->
-
-                            <!-- Date and time range -->
-                            <div class="form-group">
-                                <label>Date range button:</label>
-                                <div class="input-group">
-                                    <button class="btn btn-default pull-right" id="daterange-btn">
-                                        <i class="fa fa-calendar"></i> Date range picker
-                                        <i class="fa fa-caret-down"></i>
-                                    </button>
+                                <div class="info-box">
+                                    <span class="info-box-icon  bg-primary" title="Permanent Address"><i class="fa fa-home"></i></span>
+                                    <div class="info-box-content">
+                                        <span class="info-box-text pull-right"><i class="fa fa-remove"></i></span>
+                                        <span class="info-box-text">17/52 , A Nawab compound, ram narayan bazar, Kanpur (UP)</span>
+                                        <span class="info-box-number">+ 91-8826120526</span>
+                                    </div><!-- /.info-box-content -->
                                 </div>
-                            </div><!-- /.form group -->
-
+                                <div class="info-box">
+                                    <span class="info-box-icon bg-warning" title="Current Address"><i class="fa  fa-building-o"></i></span>
+                                    <div class="info-box-content">
+                                        <span class="info-box-text">Messages</span>
+                                        <span class="info-box-number">1,410</span>
+                                    </div><!-- /.info-box-content -->
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactModal" value="Add New">
+                            </div>
                         </div><!-- /.box-body -->
                     </div><!-- /.box -->
                 </div><!-- /.col (right) -->
@@ -236,7 +225,24 @@
 
         </section><!-- /.content -->
 
-
+            <!-- Contact Model-->
+            <div class="modal fade" id="contactModal" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">Modal Default</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>One fine body&hellip;</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
 
     <!-- Control Sidebar -->
     <aside class="control-sidebar control-sidebar-dark">
@@ -400,4 +406,5 @@
             </div><!-- /.tab-pane -->
         </div>
     </aside><!-- /.control-sidebar -->
+ </div>
 </div>

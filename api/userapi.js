@@ -39,6 +39,13 @@ apiRoutes.post('/userDetails',function (req,resp,next) {
      if(err) return next(err);
      else resp.json(data);
     });
-})
+});
+
+apiRoutes.post('/user/add',function (req,resp,next) {
+  usersModule.createUsers(req.body.Obj,function(data,err){
+      if(err) return next(err);
+      else resp.json(data);
+  });
+});
 
 module.exports = apiRoutes;
