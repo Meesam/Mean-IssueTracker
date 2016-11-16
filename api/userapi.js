@@ -2,9 +2,10 @@ var express=require('express');
 var db=require('../core/db');
 var usersModule=require('../controllers/userModule/users');
 var apiRoutes = express.Router();
+var Logger=require('../core/Logger');
 
 apiRoutes.post('/login',function(req,resp,next){
-	var users=req.body;
+    var users=req.body;
 	if(users){
        usersModule.doLogin(users,function(data,err){
            if(err){
@@ -13,7 +14,7 @@ apiRoutes.post('/login',function(req,resp,next){
            else{
               if(data.Status=="loginfail")
               	return next(new Error("Login Fail"));
-              resp.json(data); 
+               resp.json(data);
            }
        });
 	}
