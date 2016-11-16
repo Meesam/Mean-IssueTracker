@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb4c9ebb-0729-44e9-8af3-b8b17aa26d5a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/userapi.js" afterPath="$PROJECT_DIR$/api/userapi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/db.js" afterPath="$PROJECT_DIR$/core/db.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
-    </list>
+    <list default="true" id="cb4c9ebb-0729-44e9-8af3-b8b17aa26d5a" name="Default" comment="" />
     <ignored path="GitIssueTracker.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -363,7 +357,7 @@
       <workItem from="1478938840834" duration="11621000" />
       <workItem from="1479012035953" duration="8290000" />
       <workItem from="1479224822781" duration="1225000" />
-      <workItem from="1479312129769" duration="429000" />
+      <workItem from="1479312129769" duration="643000" />
     </task>
     <task id="LOCAL-00001" summary="Swagger implement">
       <created>1477815310269</created>
@@ -432,7 +426,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123959000" />
+    <option name="totallyTimeSpent" value="124173000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
