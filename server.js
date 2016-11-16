@@ -9,17 +9,18 @@ var issuetypeapi=require('./api/issuetypeapi');
 var statusapi=require('./api/statusapi');
 var projectapi=require('./api/projectapi');
 var cookieparser=require('cookie-parser');
-var jwt = require('jwt-simple');
 var redis=require('redis');
 var responseTime=require('response-time');
+var logger=require('./core/Logger');
+
 
 var redisClient=redis.createClient();
 redisClient.on('error',function(err){
-  console.log('Redis error is ' + err);
+  logger.debug('Redis error is ' , err);
 });
 
 redisClient.on('connect',function(){
-    console.log('Redis server is connect now.');
+    logger.debug('Redis server is connect now.');
 });
 
 /*
@@ -36,6 +37,7 @@ redisClient.get("city",function(err,data){
 var app=express();
 var apiRoutes = express.Router();
 
+
 // use middleware
 app.use(express.static(path.join(__dirname+'/public')));
 app.use(express.static(path.join(__dirname+'/public/swagger_dist')));
@@ -44,6 +46,12 @@ app.use(bodyParser.json());
 app.use(cookieparser());
 
 // define routing
+
+app.use(responseTime(function (req, resp, value) {
+    var routePath = req.path
+    logger.info('[' + routePath +'] http-response-time=' + value + 'ms ');
+  })
+);
 
 // public api routing middleware
 
@@ -75,7 +83,8 @@ app.route('/swagger').get(function(req, res) {
     return res.sendFile(path.join(__dirname +'/public/swagger_dist/index.html'));
 });
 
-// this is for run  server on localhost
-app.listen(appconfig.webPort,function() {
-   console.log('server runing at ' + appconfig.webPort);
-});
+ // this is for run  server on localhost
+ app.listen(appconfig.webPort, function () {
+     logger.debug('Server runing at ' + appconfig.webPort);
+ });
+
