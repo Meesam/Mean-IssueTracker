@@ -4,7 +4,7 @@
   "description": "this is issuetracker management system",
   "main": "server.js",
   "scripts": {
-    "start": "HOST=$HOST_HOSTNAME pm2 start process.json --no-daemon",
+    "start": "NODE_ENV=localdev HOST=$HOST_HOSTNAME pm2 start process.json --no-daemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -21,6 +21,7 @@
     "body-parser": "^1.15.0",
     "circular-json": "^0.3.1",
     "cluster": "^0.7.7",
+    "config": "^1.24.0",
     "cookie-parser": "^1.4.1",
     "ejs": "^2.4.1",
     "eslint": "^3.7.1",
