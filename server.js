@@ -12,6 +12,7 @@ var cookieparser=require('cookie-parser');
 var redis=require('redis');
 var responseTime=require('response-time');
 var logger=require('./core/Logger');
+var config = require('config');
 
 
 var redisClient=redis.createClient();
@@ -84,7 +85,7 @@ app.route('/swagger').get(function(req, res) {
 });
 
  // this is for run  server on localhost
- app.listen(appconfig.webPort, function () {
-     logger.debug('Server runing at ' + appconfig.webPort);
+ app.listen(config.get('WEB_PORT'), function () {
+     logger.debug('Server runing at ' + config.get('WEB_PORT'));
  });
 
