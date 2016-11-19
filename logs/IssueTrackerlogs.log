@@ -337,3 +337,182 @@
 {"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-16T16:51:47.989Z"}
 {"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-16T16:51:48.002Z"}
 {"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-16T16:51:56.463Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-17T15:13:34.912Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-17T15:13:34.927Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-17T15:19:12.928Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-17T15:19:25.334Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-17T15:19:45.950Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-17T15:19:53.975Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-17T15:19:54.005Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-17T15:20:40.666Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-17T15:20:49.718Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-17T15:20:49.726Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-17T15:20:49.742Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-17T15:24:53.838Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-17T15:25:03.236Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-17T15:25:03.244Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-17T15:25:03.256Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-17T15:36:02.464Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-17T16:08:47.899Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-17T16:09:10.032Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-17T16:09:19.797Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-17T16:09:19.805Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-17T16:09:19.828Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=4.645778ms ","timestamp":"2016-11-17T16:10:01.312Z"}
+{"level":"info","message":"[/login] http-response-time=99.161236ms ","timestamp":"2016-11-17T16:10:08.876Z"}
+{"level":"info","message":"[/modules] http-response-time=22.517637999999998ms ","timestamp":"2016-11-17T16:10:08.934Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=2.984957ms ","timestamp":"2016-11-17T16:10:08.946Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.579311ms ","timestamp":"2016-11-17T16:10:11.060Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.549647ms ","timestamp":"2016-11-17T16:10:11.886Z"}
+{"level":"info","message":"[/project] http-response-time=35.966268ms ","timestamp":"2016-11-17T16:10:11.958Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.47159999999999996ms ","timestamp":"2016-11-17T16:10:12.673Z"}
+{"level":"info","message":"[/dynamictable] http-response-time=16.531539ms ","timestamp":"2016-11-17T16:10:26.288Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=3.948286ms ","timestamp":"2016-11-17T16:10:26.667Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.1670479999999999ms ","timestamp":"2016-11-17T16:10:26.671Z"}
+{"level":"info","message":"[/modules] http-response-time=0.747231ms ","timestamp":"2016-11-17T16:10:26.691Z"}
+{"level":"info","message":"[/dynamictable] http-response-time=1.20252ms ","timestamp":"2016-11-17T16:10:27.305Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=4.153763ms ","timestamp":"2016-11-17T16:10:27.623Z"}
+{"level":"info","message":"[/modules] http-response-time=0.8097019999999999ms ","timestamp":"2016-11-17T16:10:27.651Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.821785ms ","timestamp":"2016-11-17T16:10:27.670Z"}
+{"level":"info","message":"[/dynamictable] http-response-time=0.8455579999999999ms ","timestamp":"2016-11-17T16:10:27.989Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.7532159999999999ms ","timestamp":"2016-11-17T16:10:28.300Z"}
+{"level":"info","message":"[/modules] http-response-time=0.619428ms ","timestamp":"2016-11-17T16:10:28.329Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.764316ms ","timestamp":"2016-11-17T16:10:28.350Z"}
+{"level":"info","message":"[/project] http-response-time=8.676719ms ","timestamp":"2016-11-17T16:10:46.827Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.381559ms ","timestamp":"2016-11-17T16:10:46.828Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.689844ms ","timestamp":"2016-11-17T16:10:48.292Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.940364ms ","timestamp":"2016-11-17T16:10:49.108Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-17T16:22:21.622Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-17T16:22:31.463Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-17T16:22:31.469Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-17T16:22:31.480Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-17T16:22:31.487Z"}
+{"level":"info","message":"[/users] http-response-time=8.651928999999999ms ","timestamp":"2016-11-17T16:22:42.363Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=27.379901999999998ms ","timestamp":"2016-11-17T16:22:44.791Z"}
+{"level":"debug","message":"1479399764.812507: get,allModules","timestamp":"2016-11-17T16:22:44.813Z"}
+{"level":"info","message":"[/modules] http-response-time=10.819808ms ","timestamp":"2016-11-17T16:22:44.822Z"}
+{"level":"debug","message":"1479399764.820783: setex,allModules,120,{\"Status\":\"success\",\"Count\":4,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"}]}","timestamp":"2016-11-17T16:22:44.824Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=2.493871ms ","timestamp":"2016-11-17T16:22:44.826Z"}
+{"level":"info","message":"[/users] http-response-time=4.748082999999999ms ","timestamp":"2016-11-17T16:24:10.238Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=10.475068ms ","timestamp":"2016-11-17T16:24:10.665Z"}
+{"level":"debug","message":"1479399850.690706: get,allModules","timestamp":"2016-11-17T16:24:10.691Z"}
+{"level":"info","message":"[/modules] http-response-time=1.3515899999999998ms ","timestamp":"2016-11-17T16:24:10.692Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.4363359999999998ms ","timestamp":"2016-11-17T16:24:10.715Z"}
+{"level":"info","message":"[/users] http-response-time=8.04818ms ","timestamp":"2016-11-17T16:24:19.740Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=2.431955ms ","timestamp":"2016-11-17T16:24:20.145Z"}
+{"level":"debug","message":"1479399860.179642: get,allModules","timestamp":"2016-11-17T16:24:20.180Z"}
+{"level":"info","message":"[/modules] http-response-time=1.616032ms ","timestamp":"2016-11-17T16:24:20.181Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.9823679999999999ms ","timestamp":"2016-11-17T16:24:20.195Z"}
+{"level":"info","message":"[/users] http-response-time=1.5072969999999999ms ","timestamp":"2016-11-17T16:24:27.930Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=2.0574939999999997ms ","timestamp":"2016-11-17T16:24:28.234Z"}
+{"level":"debug","message":"1479399868.259553: get,allModules","timestamp":"2016-11-17T16:24:28.259Z"}
+{"level":"info","message":"[/modules] http-response-time=1.037051ms ","timestamp":"2016-11-17T16:24:28.260Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=6.110358ms ","timestamp":"2016-11-17T16:24:28.282Z"}
+{"level":"info","message":"[/users] http-response-time=8.613225ms ","timestamp":"2016-11-17T16:24:33.963Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.747228ms ","timestamp":"2016-11-17T16:24:34.264Z"}
+{"level":"debug","message":"1479399874.288127: get,allModules","timestamp":"2016-11-17T16:24:34.288Z"}
+{"level":"info","message":"[/modules] http-response-time=1.434313ms ","timestamp":"2016-11-17T16:24:34.289Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.474184ms ","timestamp":"2016-11-17T16:24:34.393Z"}
+{"level":"info","message":"[/users] http-response-time=0.5216029999999999ms ","timestamp":"2016-11-17T16:31:58.510Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.4480009999999999ms ","timestamp":"2016-11-17T16:31:59.187Z"}
+{"level":"debug","message":"1479400319.226183: get,allModules","timestamp":"2016-11-17T16:31:59.226Z"}
+{"level":"info","message":"[/modules] http-response-time=5.271065999999999ms ","timestamp":"2016-11-17T16:31:59.231Z"}
+{"level":"debug","message":"1479400319.230614: setex,allModules,120,{\"Status\":\"success\",\"Count\":4,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"}]}","timestamp":"2016-11-17T16:31:59.232Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.709858ms ","timestamp":"2016-11-17T16:31:59.254Z"}
+{"level":"debug","message":"1479400321.647794: get,allModules","timestamp":"2016-11-17T16:32:01.648Z"}
+{"level":"info","message":"[/modules] http-response-time=2.862735ms ","timestamp":"2016-11-17T16:32:01.650Z"}
+{"level":"debug","message":"1479400332.787361: get,allModules","timestamp":"2016-11-17T16:32:12.788Z"}
+{"level":"info","message":"[/modules] http-response-time=4.370159999999999ms ","timestamp":"2016-11-17T16:32:12.791Z"}
+{"level":"debug","message":"1479400336.075591: get,allModules","timestamp":"2016-11-17T16:32:16.076Z"}
+{"level":"info","message":"[/modules] http-response-time=2.285373ms ","timestamp":"2016-11-17T16:32:16.077Z"}
+{"level":"debug","message":"1479400338.290863: get,allModules","timestamp":"2016-11-17T16:32:18.291Z"}
+{"level":"info","message":"[/modules] http-response-time=2.461703ms ","timestamp":"2016-11-17T16:32:18.293Z"}
+{"level":"debug","message":"1479400339.576519: get,allModules","timestamp":"2016-11-17T16:32:19.577Z"}
+{"level":"info","message":"[/modules] http-response-time=1.2667389999999998ms ","timestamp":"2016-11-17T16:32:19.577Z"}
+{"level":"debug","message":"1479400340.706527: get,allModules","timestamp":"2016-11-17T16:32:20.707Z"}
+{"level":"info","message":"[/modules] http-response-time=2.213478ms ","timestamp":"2016-11-17T16:32:20.708Z"}
+{"level":"debug","message":"1479400341.795088: get,allModules","timestamp":"2016-11-17T16:32:21.795Z"}
+{"level":"info","message":"[/modules] http-response-time=0.946365ms ","timestamp":"2016-11-17T16:32:21.796Z"}
+{"level":"debug","message":"1479400342.751368: get,allModules","timestamp":"2016-11-17T16:32:22.752Z"}
+{"level":"info","message":"[/modules] http-response-time=2.996601ms ","timestamp":"2016-11-17T16:32:22.754Z"}
+{"level":"debug","message":"1479400343.638340: get,allModules","timestamp":"2016-11-17T16:32:23.639Z"}
+{"level":"info","message":"[/modules] http-response-time=2.308243ms ","timestamp":"2016-11-17T16:32:23.640Z"}
+{"level":"debug","message":"1479400344.551682: get,allModules","timestamp":"2016-11-17T16:32:24.552Z"}
+{"level":"info","message":"[/modules] http-response-time=2.491352ms ","timestamp":"2016-11-17T16:32:24.554Z"}
+{"level":"debug","message":"1479400345.420865: get,allModules","timestamp":"2016-11-17T16:32:25.421Z"}
+{"level":"info","message":"[/modules] http-response-time=2.292951ms ","timestamp":"2016-11-17T16:32:25.423Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=2.447854ms ","timestamp":"2016-11-17T16:32:55.938Z"}
+{"level":"debug","message":"1479400376.023240: get,allModules","timestamp":"2016-11-17T16:32:56.023Z"}
+{"level":"info","message":"[/modules] http-response-time=0.8502909999999999ms ","timestamp":"2016-11-17T16:32:56.024Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.8532069999999998ms ","timestamp":"2016-11-17T16:32:56.743Z"}
+{"level":"debug","message":"1479400376.785846: get,allModules","timestamp":"2016-11-17T16:32:56.786Z"}
+{"level":"info","message":"[/modules] http-response-time=0.809155ms ","timestamp":"2016-11-17T16:32:56.786Z"}
+{"level":"debug","message":"1479400385.135430: get,allModules","timestamp":"2016-11-17T16:33:05.135Z"}
+{"level":"info","message":"[/modules] http-response-time=0.758929ms ","timestamp":"2016-11-17T16:33:05.136Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.259339ms ","timestamp":"2016-11-17T16:33:05.170Z"}
+{"level":"debug","message":"1479400398.109574: get,allModules","timestamp":"2016-11-17T16:33:18.110Z"}
+{"level":"info","message":"[/modules] http-response-time=1.6169019999999998ms ","timestamp":"2016-11-17T16:33:18.112Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.300554ms ","timestamp":"2016-11-17T16:33:18.140Z"}
+{"level":"debug","message":"1479400405.184776: get,allModules","timestamp":"2016-11-17T16:33:25.185Z"}
+{"level":"info","message":"[/modules] http-response-time=0.9909199999999999ms ","timestamp":"2016-11-17T16:33:25.185Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.861559ms ","timestamp":"2016-11-17T16:33:25.210Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-17T16:37:09.055Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-17T16:37:21.880Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-17T16:37:21.887Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-17T16:37:21.893Z"}
+{"level":"debug","message":"1479400641.885579: multi","timestamp":"2016-11-17T16:37:21.894Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-17T16:37:21.914Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-17T16:37:48.583Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-17T16:37:57.570Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-17T16:37:57.581Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-17T16:37:57.587Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-17T16:49:07.301Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-17T16:49:16.251Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-17T16:49:16.260Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-17T16:49:16.267Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-17T16:49:16.272Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=28.596729ms ","timestamp":"2016-11-17T16:49:25.168Z"}
+{"level":"debug","message":"1479401365.196706: [ 'get', 'allModules' ]","timestamp":"2016-11-17T16:49:25.203Z"}
+{"level":"info","message":"[/modules] http-response-time=20.646905ms ","timestamp":"2016-11-17T16:49:25.216Z"}
+{"level":"debug","message":"1479401365.214935: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":4,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"}]}' ]","timestamp":"2016-11-17T16:49:25.218Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=4.481138ms ","timestamp":"2016-11-17T16:49:25.225Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.73156ms ","timestamp":"2016-11-17T16:49:25.250Z"}
+{"level":"info","message":"[/dashboard] http-response-time=18.051675ms ","timestamp":"2016-11-17T16:49:26.924Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=5.19975ms ","timestamp":"2016-11-17T16:49:27.242Z"}
+{"level":"debug","message":"1479401367.266275: [ 'get', 'allModules' ]","timestamp":"2016-11-17T16:49:27.268Z"}
+{"level":"info","message":"[/modules] http-response-time=3.6752719999999997ms ","timestamp":"2016-11-17T16:49:27.271Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=2.997743ms ","timestamp":"2016-11-17T16:49:27.281Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-19T07:15:56.807Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-19T07:15:56.815Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-19T07:15:56.857Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-19T07:15:56.875Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=5.121956ms ","timestamp":"2016-11-19T07:16:05.493Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-19T07:18:18.158Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-19T07:18:24.084Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-19T07:18:24.091Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-19T07:18:24.097Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-19T07:18:24.104Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=54.519527ms ","timestamp":"2016-11-19T07:18:28.514Z"}
+{"level":"info","message":"[/login] http-response-time=39.293481ms ","timestamp":"2016-11-19T07:18:34.737Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.294819ms ","timestamp":"2016-11-19T07:18:34.782Z"}
+{"level":"debug","message":"1479539914.789222: [ 'get', 'allModules' ]","timestamp":"2016-11-19T07:18:34.793Z"}
+{"level":"info","message":"[/modules] http-response-time=18.462763ms ","timestamp":"2016-11-19T07:18:34.807Z"}
+{"level":"debug","message":"1479539914.805761: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":4,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"}]}' ]","timestamp":"2016-11-19T07:18:34.808Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=2.06609ms ","timestamp":"2016-11-19T07:18:36.817Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=2.7582929999999997ms ","timestamp":"2016-11-19T07:18:38.201Z"}
+{"level":"info","message":"[/project] http-response-time=33.614716ms ","timestamp":"2016-11-19T07:18:38.270Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.246658ms ","timestamp":"2016-11-19T07:18:39.650Z"}
+{"level":"info","message":"[/project] http-response-time=7.961035ms ","timestamp":"2016-11-19T07:18:40.671Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.35287599999999997ms ","timestamp":"2016-11-19T07:18:40.674Z"}
+{"level":"info","message":"[/project] http-response-time=21.543806999999997ms ","timestamp":"2016-11-19T07:18:42.181Z"}
+{"level":"info","message":"[/project] http-response-time=5.199392ms ","timestamp":"2016-11-19T07:18:42.812Z"}
+{"level":"info","message":"[/project] http-response-time=13.577221ms ","timestamp":"2016-11-19T07:18:44.276Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.751439ms ","timestamp":"2016-11-19T07:18:46.331Z"}
+{"level":"info","message":"[/project] http-response-time=14.229432ms ","timestamp":"2016-11-19T07:18:48.273Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.3345609999999999ms ","timestamp":"2016-11-19T07:18:48.294Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.024955ms ","timestamp":"2016-11-19T07:19:41.108Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.637435ms ","timestamp":"2016-11-19T07:19:42.496Z"}
+{"level":"info","message":"[/project] http-response-time=12.514275999999999ms ","timestamp":"2016-11-19T07:19:43.780Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.49285999999999996ms ","timestamp":"2016-11-19T07:19:43.783Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.443484ms ","timestamp":"2016-11-19T07:19:44.568Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-19T07:20:03.030Z"}

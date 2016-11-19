@@ -1,16 +1,19 @@
+(function () {
+	'use strict';
+
 exports.globalObject=function(curObject) {
-	var globalObject={};
+	let globalObject={};
 	if(curObject==null){
          return null;
 	}
 	else{
-		var globalObject={
+		let globalObject={
 			Status:curObject.status,
 			Count:curObject.count,
 			objdata:curObject.data,
 			token:curObject.tokenvalue
-		}
+		};
 		return globalObject;
 	}
-
-}
+};
+})();

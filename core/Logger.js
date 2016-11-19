@@ -1,3 +1,6 @@
+(function () {
+    'use strict';
+
 /**
  * Created by root on 11/11/16.
  */
@@ -34,4 +37,4 @@ module.exports.stream = {
         logger.info(message);
     }
 };
-
+})();

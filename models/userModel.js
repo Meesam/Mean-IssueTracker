@@ -1,7 +1,10 @@
-var mongoose = require( 'mongoose' );
+(function () {
+    'use strict';
+
+let mongoose = require( 'mongoose' );
 
 // Create User Schema
-var userSchema=new mongoose.Schema({
+let userSchema=new mongoose.Schema({
     FirstName:{type:String,required:true},
     MiddleName:String,
     LastName:{type:String,required:true},
@@ -30,3 +33,4 @@ var userSchema=new mongoose.Schema({
     LastLogin:Date
 });
 module.exports = mongoose.model('Users',userSchema);
+})();

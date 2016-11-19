@@ -1,10 +1,13 @@
-var mssql=require('mssql');
-var appconfig=require('../appconfig');
-var mongoose=require('mongoose');
-var Logger=require('./Logger');
+(function () {
+	'use strict';
+
+let mssql=require('mssql');
+let appconfig=require('../appconfig');
+let mongoose=require('mongoose');
+let Logger=require('./Logger');
 
 // Build the connection string
-var dbURI = appconfig.dbUrl;
+let dbURI = appconfig.dbUrl;
 
 // Create the database connection
 mongoose.connect(dbURI);
@@ -37,16 +40,17 @@ require('../models/userModel');
 require('../models/appMenuModel');
 require('../models/projectModel');
 require('../models/userDetailModel');
+})();
 
 
 /* This method will work with Sql Server
 exports.runSql=function(sqlqury,callback) {
-	var conn=new mssql.Connection(appconfig.dbconfig);
+	let conn=new mssql.Connection(appconfig.dbconfig);
 	conn.connect(function(err){
 		if(err){
            callback(null,err);
 		}
-		var sqlrequest=new mssql.Request(conn);
+		let sqlrequest=new mssql.Request(conn);
 		sqlrequest.query(sqlqury,function(err,recordset){
              if(err){
                 callback(null,err);  	
