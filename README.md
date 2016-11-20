@@ -1,12 +1,13 @@
 # IssueTracker
 
-Issue tracker is to developed for maintain the the tracking of any kind of application (Web or desktop). it is currently at development stage. We are using latest technologies as possible as.
+Issue tracker is to developed for maintain the tracking of any kind of application (Web or desktop). it is currently at development stage. i am using latest technologies as possible as.
 Following language and and framework are used :-
 1. Node Js
 2. Express Js
-3. Sql Server
+3. Mongodb
 4. Angular js
 5. Bootstrap
+6. Redis
 
 On top level we devide the system in two main parts, one is for server side api and the other one is for client ui .
 On low level we devide the system in following module :-
