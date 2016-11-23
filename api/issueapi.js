@@ -1,27 +1,31 @@
-var express=require('express');
-var issues=require('../controllers/issuemodule/issues');
-var apiRoutes = express.Router();
+(function () {
+  'use strict';
 
-apiRoutes.get('/issues',function(req,resp,next) {
+  let express=require('express');
+  let issues=require('../controllers/issuemodule/issues');
+  let apiRoutes = express.Router();
 
-	issues.getAllissues(function(data,err){
-		if(err)
-			return next(err);
-		else{
-			resp.json(data);
-		}
-	});
-});
+  apiRoutes.get('/issues',function(req,resp,next) {
+    issues.getAllissues(function(data,err){
+	  if(err) {
+		 return next(err);
+	  }
+	  else {
+		  resp.json(data);
+	  }
+    });
+  });
 
-apiRoutes.post('/issues',function(req,resp,next){
-	issues.addIssue(req.body,function(data,err){
-		if(err)
-			return next(err);
-		else{
-			resp.json(data);
-		}
-	});
-});
+  apiRoutes.post('/issues',function(req,resp,next) {
+	 issues.addIssue(req.body,function(data,err) {
+	   if(err) {
+		  return next(err);
+	   }
+	   else {
+		  resp.json(data);
+	   }
+ });
+  });
 
-
-module.exports = apiRoutes;
+  module.exports = apiRoutes;
+})();

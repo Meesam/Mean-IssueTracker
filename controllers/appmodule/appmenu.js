@@ -1,17 +1,16 @@
+(function () {
+	'use strict'
 
-var globalobj=require('../../core/global');
-var util=require('util');
-var appconfig=require('../../appconfig');
-var mongoose=require('mongoose');
-var Modules = mongoose.model('Modules');
-
-
-
+let globalobj=require('../../core/global');
+let util=require('util');
+let appconfig=require('../../appconfig');
+let mongoose=require('mongoose');
+let Modules = mongoose.model('Modules');
 
 // Add Module
 exports.addModules=function(modules,callback){
      if(modules != null){
-		 var md=new Modules({
+		 let md=new Modules({
 			 MenuName:modules.MenuName,
 			 MenuRoute:modules.RoutName
 		 });
@@ -19,7 +18,7 @@ exports.addModules=function(modules,callback){
 			 if(err)
 			 callback(null,err);
 			 else{
-				 var obj={
+				 let obj={
 					 status:'success',
 					 count:data.length,
 					 data:data
@@ -33,20 +32,20 @@ exports.addModules=function(modules,callback){
 
 // Get All Modules
 exports.getAllModules=function(callback){
-	Modules.find(function(err,data){
-		if(err)
-		callback(null,err);
-		else{
-			var obj={
-				status:'success',
-				count:data.length,
-				data:data
-			}
-			callback(globalobj.globalObject(obj));
-		}
-	});
+			Modules.find(function(err,data){
+				if(err)
+					callback(null,err);
+				else{
+					let obj={
+						status:'success',
+						count:data.length,
+						data:data
+					}
+					callback(globalobj.globalObject(obj));
+				}
+			});
+		};
 
-};
 
 /*
 exports.getAllModules=function(callback){
@@ -55,7 +54,7 @@ exports.getAllModules=function(callback){
 			callback(null,err);
 		}
 		else{
-            var obj={
+            let obj={
 					status:'success',
 					count:data.length,
 					data:data
@@ -66,7 +65,7 @@ exports.getAllModules=function(callback){
 };
 
 exports.getMenubyId=function(moduleId,callback){
-   var query='select mm.MenuId, m.MenuName,m.Route from ModuleMenu mm' ;
+   let query='select mm.MenuId, m.MenuName,m.Route from ModuleMenu mm' ;
      query += ' inner join Menus m on m.MenuId=mm.MenuId inner join Modules mo on mo.ModuleId=mm.ModuleId where mo.ModuleId=' + moduleId; 
 	 
    db.runSql(query,function(data,err){
@@ -74,7 +73,7 @@ exports.getMenubyId=function(moduleId,callback){
    	  	callback(null,err);
    	  }
    	  else{
-   	  	var obj={
+   	  	let obj={
    	  		status:'success',
 			count:data.length,
 			data:data
@@ -85,3 +84,4 @@ exports.getMenubyId=function(moduleId,callback){
 };
 */
 
+})();
