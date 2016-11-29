@@ -516,3 +516,45 @@
 {"level":"info","message":"[/favicon.ico] http-response-time=0.49285999999999996ms ","timestamp":"2016-11-19T07:19:43.783Z"}
 {"level":"info","message":"[/favicon.ico] http-response-time=0.443484ms ","timestamp":"2016-11-19T07:19:44.568Z"}
 {"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-19T07:20:03.030Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-23T06:05:51.338Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-23T06:05:51.366Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-23T06:05:51.446Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-23T06:05:51.482Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=11.832521ms ","timestamp":"2016-11-23T06:06:25.325Z"}
+{"level":"info","message":"[/login] http-response-time=46.103041999999995ms ","timestamp":"2016-11-23T06:06:32.109Z"}
+{"level":"debug","message":"1479881192.141098: [ 'get', 'allModules' ]","timestamp":"2016-11-23T06:06:32.155Z"}
+{"level":"info","message":"[/modules] http-response-time=60.415005ms ","timestamp":"2016-11-23T06:06:32.208Z"}
+{"level":"debug","message":"1479881192.191202: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":4,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/issues\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"}]}' ]","timestamp":"2016-11-23T06:06:32.244Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.403282ms ","timestamp":"2016-11-23T06:06:32.260Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.6924119999999999ms ","timestamp":"2016-11-23T06:06:35.552Z"}
+{"level":"info","message":"[/project] http-response-time=18.186242ms ","timestamp":"2016-11-23T06:06:35.708Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.252035ms ","timestamp":"2016-11-23T06:06:38.636Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.268322ms ","timestamp":"2016-11-23T06:06:40.791Z"}
+{"level":"info","message":"[/project] http-response-time=5.390912999999999ms ","timestamp":"2016-11-23T06:06:40.859Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.993316ms ","timestamp":"2016-11-23T06:07:04.065Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.7250139999999999ms ","timestamp":"2016-11-23T06:07:04.088Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.5188309999999999ms ","timestamp":"2016-11-23T06:07:05.116Z"}
+{"level":"info","message":"[/project] http-response-time=3.40217ms ","timestamp":"2016-11-23T06:07:05.174Z"}
+{"level":"info","message":"[/projects] http-response-time=0.469663ms ","timestamp":"2016-11-23T06:07:07.017Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=4.351453ms ","timestamp":"2016-11-23T06:07:08.591Z"}
+{"level":"debug","message":"1479881228.721990: [ 'get', 'allModules' ]","timestamp":"2016-11-23T06:07:08.727Z"}
+{"level":"info","message":"[/modules] http-response-time=5.818722999999999ms ","timestamp":"2016-11-23T06:07:08.727Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.412556ms ","timestamp":"2016-11-23T06:07:08.754Z"}
+{"level":"info","message":"[/project] http-response-time=8.685891999999999ms ","timestamp":"2016-11-23T06:07:08.934Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.221806ms ","timestamp":"2016-11-23T06:07:13.811Z"}
+{"level":"info","message":"[/projects/57eceebcf0dfe3df542252b9] http-response-time=18.912815ms ","timestamp":"2016-11-23T06:07:13.959Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.18746ms ","timestamp":"2016-11-23T06:07:15.811Z"}
+{"level":"info","message":"[/project] http-response-time=2.6799169999999997ms ","timestamp":"2016-11-23T06:07:15.858Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.206805ms ","timestamp":"2016-11-23T06:07:17.225Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.197424ms ","timestamp":"2016-11-23T06:07:17.242Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.16045399999999999ms ","timestamp":"2016-11-23T06:07:21.195Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.420907ms ","timestamp":"2016-11-23T06:08:25.984Z"}
+{"level":"info","message":"[/project] http-response-time=2.589495ms ","timestamp":"2016-11-23T06:08:26.034Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=3.0305389999999996ms ","timestamp":"2016-11-23T06:08:32.786Z"}
+{"level":"info","message":"[/users] http-response-time=0.422602ms ","timestamp":"2016-11-23T06:08:41.862Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.864622ms ","timestamp":"2016-11-23T06:08:43.831Z"}
+{"level":"debug","message":"1479881323.949204: [ 'get', 'allModules' ]","timestamp":"2016-11-23T06:08:43.952Z"}
+{"level":"info","message":"[/modules] http-response-time=11.88059ms ","timestamp":"2016-11-23T06:08:43.965Z"}
+{"level":"debug","message":"1479881323.955039: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":4,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/issues\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"}]}' ]","timestamp":"2016-11-23T06:08:43.977Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=2.881731ms ","timestamp":"2016-11-23T06:08:43.999Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-23T06:52:26.022Z"}
