@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb4c9ebb-0729-44e9-8af3-b8b17aa26d5a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/projectapi.js" afterPath="$PROJECT_DIR$/api/projectapi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/projectmodule/projects.js" afterPath="$PROJECT_DIR$/controllers/projectmodule/projects.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/IssueTrackerlogs.log" afterPath="$PROJECT_DIR$/logs/IssueTrackerlogs.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
-    </list>
+    <list default="true" id="cb4c9ebb-0729-44e9-8af3-b8b17aa26d5a" name="Default" comment="" />
     <ignored path="GitIssueTracker.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,8 +53,8 @@
       <file leaf-file-name="projectapi.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/projectapi.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+            <state relative-caret-position="433">
+              <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -332,7 +327,7 @@
       <workItem from="1479527355655" duration="9664000" />
       <workItem from="1479880979749" duration="1885000" />
       <workItem from="1479899556787" duration="28000" />
-      <workItem from="1480400038572" duration="6607000" />
+      <workItem from="1480400038572" duration="6695000" />
     </task>
     <task id="LOCAL-00001" summary="Swagger implement">
       <created>1477815310269</created>
@@ -401,7 +396,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150393000" />
+    <option name="totallyTimeSpent" value="150481000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -835,8 +830,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/projectapi.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+        <state relative-caret-position="433">
+          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
           <folding />
         </state>
       </provider>
