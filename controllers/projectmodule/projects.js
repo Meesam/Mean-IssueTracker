@@ -6,6 +6,7 @@ let globalobj=require('../../core/global');
 let util=require('util');
 let mongoose=require('mongoose');
 let Projects = mongoose.model('Projects');
+let Q=require('q');
 
 exports.getAllProject=function(aTableInfo,callback){
 	let totalRecord=null;
@@ -48,24 +49,21 @@ exports.addProject=function(projectdetails,callback){
 	});
 };
 
-exports.getProjectById=function(projectId,callback){
-	if(projectId==0)
-		callback(null,err);
-	else{
-		Projects.find({_id:projectId},function(err,data){
-			if(err)
-				callback(null,err);
-			else{
-				let	obj = {
-					status: 'success',
-					count:data.length,
-					data: data
-				};
-				callback(globalobj.globalObject(obj));
-			}
+ exports.getProjectById=function(projectId) {
+  return Q(Projects.find({_id:projectId}).exec())
+		.then(function (data) {
+			let obj = {
+				status: 'success',
+				count:data.length,
+				data: data
+			};
+			return globalobj.globalObject(obj);
+		})
+		.catch(function (err) {
+			console.log('error is ' + err);
 		});
-	}
-};
+ };
+
 })();
 
 

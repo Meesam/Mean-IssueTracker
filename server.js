@@ -54,11 +54,10 @@
   app.use('/api', statusapi);
 
   app.route('/*').get(function(req, res) {
-    return res.sendFile(path.join(__dirname+'/public/index.html')); 
-  });
-
-  app.route('/swagger').get(function(req, res) {
-    return res.sendFile(path.join(__dirname +'/public/swagger_dist/index.html'));
+     if(req.path==='/swagger')
+         return res.sendFile(path.join(__dirname +'/public/swagger_dist/index.html'));
+     else
+      return res.sendFile(path.join(__dirname+'/public/index.html'));
   });
 
  // this is for run  server on localhost
