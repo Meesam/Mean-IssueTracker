@@ -8,6 +8,7 @@
   let issueapi=require('./api/issueapi');
   let issuetypeapi=require('./api/issuetypeapi');
   let statusapi=require('./api/statusapi');
+  let elastic=require('./api/elasticSearchapi');
   let projectapi=require('./api/projectapi');
   let cookieparser=require('cookie-parser');
   let responseTime=require('response-time');
@@ -38,6 +39,8 @@
 //user routing middleware
   app.use('/api', userapi);
 
+  app.use('/api', elastic);
+
 //application module routing middleware
   app.use('/api', moduleapi);
 
@@ -53,12 +56,15 @@
 //status routing middleware
   app.use('/api', statusapi);
 
-  app.route('/*').get(function(req, res) {
-    return res.sendFile(path.join(__dirname+'/public/index.html')); 
-  });
 
-  app.route('/swagger').get(function(req, res) {
-    return res.sendFile(path.join(__dirname +'/public/swagger_dist/index.html'));
+
+  app.route('/*').get(function(req, res) {
+    if(req.path==='/swagger'){
+      return res.sendFile(path.join(__dirname +'/public/swagger_dist/index.html'));
+    }
+    else{
+      return res.sendFile(path.join(__dirname+'/public/index.html')); 
+    }
   });
 
  // this is for run  server on localhost

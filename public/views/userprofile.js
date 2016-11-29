@@ -1,8 +1,12 @@
+(function () {
+    'use strict';
+
 issueTrackerApp.registerCtrl('userprofilecontroller',function userprofilecontroller($scope, $rootScope, $http, $location, appServices, $cookies,validationService) {
-      $scope.PageHeader = "Add User Details";
+      $scope.PageHeader = 'Add User Details';
       $scope.IsNew=true;
       $scope.user={};
-     $scope.user.EmailAddress=[];
+      $scope.user.EmailAddress=[];
+      $scope.user.Contact=[];
 
       $scope.SaveUser=function () {
           if ( angular.isUndefined($scope.user.FirstName) || $scope.user.FirstName == '') { $rootScope.setMsg('First Name is required'); return; }
@@ -15,9 +19,9 @@ issueTrackerApp.registerCtrl('userprofilecontroller',function userprofilecontrol
               }
               else $rootScope.setMsg(d.Info);
           });
-      }
+      };
       $scope.addEmail=function () {
-          var hasFoo =false;
+          let hasFoo =false;
           if ( angular.isUndefined($scope.user.Email) || $scope.user.Email == '') { $rootScope.setMsg('email is required'); return; }
               $scope.user.EmailAddress.forEach(function (item) {
 
@@ -31,7 +35,7 @@ issueTrackerApp.registerCtrl('userprofilecontroller',function userprofilecontrol
                       hasFoo=true;
                       return ;
                   }else hasFoo=false;
-              })
+              });
           if(hasFoo===false) {
               $scope.user.EmailAddress.push({
                   email: $scope.user.Email,
@@ -44,9 +48,20 @@ issueTrackerApp.registerCtrl('userprofilecontroller',function userprofilecontrol
               $scope.user.Email = null;
               $scope.user.IsPrimaryEmail = false;
           }
-      }
+      };
+
+      $scope.AddContact=function () {
+          $scope.user.Contact.push({
+              Mobile:$scope.user.Mobile ,
+              Address:$scope.user.Address,
+              City:$scope.user.City,
+              State:$scope.user.State,
+              IsPermanant:$scope.user.IsPermanant
+          });
+      };
       
       $scope.deleteEmail=function (idx) {
           $scope.user.EmailAddress.splice(idx,1);
-      }
+      };
  });
+})();

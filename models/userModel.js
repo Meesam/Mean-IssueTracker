@@ -16,7 +16,6 @@ let userSchema=new mongoose.Schema({
         IsPrimary:Boolean
     }],
     Contact:[{
-       AddressType:String,
        Mobile:String,
        Address:String,
        City:String,
