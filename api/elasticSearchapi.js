@@ -12,9 +12,10 @@ apiRoutes.get('/searchAccount/:input', function (req, res, next) {
   console.log('input is ' + req.params.input);
   elasticSearch.getSuggestions(req.params.input)
     .then(function(data){
-    	console.log(data);
-    	logger.debug('request ' + req.path + ' takes ',data.took + ' ms');
+      if(data){
+    	logger.debug('request ' + req.path + ' takes ',data.took + ' ms. in elasticSearch');
     	res.json(data);
+     }
     })
     .fail(function(err){
     	next(err);

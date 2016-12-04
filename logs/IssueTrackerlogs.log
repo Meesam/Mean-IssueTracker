@@ -1331,3 +1331,193 @@
 {"level":"info","message":"[/favicon.ico] http-response-time=3.533957ms ","timestamp":"2016-12-04T09:49:42.125Z"}
 {"level":"info","message":"[/api/searchAccount/23] http-response-time=47.011168ms ","timestamp":"2016-12-04T09:49:44.785Z"}
 {"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-12-04T09:50:12.641Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-12-04T10:19:09.617Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-12-04T10:19:09.621Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-12-04T10:19:09.630Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-12-04T10:19:09.636Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-12-04T10:19:59.405Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-12-04T10:19:59.409Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-12-04T10:19:59.418Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-12-04T10:19:59.425Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=6.563505ms ","timestamp":"2016-12-04T10:20:15.811Z"}
+{"level":"info","message":"[/login] http-response-time=103.260341ms ","timestamp":"2016-12-04T10:20:20.485Z"}
+{"level":"debug","message":"1480846820.525547: [ 'get', 'allModules' ]","timestamp":"2016-12-04T10:20:20.530Z"}
+{"level":"info","message":"[/modules] http-response-time=15.735344ms ","timestamp":"2016-12-04T10:20:20.540Z"}
+{"level":"debug","message":"1480846820.539498: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-12-04T10:20:20.546Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.156297ms ","timestamp":"2016-12-04T10:20:20.548Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=2.074535ms ","timestamp":"2016-12-04T10:20:22.490Z"}
+{"level":"debug","message":"request /searchAccount/23 takes  160 ms","timestamp":"2016-12-04T10:20:26.119Z"}
+{"level":"info","message":"[/searchAccount/23] http-response-time=226.20926799999998ms ","timestamp":"2016-12-04T10:20:26.119Z"}
+{"level":"debug","message":"request /searchAccount/2 takes  15 ms","timestamp":"2016-12-04T10:20:57.309Z"}
+{"level":"info","message":"[/searchAccount/2] http-response-time=26.617690999999997ms ","timestamp":"2016-12-04T10:20:57.313Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-12-04T10:22:18.351Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-12-04T10:22:18.355Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-12-04T10:22:18.365Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-12-04T10:22:18.371Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-12-04T10:23:11.956Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-12-04T10:23:11.960Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-12-04T10:23:11.970Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-12-04T10:23:11.976Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-12-04T10:23:55.056Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-12-04T10:23:55.060Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-12-04T10:23:55.070Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-12-04T10:23:55.075Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-12-04T10:27:49.880Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-12-04T10:27:49.884Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-12-04T10:27:49.893Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-12-04T10:27:49.900Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-12-04T10:28:48.799Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-12-04T10:28:48.803Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-12-04T10:28:48.813Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-12-04T10:28:48.819Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=13.371882999999999ms ","timestamp":"2016-12-04T10:29:21.690Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=29.207282ms ","timestamp":"2016-12-04T10:29:22.146Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.00932ms ","timestamp":"2016-12-04T10:29:22.170Z"}
+{"level":"debug","message":"1480847362.175674: [ 'get', 'allModules' ]","timestamp":"2016-12-04T10:29:22.181Z"}
+{"level":"info","message":"[/modules] http-response-time=11.015101999999999ms ","timestamp":"2016-12-04T10:29:22.186Z"}
+{"level":"debug","message":"1480847362.185610: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-12-04T10:29:22.187Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.193919ms ","timestamp":"2016-12-04T10:29:23.778Z"}
+{"level":"info","message":"[/api/project] http-response-time=6.125442ms ","timestamp":"2016-12-04T10:29:23.834Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-12-04T10:30:18.359Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-12-04T10:30:18.366Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-12-04T10:30:18.373Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-12-04T10:30:23.965Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-12-04T10:30:23.969Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-12-04T10:30:23.978Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-12-04T10:30:23.985Z"}
+{"level":"info","message":"[/projects] http-response-time=8.587501999999999ms ","timestamp":"2016-12-04T10:30:28.392Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=25.731202999999997ms ","timestamp":"2016-12-04T10:30:29.163Z"}
+{"level":"debug","message":"1480847429.203028: [ 'get', 'allModules' ]","timestamp":"2016-12-04T10:30:29.205Z"}
+{"level":"info","message":"[/modules] http-response-time=4.702719ms ","timestamp":"2016-12-04T10:30:29.207Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.752379ms ","timestamp":"2016-12-04T10:30:29.209Z"}
+{"level":"info","message":"[/api/project] http-response-time=7.018572ms ","timestamp":"2016-12-04T10:30:29.319Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.60547ms ","timestamp":"2016-12-04T10:30:33.155Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.533665ms ","timestamp":"2016-12-04T10:30:34.556Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.444277ms ","timestamp":"2016-12-04T10:30:35.320Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.062039ms ","timestamp":"2016-12-04T10:30:36.137Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.8600439999999999ms ","timestamp":"2016-12-04T10:30:37.097Z"}
+{"level":"info","message":"[/api/project] http-response-time=0.7532639999999999ms ","timestamp":"2016-12-04T10:30:38.067Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.402313ms ","timestamp":"2016-12-04T10:30:38.087Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-12-04T10:49:15.477Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-12-04T10:51:20.924Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-12-04T10:51:34.665Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-12-04T10:51:34.671Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-12-04T10:51:34.680Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-12-04T10:51:34.685Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=4.235841ms ","timestamp":"2016-12-04T10:51:42.147Z"}
+{"level":"info","message":"[/project] http-response-time=54.40351ms ","timestamp":"2016-12-04T10:51:42.960Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.409476ms ","timestamp":"2016-12-04T10:51:42.964Z"}
+{"level":"info","message":"[/project] http-response-time=32.360383ms ","timestamp":"2016-12-04T10:51:44.963Z"}
+{"level":"info","message":"[/project] http-response-time=32.124567ms ","timestamp":"2016-12-04T10:51:45.898Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-12-04T10:53:01.972Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-12-04T10:53:01.978Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-12-04T10:53:01.987Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-12-04T10:53:01.994Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=6.796824ms ","timestamp":"2016-12-04T10:53:04.183Z"}
+{"level":"info","message":"[/project] http-response-time=42.415244ms ","timestamp":"2016-12-04T10:53:05.090Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.736097ms ","timestamp":"2016-12-04T10:53:05.093Z"}
+{"level":"info","message":"[/project] http-response-time=11.127260999999999ms ","timestamp":"2016-12-04T10:53:07.999Z"}
+{"level":"info","message":"[/project] http-response-time=3.9344569999999996ms ","timestamp":"2016-12-04T10:53:08.687Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-12-04T10:54:24.239Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-12-04T10:59:07.015Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-12-04T10:59:07.019Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-12-04T10:59:07.029Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-12-04T10:59:07.035Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=7.0169619999999995ms ","timestamp":"2016-12-04T10:59:11.415Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.049383ms ","timestamp":"2016-12-04T10:59:12.381Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.112411ms ","timestamp":"2016-12-04T10:59:13.769Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.404286ms ","timestamp":"2016-12-04T10:59:14.647Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-12-04T10:59:57.007Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-12-04T10:59:57.011Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-12-04T10:59:57.020Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-12-04T10:59:57.027Z"}
+{"level":"info","message":"[/projects] http-response-time=11.478251ms ","timestamp":"2016-12-04T11:00:01.471Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=20.906138ms ","timestamp":"2016-12-04T11:00:02.462Z"}
+{"level":"debug","message":"1480849202.504275: [ 'get', 'allModules' ]","timestamp":"2016-12-04T11:00:02.507Z"}
+{"level":"info","message":"[/modules] http-response-time=15.961024ms ","timestamp":"2016-12-04T11:00:02.518Z"}
+{"level":"debug","message":"1480849202.512978: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-12-04T11:00:02.521Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.565493ms ","timestamp":"2016-12-04T11:00:02.522Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-12-04T11:01:57.843Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-12-04T11:01:57.849Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-12-04T11:01:57.863Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-12-04T11:01:57.871Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=3.100234ms ","timestamp":"2016-12-04T11:02:02.199Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=18.197948ms ","timestamp":"2016-12-04T11:02:03.047Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-12-04T11:04:07.699Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-12-04T11:04:07.704Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-12-04T11:04:07.721Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-12-04T11:04:07.726Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=10.713935ms ","timestamp":"2016-12-04T11:04:08.940Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.880398ms ","timestamp":"2016-12-04T11:04:09.581Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-12-04T11:05:42.521Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-12-04T11:05:42.526Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-12-04T11:05:42.537Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-12-04T11:05:42.546Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-12-04T11:05:53.735Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-12-04T11:05:53.739Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-12-04T11:05:53.748Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-12-04T11:05:53.755Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-12-04T11:06:36.182Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-12-04T11:06:36.188Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-12-04T11:06:36.197Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-12-04T11:06:36.202Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-12-04T11:07:47.863Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-12-04T11:07:47.869Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-12-04T11:07:47.878Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-12-04T11:07:47.884Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-12-04T11:08:01.278Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-12-04T11:08:01.285Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-12-04T11:08:01.294Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-12-04T11:08:01.302Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=4.484729ms ","timestamp":"2016-12-04T11:08:06.251Z"}
+{"level":"debug","message":"request /project takes  35 ms. in mongodb","timestamp":"2016-12-04T11:08:07.067Z"}
+{"level":"info","message":"[/project] http-response-time=39.986388ms ","timestamp":"2016-12-04T11:08:07.070Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.133669ms ","timestamp":"2016-12-04T11:08:07.080Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-12-04T11:14:39.155Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-12-04T11:14:39.159Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-12-04T11:14:39.169Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-12-04T11:14:39.175Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-12-04T11:14:55.654Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-12-04T11:14:55.658Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-12-04T11:14:55.669Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-12-04T11:14:55.674Z"}
+{"level":"info","message":"[/projects] http-response-time=5.742655ms ","timestamp":"2016-12-04T11:14:59.881Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=22.857304ms ","timestamp":"2016-12-04T11:15:00.751Z"}
+{"level":"debug","message":"1480850100.794395: [ 'get', 'allModules' ]","timestamp":"2016-12-04T11:15:00.796Z"}
+{"level":"info","message":"[/modules] http-response-time=12.373132ms ","timestamp":"2016-12-04T11:15:00.806Z"}
+{"level":"debug","message":"1480850100.805044: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-12-04T11:15:00.807Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.748467ms ","timestamp":"2016-12-04T11:15:00.808Z"}
+{"level":"debug","message":"request /project takes  19 ms. in mongodb","timestamp":"2016-12-04T11:15:00.922Z"}
+{"level":"info","message":"[/project] http-response-time=24.438945ms ","timestamp":"2016-12-04T11:15:00.923Z"}
+{"level":"debug","message":"request /project takes  7 ms. in mongodb","timestamp":"2016-12-04T11:15:02.838Z"}
+{"level":"info","message":"[/project] http-response-time=10.972895ms ","timestamp":"2016-12-04T11:15:02.838Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-12-04T11:15:38.268Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-12-04T11:15:38.272Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-12-04T11:15:38.282Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-12-04T11:15:38.288Z"}
+{"level":"info","message":"[/projects] http-response-time=6.575841ms ","timestamp":"2016-12-04T11:15:56.097Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=32.737083999999996ms ","timestamp":"2016-12-04T11:15:56.534Z"}
+{"level":"debug","message":"1480850156.565396: [ 'get', 'allModules' ]","timestamp":"2016-12-04T11:15:56.570Z"}
+{"level":"info","message":"[/modules] http-response-time=6.908049999999999ms ","timestamp":"2016-12-04T11:15:56.571Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.233276ms ","timestamp":"2016-12-04T11:15:56.574Z"}
+{"level":"debug","message":"request /project takes  22 ms. in mongodb","timestamp":"2016-12-04T11:15:56.720Z"}
+{"level":"info","message":"[/project] http-response-time=24.062193ms ","timestamp":"2016-12-04T11:15:56.722Z"}
+{"level":"debug","message":"request /project takes  8 ms. in mongodb","timestamp":"2016-12-04T11:15:58.156Z"}
+{"level":"info","message":"[/project] http-response-time=10.550645ms ","timestamp":"2016-12-04T11:15:58.157Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.3579599999999998ms ","timestamp":"2016-12-04T11:16:34.525Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-12-04T11:16:39.718Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-12-04T11:16:44.238Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-12-04T11:16:44.244Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-12-04T11:16:44.254Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-12-04T11:16:44.259Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=2.8906169999999998ms ","timestamp":"2016-12-04T11:16:48.319Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.5069979999999998ms ","timestamp":"2016-12-04T11:16:49.129Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.883697ms ","timestamp":"2016-12-04T11:16:50.066Z"}
+{"level":"debug","message":"request /project takes  36 ms. in mongodb","timestamp":"2016-12-04T11:16:54.644Z"}
+{"level":"info","message":"[/project] http-response-time=44.557976ms ","timestamp":"2016-12-04T11:16:54.651Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.55362ms ","timestamp":"2016-12-04T11:16:54.653Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-12-04T11:35:51.421Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-12-04T11:35:51.426Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-12-04T11:35:51.442Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-12-04T11:35:51.446Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-12-04T11:35:56.295Z"}

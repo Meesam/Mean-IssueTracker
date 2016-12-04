@@ -10,7 +10,11 @@
         index: indexName,
         type: "account",
         body: {
-            _all:input
+            query:{
+              match:{
+                _all:input
+              }
+            }
         }
     }))
     .catch(function(err){

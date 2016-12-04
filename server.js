@@ -29,8 +29,7 @@
 
 // define routing
   app.use(responseTime(function (req, resp, value){
-    let routePath = req.path
-    logger.info('[' + routePath +'] http-response-time=' + value + 'ms ');
+    logger.info('[' + req.path +'] http-response-time=' + value + 'ms ');
   })
  );
 

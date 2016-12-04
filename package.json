@@ -31,6 +31,7 @@
     "jwt-simple": "^0.5.0",
     "mongodb": "^2.2.10",
     "mongoose": "^4.6.1",
+    "mongoose-explain": "^0.1.1",
     "morgan": "^1.7.0",
     "mssql": "^3.1.2",
     "node-statsd": "^0.1.1",
