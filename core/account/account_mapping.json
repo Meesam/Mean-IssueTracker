@@ -5,9 +5,34 @@
 		"account_number":{
 		    "type":"long"
 		},
-    	"address":{
-    	    "type":"string"
-        },
+    	"address": {
+	      "type": "string",
+	      "index": "analyzed",
+	      "analyzer": "standard_analyzer",
+	      "fields": {
+	        "address": {
+	          "include_in_all": false,
+	          "store": true,
+	          "type": "string",
+	          "index": "analyzed",
+	          "analyzer": "standard_analyzer"
+	        },
+	        "metaphone": {
+	          "include_in_all": false,
+	          "store": true,
+	          "type": "string",
+	          "index": "analyzed",
+	          "analyzer": "metaphone_analyzer"
+	        },
+	        "ngram": {
+	          "include_in_all": false,
+	          "type": "string",
+	          "index": "analyzed",
+	          "index_analyzer": "ngram_analyzer",
+	          "search_analyzer": "whitespace_analyzer"
+	        }
+	      }
+	    },
     	"age":{
     	    "type":"long"
         },

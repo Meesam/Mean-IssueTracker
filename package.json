@@ -36,6 +36,7 @@
     "node-statsd": "^0.1.1",
     "q": "^1.4.1",
     "redis": "^2.6.2",
+    "redis-monitor": "0.0.5",
     "response-time": "^2.3.1",
     "winston": "^2.3.0"
   },
