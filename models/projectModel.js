@@ -1,6 +1,9 @@
-var mongoose = require( 'mongoose' );
+(function () {
+  'use strict';
 
-var projectSchema=new mongoose.Schema({
+let mongoose = require( 'mongoose' );
+
+let projectSchema=new mongoose.Schema({
   ProjectName:{type:String,required:true},
   StartDate:Date,
   EndDate:Date,
@@ -9,3 +12,4 @@ var projectSchema=new mongoose.Schema({
 });
 
 module.exporst=mongoose.model('Projects',projectSchema);
+})();

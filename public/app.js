@@ -27,6 +27,7 @@ issueTrackerApp.config(function ($routeProvider, $controllerProvider, $locationP
         .when('/users', getRoute('userprofile'))
         .when('/projects/:ID',getRoute('projectdetail'))
         .when('/issue/:ID',getRoute('issuedetail'))
+        .when('/searchaccount',getRoute('searchaccount'))
         .when('/swagger',{
             redirectTo:'swagger_dist/index.html'
         })

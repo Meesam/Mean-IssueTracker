@@ -1,29 +1,34 @@
-var express=require('express');
-var serverity=require('../controllers/issuemodule/serverity');
-var apiRoutes = express.Router();
+(function () {
+  'use strict';
 
-apiRoutes.get('/serverity',function(req,resp,next) {
-	serverity.getAllServerity(function(data,err){
-        if(err)
-        	return next(err);
-        else{
-        	resp.json(data);
-        }
+  let express=require('express');
+  let serverity=require('../controllers/issuemodule/serverity');
+  let apiRoutes = express.Router();
+
+  apiRoutes.get('/serverity',function(req,resp,next) {
+	 serverity.getAllServerity(function(data,err){
+      if(err) {
+        return next(err);
+      }
+      else {
+        resp.json(data);
+      }
 	});
-});
-
-apiRoutes.get('/serverity/:Sid',function(req,resp,next){
-  serverity.getServerityById(req.params.Sid,function(data,err){
-         if(err)
-         	return next(err);
-         else{
-         	resp.json(data);
-         }
   });
-});
 
-apiRoutes.post('/serverity',function(req,resp.next){
-    var serveritydata=req.body.Obj;
+  apiRoutes.get('/serverity/:Sid',function(req,resp,next){
+    serverity.getServerityById(req.params.Sid,function(data,err){
+      if(err) {
+        return next(err);
+      }
+      else {
+        resp.json(data);
+      }
+    });
+  });
+
+  apiRoutes.post('/serverity',function(req,resp,next){
+    let serveritydata=req.body.Obj;
     serverity.addServerity(serveritydata,function(data,err){
        if(err)
        	return next(err);
@@ -33,3 +38,4 @@ apiRoutes.post('/serverity',function(req,resp.next){
 });
 
 module.exports=apiRoutes;
+})();

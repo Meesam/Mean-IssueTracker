@@ -1,17 +1,18 @@
-// Open db comment when use sql server
-//var db=require('../../core/db');
-var appconfig=require('../../appconfig');
-var globalobj=require('../../core/global');
-var util=require('util');
-var Q=require('q');
-var mongoose=require('mongoose');
-var Users = mongoose.model('Users');
-var UsersDetails=mongoose.model('UsersDetails');
+(function () {
+	'use strict';
+
+let appconfig=require('../../appconfig');
+let globalobj=require('../../core/global');
+let util=require('util');
+let Q=require('q');
+let mongoose=require('mongoose');
+let Users = mongoose.model('Users');
+let UsersDetails=mongoose.model('UsersDetails');
 
 /*
-var Schema=mongoose.Schema;
+let Schema=mongoose.Schema;
 mongoose.connect(appconfig.dbUrl);
-var db=mongoose.connection;
+let db=mongoose.connection;
 db.on("error", console.error.bind(console, "connection error"));
 db.once("open", function(callback) {
 	console.log("Connection succeeded.");
@@ -24,16 +25,16 @@ db.once("open", function(callback) {
 exports.createUsers=function(users,callback){
   if(users){
 	  console.log('User data is ' + JSON.stringify(users));
-	  var user=new Users(users);
+	  let user=new Users(users);
 	   user.save(function(err,data){
 	   if(err)
 	    callback(null,err);
 	   else {
-		   var obj={
+		   let obj={
 		   status:'success',
 		   count:data.length,
 		   data:data
-	     }
+	     };
 		   callback(globalobj.globalObject(obj));
 	   }
 	 });
@@ -42,27 +43,28 @@ exports.createUsers=function(users,callback){
 
 // Login
 exports.doLogin=function(users,callback){
+	let obj;
 	if(users != null){
 	  Users.find({usersName:users.usersName,Password:users.Password},function(err,data){
 		 if(err)
 		  callback(null,err);
 		  else{
-			 console.log("data is " + data.length);
+			 console.log('data is ' + data.length);
               if(data.length != 0) {
-				  var obj={
+				   obj={
 					  status:'success',
 					  count:data.length,
 					  data:data,
 					 // tokenvalue: data[0].Email
 					  tokenvalue:'meesam.engineer@gmail.com'
-				  }
+				  };
 			  }
 			 else {
-				  var obj = {
+				   obj = {
 					  status: 'success',
 					  count: 0,
 					  data: null
-				  }
+				  };
 			  };
 			 callback(globalobj.globalObject(obj));
 		 }
@@ -72,8 +74,8 @@ exports.doLogin=function(users,callback){
 
 // Save User Detalis
 exports.addUserDetails=function (userDetails,callback) {
-	for(var i=0;i < userDetails.length;i++){
-		var userDetail=new UsersDetails({
+	for(let i=0;i < userDetails.length;i++){
+		let userDetail=new UsersDetails({
 			Name : userDetails[i].Name,
 			Email: userDetails[i].Email,
 			Address:userDetails[i].Address
@@ -82,17 +84,17 @@ exports.addUserDetails=function (userDetails,callback) {
 			if(err)
 				callback(null,err);
 			else{
-				var obj={
+				let obj={
 					status:'success',
 					count:0,
 					data:'Record add successfully'
-				}
+				};
 				callback(globalobj.globalObject(obj));
 			}
 		});
 	}
 
-}
+};
 
 
 // Get User by Email
@@ -102,11 +104,11 @@ exports.getUserByEmail=function(emailid,callback){
            if(err)
 		    callback(null,err);
 			else{
-			   var obj={
+			   let obj={
 				   status:'success',
 				   count:data.length,
 				   data:data
-			   }
+			   };
 			   callback(globalobj.globalObject(obj));
 		   }
 		});
@@ -120,14 +122,14 @@ exports.getAllUsers=function(callback){
 		if(err)
 		 callback(null,err);
 		else{
-			var obj={
+			let obj={
 				status:'success',
 				count:data.length,
 				data:data
-			}
+			};
 			callback(globalobj.globalObject(obj));
 		}
 	});
 
 };
-
+})();

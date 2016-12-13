@@ -1,339 +1,681 @@
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-11T16:49:54.471Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-11T16:49:54.479Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-11T17:04:01.888Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-11T17:04:01.897Z"}
-{"level":"debug","message":"POST req at /login ","timestamp":"2016-11-11T17:04:20.171Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-11T17:25:44.767Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-11T17:25:44.775Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-11T17:31:45.811Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-11T17:32:15.231Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-11T17:32:15.239Z"}
-{"level":"debug","message":"POST req at /login takes  function responseTime(){\n    return function(req, res, next){\n        var start = new Date;\n\n        if (res._responseTime) return next();\n        res._responseTime = true;\n\n        return new Date - start;\n\n        next();\n    };\n}ms","timestamp":"2016-11-11T17:32:32.220Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-11T17:36:00.288Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-11T17:36:00.297Z"}
-{"level":"debug","message":"POST req at /login takes  function responseTime(req, res, next) {\n        var startAt = process.hrtime()\n\n        onHeaders(res, function onHeaders() {\n            var diff = process.hrtime(startAt)\n            var time = diff[0] * 1e3 + diff[1] * 1e-6\n\n            fn(req, res, time)\n        })\n\n        next()\n    }ms","timestamp":"2016-11-11T17:36:19.541Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-11T17:37:14.040Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-11T17:37:14.049Z"}
-{"level":"debug","message":"POST req at /login takes  function responseTime(req, res, next) {\n        var startAt = process.hrtime()\n\n        onHeaders(res, function onHeaders() {\n            var diff = process.hrtime(startAt)\n            var time = diff[0] * 1e3 + diff[1] * 1e-6\n\n            fn(req, res, time)\n        })\n\n        next()\n    }ms","timestamp":"2016-11-11T17:37:25.140Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-11T17:37:55.788Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-11T17:37:55.798Z"}
-{"level":"debug","message":"POST req at /login takes  function responseTime(req, res, next) {\n        var startAt = process.hrtime()\n\n        onHeaders(res, function onHeaders() {\n            var diff = process.hrtime(startAt)\n            var time = diff[0] * 1e3 + diff[1] * 1e-6\n\n            fn(req, res, time)\n        })\n\n        next()\n    }ms","timestamp":"2016-11-11T17:38:08.440Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T08:22:03.825Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T08:22:03.836Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T08:23:39.018Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T08:23:39.027Z"}
-{"level":"debug","message":"POST req at /login takes ","timestamp":"2016-11-12T08:23:59.180Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T08:25:25.884Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T08:25:25.892Z"}
-{"level":"debug","message":"POST req at /login takes ","timestamp":"2016-11-12T08:25:40.930Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T08:31:32.992Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T08:31:33.000Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T08:33:17.749Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T08:33:17.769Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T08:36:05.033Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T08:36:05.044Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T08:39:00.564Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T08:39:00.572Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T08:46:51.843Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T08:46:51.852Z"}
-{"level":"debug","message":"POST req at /login takes ","timestamp":"2016-11-12T08:47:11.810Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T08:48:57.602Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T08:48:57.610Z"}
-{"level":"debug","message":"POST req at /login takes ","timestamp":"2016-11-12T08:49:16.214Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T08:59:16.127Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T08:59:16.137Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T09:00:04.744Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T09:00:04.753Z"}
-{"level":"debug","message":"POST req at /login takes  {\"host\":\"localhost:9000\",\"connection\":\"keep-alive\",\"content-length\":\"52\",\"accept\":\"application/json, text/plain, */*\",\"origin\":\"http://localhost:9000\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.90 Safari/537.36\",\"content-type\":\"application/json;charset=UTF-8\",\"referer\":\"http://localhost:9000/login\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-GB,en-US;q=0.8,en;q=0.6\"}","timestamp":"2016-11-12T09:00:16.561Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T09:01:16.511Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T09:01:16.520Z"}
-{"level":"debug","message":"POST req at /login takes ","timestamp":"2016-11-12T09:01:35.431Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T09:02:52.895Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T09:02:52.904Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T09:03:55.999Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T09:03:56.008Z"}
-{"domain":null,"_events":{},"_eventsCount":1,"output":[],"outputEncodings":[],"outputCallbacks":[],"outputSize":0,"writable":true,"_last":false,"upgrading":false,"chunkedEncoding":false,"shouldKeepAlive":true,"useChunkedEncodingByDefault":true,"sendDate":true,"_removedHeader":{},"_contentLength":null,"_hasBody":true,"_trailer":"","finished":false,"_headerSent":false,"socket":{"connecting":false,"_hadError":false,"_handle":{"bytesRead":7855,"_externalStream":{},"fd":23,"reading":true,"owner":{"$ref":"$[\"socket\"]"},"onconnection":null,"writeQueueSize":0},"_parent":null,"_host":null,"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":true,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"defaultEncoding":"utf8","ranOut":false,"awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{"end":[null,null],"drain":[null,null],"error":[null],"close":[null,null]},"_eventsCount":10,"_writableState":{"objectMode":false,"highWaterMark":16384,"needDrain":false,"ending":false,"ended":false,"finished":false,"decodeStrings":false,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":false,"bufferProcessing":false,"writecb":null,"writelen":0,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":0,"prefinished":false,"errorEmitted":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":true,"allowHalfOpen":true,"destroyed":false,"_bytesDispatched":4568,"_sockname":null,"_pendingData":null,"_pendingEncoding":"","server":{"domain":null,"_events":{},"_eventsCount":2,"_connections":6,"_handle":{"owner":{"$ref":"$[\"socket\"][\"server\"]"}},"_usingSlaves":false,"_slaves":[],"_unref":false,"allowHalfOpen":true,"pauseOnConnect":false,"httpAllowHalfOpen":false,"timeout":120000,"_pendingResponseData":0,"_connectionKey":"4:null:9000"},"_server":{"$ref":"$[\"socket\"][\"server\"]"},"_idleTimeout":120000,"_idleNext":{"connecting":false,"_hadError":false,"_handle":{"bytesRead":2596,"_externalStream":{},"fd":18,"reading":true,"owner":{"$ref":"$[\"socket\"][\"_idleNext\"]"},"onconnection":null,"writeQueueSize":0},"_parent":null,"_host":null,"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":true,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"defaultEncoding":"utf8","ranOut":false,"awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{"end":[null,null],"drain":[null,null],"error":[null],"close":[null]},"_eventsCount":10,"_writableState":{"objectMode":false,"highWaterMark":16384,"needDrain":false,"ending":false,"ended":false,"finished":false,"decodeStrings":false,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":false,"bufferProcessing":false,"writecb":null,"writelen":0,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":0,"prefinished":false,"errorEmitted":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":true,"allowHalfOpen":true,"destroyed":false,"_bytesDispatched":1619,"_sockname":null,"_pendingData":null,"_pendingEncoding":"","server":{"$ref":"$[\"socket\"][\"server\"]"},"_server":{"$ref":"$[\"socket\"][\"server\"]"},"_idleTimeout":120000,"_idleNext":{"connecting":false,"_hadError":false,"_handle":{"bytesRead":453,"_externalStream":{},"fd":22,"reading":true,"owner":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"]"},"onconnection":null,"writeQueueSize":0},"_parent":null,"_host":null,"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":true,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"defaultEncoding":"utf8","ranOut":false,"awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{"end":[null,null],"drain":[null,null],"close":[null]},"_eventsCount":10,"_writableState":{"objectMode":false,"highWaterMark":16384,"needDrain":false,"ending":false,"ended":false,"finished":false,"decodeStrings":false,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":false,"bufferProcessing":false,"writecb":null,"writelen":0,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":0,"prefinished":false,"errorEmitted":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":true,"allowHalfOpen":true,"destroyed":false,"_bytesDispatched":268,"_sockname":null,"_pendingData":null,"_pendingEncoding":"","server":{"$ref":"$[\"socket\"][\"server\"]"},"_server":{"$ref":"$[\"socket\"][\"server\"]"},"_idleTimeout":120000,"_idleNext":{"connecting":false,"_hadError":false,"_handle":{"bytesRead":448,"_externalStream":{},"fd":21,"reading":true,"owner":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"]"},"onconnection":null,"writeQueueSize":0},"_parent":null,"_host":null,"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":true,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"defaultEncoding":"utf8","ranOut":false,"awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{"end":[null,null],"drain":[null,null],"close":[null]},"_eventsCount":10,"_writableState":{"objectMode":false,"highWaterMark":16384,"needDrain":false,"ending":false,"ended":false,"finished":false,"decodeStrings":false,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":false,"bufferProcessing":false,"writecb":null,"writelen":0,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":0,"prefinished":false,"errorEmitted":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":true,"allowHalfOpen":true,"destroyed":false,"_bytesDispatched":271,"_sockname":null,"_pendingData":null,"_pendingEncoding":"","server":{"$ref":"$[\"socket\"][\"server\"]"},"_server":{"$ref":"$[\"socket\"][\"server\"]"},"_idleTimeout":120000,"_idleNext":{"connecting":false,"_hadError":false,"_handle":{"bytesRead":448,"_externalStream":{},"fd":20,"reading":true,"owner":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"]"},"onconnection":null,"writeQueueSize":0},"_parent":null,"_host":null,"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":true,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"defaultEncoding":"utf8","ranOut":false,"awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{"end":[null,null],"drain":[null,null],"close":[null]},"_eventsCount":10,"_writableState":{"objectMode":false,"highWaterMark":16384,"needDrain":false,"ending":false,"ended":false,"finished":false,"decodeStrings":false,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":false,"bufferProcessing":false,"writecb":null,"writelen":0,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":0,"prefinished":false,"errorEmitted":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":true,"allowHalfOpen":true,"destroyed":false,"_bytesDispatched":269,"_sockname":null,"_pendingData":null,"_pendingEncoding":"","server":{"$ref":"$[\"socket\"][\"server\"]"},"_server":{"$ref":"$[\"socket\"][\"server\"]"},"_idleTimeout":120000,"_idleNext":{"connecting":false,"_hadError":false,"_handle":{"bytesRead":453,"_externalStream":{},"fd":19,"reading":true,"owner":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"]"},"onconnection":null,"writeQueueSize":0},"_parent":null,"_host":null,"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":true,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"defaultEncoding":"utf8","ranOut":false,"awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{"end":[null,null],"drain":[null,null],"close":[null]},"_eventsCount":10,"_writableState":{"objectMode":false,"highWaterMark":16384,"needDrain":false,"ending":false,"ended":false,"finished":false,"decodeStrings":false,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":false,"bufferProcessing":false,"writecb":null,"writelen":0,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":0,"prefinished":false,"errorEmitted":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":true,"allowHalfOpen":true,"destroyed":false,"_bytesDispatched":269,"_sockname":null,"_pendingData":null,"_pendingEncoding":"","server":{"$ref":"$[\"socket\"][\"server\"]"},"_server":{"$ref":"$[\"socket\"][\"server\"]"},"_idleTimeout":120000,"_idleNext":{"_idleNext":{"$ref":"$[\"socket\"]"},"_idlePrev":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"]"},"_timer":{"_list":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"]"}},"_unrefed":true,"msecs":120000},"_idlePrev":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"]"},"_idleStart":6247,"parser":{"_headers":[],"_url":"","_consumed":true,"socket":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"]"},"incoming":{"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":true,"ended":true,"endEmitted":true,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"defaultEncoding":"utf8","ranOut":false,"awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":false,"domain":null,"_events":{},"_eventsCount":0,"socket":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"]"},"connection":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"]"},"httpVersionMajor":1,"httpVersionMinor":1,"httpVersion":"1.1","complete":true,"headers":{"host":"localhost:9000","connection":"keep-alive","if-none-match":"W/\"62a-15810510040\"","if-modified-since":"Sat, 29 Oct 2016 12:01:33 GMT","user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.90 Safari/537.36","accept":"text/css,*/*;q=0.1","referer":"http://localhost:9000/login","accept-encoding":"gzip, deflate, sdch, br","accept-language":"en-GB,en-US;q=0.8,en;q=0.6"},"rawHeaders":["Host","localhost:9000","Connection","keep-alive","If-None-Match","W/\"62a-15810510040\"","If-Modified-Since","Sat, 29 Oct 2016 12:01:33 GMT","User-Agent","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.90 Safari/537.36","Accept","text/css,*/*;q=0.1","Referer","http://localhost:9000/login","Accept-Encoding","gzip, deflate, sdch, br","Accept-Language","en-GB,en-US;q=0.8,en;q=0.6"],"trailers":{},"rawTrailers":[],"upgrade":false,"url":"/bootstrap/css/angular-notify.css","method":"GET","statusCode":null,"statusMessage":null,"client":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"]"},"_consuming":true,"_dumped":true,"baseUrl":"","originalUrl":"/bootstrap/css/angular-notify.css","_parsedUrl":{"protocol":null,"slashes":null,"auth":null,"host":null,"port":null,"hostname":null,"hash":null,"search":null,"query":null,"pathname":"/bootstrap/css/angular-notify.css","path":"/bootstrap/css/angular-notify.css","href":"/bootstrap/css/angular-notify.css","_raw":"/bootstrap/css/angular-notify.css"},"params":{},"query":{},"res":{"domain":null,"_events":{},"_eventsCount":1,"output":[],"outputEncodings":[],"outputCallbacks":[],"outputSize":0,"writable":true,"_last":false,"upgrading":false,"chunkedEncoding":false,"shouldKeepAlive":true,"useChunkedEncodingByDefault":true,"sendDate":true,"_removedHeader":{},"_contentLength":0,"_hasBody":false,"_trailer":"","finished":true,"_headerSent":true,"socket":null,"connection":null,"_header":"HTTP/1.1 304 Not Modified\r\nX-Powered-By: Express\r\nAccept-Ranges: bytes\r\nCache-Control: public, max-age=0\r\nLast-Modified: Sat, 29 Oct 2016 12:01:33 GMT\r\nETag: W/\"62a-15810510040\"\r\nX-Response-Time: 32.805ms\r\nDate: Sat, 12 Nov 2016 09:04:01 GMT\r\nConnection: keep-alive\r\n\r\n","_headers":{"x-powered-by":"Express","accept-ranges":"bytes","cache-control":"public, max-age=0","last-modified":"Sat, 29 Oct 2016 12:01:33 GMT","etag":"W/\"62a-15810510040\"","x-response-time":"32.805ms"},"_headerNames":{"x-powered-by":"X-Powered-By","accept-ranges":"Accept-Ranges","cache-control":"Cache-Control","last-modified":"Last-Modified","etag":"ETag","x-response-time":"X-Response-Time"},"req":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"parser\"][\"incoming\"]"},"locals":{},"statusCode":304,"statusMessage":"Not Modified"},"_parsedOriginalUrl":{"protocol":null,"slashes":null,"auth":null,"host":null,"port":null,"hostname":null,"hash":null,"search":null,"query":null,"pathname":"/bootstrap/css/angular-notify.css","path":"/bootstrap/css/angular-notify.css","href":"/bootstrap/css/angular-notify.css","_raw":"/bootstrap/css/angular-notify.css"}},"outgoing":null,"maxHeaderPairs":2000},"_paused":false,"_consuming":true,"_httpMessage":null},"_idlePrev":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"]"},"_idleStart":6247,"parser":{"_headers":[],"_url":"","_consumed":true,"socket":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"]"},"incoming":{"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":true,"ended":true,"endEmitted":true,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"defaultEncoding":"utf8","ranOut":false,"awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":false,"domain":null,"_events":{},"_eventsCount":0,"socket":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"]"},"connection":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"]"},"httpVersionMajor":1,"httpVersionMinor":1,"httpVersion":"1.1","complete":true,"headers":{"host":"localhost:9000","connection":"keep-alive","if-none-match":"W/\"5b2-15810510040\"","if-modified-since":"Sat, 29 Oct 2016 12:01:33 GMT","user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.90 Safari/537.36","accept":"text/css,*/*;q=0.1","referer":"http://localhost:9000/login","accept-encoding":"gzip, deflate, sdch, br","accept-language":"en-GB,en-US;q=0.8,en;q=0.6"},"rawHeaders":["Host","localhost:9000","Connection","keep-alive","If-None-Match","W/\"5b2-15810510040\"","If-Modified-Since","Sat, 29 Oct 2016 12:01:33 GMT","User-Agent","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.90 Safari/537.36","Accept","text/css,*/*;q=0.1","Referer","http://localhost:9000/login","Accept-Encoding","gzip, deflate, sdch, br","Accept-Language","en-GB,en-US;q=0.8,en;q=0.6"],"trailers":{},"rawTrailers":[],"upgrade":false,"url":"/bootstrap/css/nprogress.css","method":"GET","statusCode":null,"statusMessage":null,"client":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"]"},"_consuming":true,"_dumped":true,"baseUrl":"","originalUrl":"/bootstrap/css/nprogress.css","_parsedUrl":{"protocol":null,"slashes":null,"auth":null,"host":null,"port":null,"hostname":null,"hash":null,"search":null,"query":null,"pathname":"/bootstrap/css/nprogress.css","path":"/bootstrap/css/nprogress.css","href":"/bootstrap/css/nprogress.css","_raw":"/bootstrap/css/nprogress.css"},"params":{},"query":{},"res":{"domain":null,"_events":{},"_eventsCount":1,"output":[],"outputEncodings":[],"outputCallbacks":[],"outputSize":0,"writable":true,"_last":false,"upgrading":false,"chunkedEncoding":false,"shouldKeepAlive":true,"useChunkedEncodingByDefault":true,"sendDate":true,"_removedHeader":{},"_contentLength":0,"_hasBody":false,"_trailer":"","finished":true,"_headerSent":true,"socket":null,"connection":null,"_header":"HTTP/1.1 304 Not Modified\r\nX-Powered-By: Express\r\nAccept-Ranges: bytes\r\nCache-Control: public, max-age=0\r\nLast-Modified: Sat, 29 Oct 2016 12:01:33 GMT\r\nETag: W/\"5b2-15810510040\"\r\nX-Response-Time: 31.780ms\r\nDate: Sat, 12 Nov 2016 09:04:01 GMT\r\nConnection: keep-alive\r\n\r\n","_headers":{"x-powered-by":"Express","accept-ranges":"bytes","cache-control":"public, max-age=0","last-modified":"Sat, 29 Oct 2016 12:01:33 GMT","etag":"W/\"5b2-15810510040\"","x-response-time":"31.780ms"},"_headerNames":{"x-powered-by":"X-Powered-By","accept-ranges":"Accept-Ranges","cache-control":"Cache-Control","last-modified":"Last-Modified","etag":"ETag","x-response-time":"X-Response-Time"},"req":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"parser\"][\"incoming\"]"},"locals":{},"statusCode":304,"statusMessage":"Not Modified"},"_parsedOriginalUrl":{"protocol":null,"slashes":null,"auth":null,"host":null,"port":null,"hostname":null,"hash":null,"search":null,"query":null,"pathname":"/bootstrap/css/nprogress.css","path":"/bootstrap/css/nprogress.css","href":"/bootstrap/css/nprogress.css","_raw":"/bootstrap/css/nprogress.css"}},"outgoing":null,"maxHeaderPairs":2000},"_paused":false,"_consuming":true,"_httpMessage":null},"_idlePrev":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"]"},"_idleStart":6247,"parser":{"_headers":[],"_url":"","_consumed":true,"socket":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"]"},"incoming":{"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":true,"ended":true,"endEmitted":true,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"defaultEncoding":"utf8","ranOut":false,"awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":false,"domain":null,"_events":{},"_eventsCount":0,"socket":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"]"},"connection":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"]"},"httpVersionMajor":1,"httpVersionMinor":1,"httpVersion":"1.1","complete":true,"headers":{"host":"localhost:9000","connection":"keep-alive","if-none-match":"W/\"1517a-15810510078\"","if-modified-since":"Sat, 29 Oct 2016 12:01:33 GMT","user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.90 Safari/537.36","accept":"text/css,*/*;q=0.1","referer":"http://localhost:9000/login","accept-encoding":"gzip, deflate, sdch, br","accept-language":"en-GB,en-US;q=0.8,en;q=0.6"},"rawHeaders":["Host","localhost:9000","Connection","keep-alive","If-None-Match","W/\"1517a-15810510078\"","If-Modified-Since","Sat, 29 Oct 2016 12:01:33 GMT","User-Agent","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.90 Safari/537.36","Accept","text/css,*/*;q=0.1","Referer","http://localhost:9000/login","Accept-Encoding","gzip, deflate, sdch, br","Accept-Language","en-GB,en-US;q=0.8,en;q=0.6"],"trailers":{},"rawTrailers":[],"upgrade":false,"url":"/dist/css/AdminLTE.min.css","method":"GET","statusCode":null,"statusMessage":null,"client":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"]"},"_consuming":true,"_dumped":true,"baseUrl":"","originalUrl":"/dist/css/AdminLTE.min.css","_parsedUrl":{"protocol":null,"slashes":null,"auth":null,"host":null,"port":null,"hostname":null,"hash":null,"search":null,"query":null,"pathname":"/dist/css/AdminLTE.min.css","path":"/dist/css/AdminLTE.min.css","href":"/dist/css/AdminLTE.min.css","_raw":"/dist/css/AdminLTE.min.css"},"params":{},"query":{},"res":{"domain":null,"_events":{},"_eventsCount":1,"output":[],"outputEncodings":[],"outputCallbacks":[],"outputSize":0,"writable":true,"_last":false,"upgrading":false,"chunkedEncoding":false,"shouldKeepAlive":true,"useChunkedEncodingByDefault":true,"sendDate":true,"_removedHeader":{},"_contentLength":0,"_hasBody":false,"_trailer":"","finished":true,"_headerSent":true,"socket":null,"connection":null,"_header":"HTTP/1.1 304 Not Modified\r\nX-Powered-By: Express\r\nAccept-Ranges: bytes\r\nCache-Control: public, max-age=0\r\nLast-Modified: Sat, 29 Oct 2016 12:01:33 GMT\r\nETag: W/\"1517a-15810510078\"\r\nX-Response-Time: 10.209ms\r\nDate: Sat, 12 Nov 2016 09:04:01 GMT\r\nConnection: keep-alive\r\n\r\n","_headers":{"x-powered-by":"Express","accept-ranges":"bytes","cache-control":"public, max-age=0","last-modified":"Sat, 29 Oct 2016 12:01:33 GMT","etag":"W/\"1517a-15810510078\"","x-response-time":"10.209ms"},"_headerNames":{"x-powered-by":"X-Powered-By","accept-ranges":"Accept-Ranges","cache-control":"Cache-Control","last-modified":"Last-Modified","etag":"ETag","x-response-time":"X-Response-Time"},"req":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"parser\"][\"incoming\"]"},"locals":{},"statusCode":304,"statusMessage":"Not Modified"},"_parsedOriginalUrl":{"protocol":null,"slashes":null,"auth":null,"host":null,"port":null,"hostname":null,"hash":null,"search":null,"query":null,"pathname":"/dist/css/AdminLTE.min.css","path":"/dist/css/AdminLTE.min.css","href":"/dist/css/AdminLTE.min.css","_raw":"/dist/css/AdminLTE.min.css"}},"outgoing":null,"maxHeaderPairs":2000},"_paused":false,"_consuming":true,"_httpMessage":null},"_idlePrev":{"$ref":"$[\"socket\"][\"_idleNext\"]"},"_idleStart":6248,"parser":{"_headers":[],"_url":"","_consumed":true,"socket":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"]"},"incoming":{"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":true,"ended":true,"endEmitted":true,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"defaultEncoding":"utf8","ranOut":false,"awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":false,"domain":null,"_events":{},"_eventsCount":0,"socket":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"]"},"connection":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"]"},"httpVersionMajor":1,"httpVersionMinor":1,"httpVersion":"1.1","complete":true,"headers":{"host":"localhost:9000","connection":"keep-alive","if-none-match":"W/\"c45-15810510078\"","if-modified-since":"Sat, 29 Oct 2016 12:01:33 GMT","user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.90 Safari/537.36","accept":"text/css,*/*;q=0.1","referer":"http://localhost:9000/login","accept-encoding":"gzip, deflate, sdch, br","accept-language":"en-GB,en-US;q=0.8,en;q=0.6"},"rawHeaders":["Host","localhost:9000","Connection","keep-alive","If-None-Match","W/\"c45-15810510078\"","If-Modified-Since","Sat, 29 Oct 2016 12:01:33 GMT","User-Agent","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.90 Safari/537.36","Accept","text/css,*/*;q=0.1","Referer","http://localhost:9000/login","Accept-Encoding","gzip, deflate, sdch, br","Accept-Language","en-GB,en-US;q=0.8,en;q=0.6"],"trailers":{},"rawTrailers":[],"upgrade":false,"url":"/dist/css/skins/skin-blue.min.css","method":"GET","statusCode":null,"statusMessage":null,"client":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"]"},"_consuming":true,"_dumped":true,"baseUrl":"","originalUrl":"/dist/css/skins/skin-blue.min.css","_parsedUrl":{"protocol":null,"slashes":null,"auth":null,"host":null,"port":null,"hostname":null,"hash":null,"search":null,"query":null,"pathname":"/dist/css/skins/skin-blue.min.css","path":"/dist/css/skins/skin-blue.min.css","href":"/dist/css/skins/skin-blue.min.css","_raw":"/dist/css/skins/skin-blue.min.css"},"params":{},"query":{},"res":{"domain":null,"_events":{},"_eventsCount":1,"output":[],"outputEncodings":[],"outputCallbacks":[],"outputSize":0,"writable":true,"_last":false,"upgrading":false,"chunkedEncoding":false,"shouldKeepAlive":true,"useChunkedEncodingByDefault":true,"sendDate":true,"_removedHeader":{},"_contentLength":0,"_hasBody":false,"_trailer":"","finished":true,"_headerSent":true,"socket":null,"connection":null,"_header":"HTTP/1.1 304 Not Modified\r\nX-Powered-By: Express\r\nAccept-Ranges: bytes\r\nCache-Control: public, max-age=0\r\nLast-Modified: Sat, 29 Oct 2016 12:01:33 GMT\r\nETag: W/\"c45-15810510078\"\r\nX-Response-Time: 8.483ms\r\nDate: Sat, 12 Nov 2016 09:04:01 GMT\r\nConnection: keep-alive\r\n\r\n","_headers":{"x-powered-by":"Express","accept-ranges":"bytes","cache-control":"public, max-age=0","last-modified":"Sat, 29 Oct 2016 12:01:33 GMT","etag":"W/\"c45-15810510078\"","x-response-time":"8.483ms"},"_headerNames":{"x-powered-by":"X-Powered-By","accept-ranges":"Accept-Ranges","cache-control":"Cache-Control","last-modified":"Last-Modified","etag":"ETag","x-response-time":"X-Response-Time"},"req":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"][\"parser\"][\"incoming\"]"},"locals":{},"statusCode":304,"statusMessage":"Not Modified"},"_parsedOriginalUrl":{"protocol":null,"slashes":null,"auth":null,"host":null,"port":null,"hostname":null,"hash":null,"search":null,"query":null,"pathname":"/dist/css/skins/skin-blue.min.css","path":"/dist/css/skins/skin-blue.min.css","href":"/dist/css/skins/skin-blue.min.css","_raw":"/dist/css/skins/skin-blue.min.css"}},"outgoing":null,"maxHeaderPairs":2000},"_paused":false,"_consuming":true,"_httpMessage":null},"_idlePrev":{"$ref":"$[\"socket\"]"},"_idleStart":6890,"parser":{"_headers":[],"_url":"","_consumed":true,"socket":{"$ref":"$[\"socket\"][\"_idleNext\"]"},"incoming":{"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":true,"ended":true,"endEmitted":true,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"defaultEncoding":"utf8","ranOut":false,"awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":false,"domain":null,"_events":{},"_eventsCount":0,"socket":{"$ref":"$[\"socket\"][\"_idleNext\"]"},"connection":{"$ref":"$[\"socket\"][\"_idleNext\"]"},"httpVersionMajor":1,"httpVersionMinor":1,"httpVersion":"1.1","complete":true,"headers":{"host":"localhost:9000","connection":"keep-alive","user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.90 Safari/537.36","accept-encoding":"gzip, deflate, sdch, br","accept-language":"en-GB,en-US;q=0.8,en;q=0.6","if-none-match":"W/\"2c8a-158105100c4\"","if-modified-since":"Sat, 29 Oct 2016 12:01:33 GMT"},"rawHeaders":["Host","localhost:9000","Connection","keep-alive","User-Agent","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.90 Safari/537.36","Accept-Encoding","gzip, deflate, sdch, br","Accept-Language","en-GB,en-US;q=0.8,en;q=0.6","If-None-Match","W/\"2c8a-158105100c4\"","If-Modified-Since","Sat, 29 Oct 2016 12:01:33 GMT"],"trailers":{},"rawTrailers":[],"upgrade":false,"url":"/scripts/angular-route.min.js.map","method":"GET","statusCode":null,"statusMessage":null,"client":{"$ref":"$[\"socket\"][\"_idleNext\"]"},"_consuming":true,"_dumped":true,"baseUrl":"","originalUrl":"/scripts/angular-route.min.js.map","_parsedUrl":{"protocol":null,"slashes":null,"auth":null,"host":null,"port":null,"hostname":null,"hash":null,"search":null,"query":null,"pathname":"/scripts/angular-route.min.js.map","path":"/scripts/angular-route.min.js.map","href":"/scripts/angular-route.min.js.map","_raw":"/scripts/angular-route.min.js.map"},"params":{},"query":{},"res":{"domain":null,"_events":{},"_eventsCount":1,"output":[],"outputEncodings":[],"outputCallbacks":[],"outputSize":0,"writable":true,"_last":false,"upgrading":false,"chunkedEncoding":false,"shouldKeepAlive":true,"useChunkedEncodingByDefault":true,"sendDate":true,"_removedHeader":{},"_contentLength":0,"_hasBody":false,"_trailer":"","finished":true,"_headerSent":true,"socket":null,"connection":null,"_header":"HTTP/1.1 304 Not Modified\r\nX-Powered-By: Express\r\nAccept-Ranges: bytes\r\nCache-Control: public, max-age=0\r\nLast-Modified: Sat, 29 Oct 2016 12:01:33 GMT\r\nETag: W/\"2c8a-158105100c4\"\r\nX-Response-Time: 0.312ms\r\nDate: Sat, 12 Nov 2016 09:04:02 GMT\r\nConnection: keep-alive\r\n\r\n","_headers":{"x-powered-by":"Express","accept-ranges":"bytes","cache-control":"public, max-age=0","last-modified":"Sat, 29 Oct 2016 12:01:33 GMT","etag":"W/\"2c8a-158105100c4\"","x-response-time":"0.312ms"},"_headerNames":{"x-powered-by":"X-Powered-By","accept-ranges":"Accept-Ranges","cache-control":"Cache-Control","last-modified":"Last-Modified","etag":"ETag","x-response-time":"X-Response-Time"},"req":{"$ref":"$[\"socket\"][\"_idleNext\"][\"parser\"][\"incoming\"]"},"locals":{},"statusCode":304,"statusMessage":"Not Modified"},"_parsedOriginalUrl":{"protocol":null,"slashes":null,"auth":null,"host":null,"port":null,"hostname":null,"hash":null,"search":null,"query":null,"pathname":"/scripts/angular-route.min.js.map","path":"/scripts/angular-route.min.js.map","href":"/scripts/angular-route.min.js.map","_raw":"/scripts/angular-route.min.js.map"}},"outgoing":null,"maxHeaderPairs":2000},"_paused":false,"_consuming":true,"_httpMessage":null},"_idlePrev":{"$ref":"$[\"socket\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"][\"_idleNext\"]"},"_idleStart":17034,"parser":{"_headers":[],"_url":"","_consumed":true,"socket":{"$ref":"$[\"socket\"]"},"incoming":{"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":true,"ended":true,"endEmitted":true,"reading":false,"sync":false,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"defaultEncoding":"utf8","ranOut":false,"awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":false,"domain":null,"_events":{},"_eventsCount":0,"socket":{"$ref":"$[\"socket\"]"},"connection":{"$ref":"$[\"socket\"]"},"httpVersionMajor":1,"httpVersionMinor":1,"httpVersion":"1.1","complete":true,"headers":{"host":"localhost:9000","connection":"keep-alive","content-length":"52","accept":"application/json, text/plain, */*","origin":"http://localhost:9000","user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.90 Safari/537.36","content-type":"application/json;charset=UTF-8","referer":"http://localhost:9000/login","accept-encoding":"gzip, deflate, br","accept-language":"en-GB,en-US;q=0.8,en;q=0.6"},"rawHeaders":["Host","localhost:9000","Connection","keep-alive","Content-Length","52","Accept","application/json, text/plain, */*","Origin","http://localhost:9000","User-Agent","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.90 Safari/537.36","Content-Type","application/json;charset=UTF-8","Referer","http://localhost:9000/login","Accept-Encoding","gzip, deflate, br","Accept-Language","en-GB,en-US;q=0.8,en;q=0.6"],"trailers":{},"rawTrailers":[],"upgrade":false,"url":"/login","method":"POST","statusCode":null,"statusMessage":null,"client":{"$ref":"$[\"socket\"]"},"_consuming":true,"_dumped":false,"baseUrl":"/api","originalUrl":"/api/login","_parsedUrl":{"protocol":null,"slashes":null,"auth":null,"host":null,"port":null,"hostname":null,"hash":null,"search":null,"query":null,"pathname":"/login","path":"/login","href":"/login","_raw":"/login"},"params":{},"query":{},"res":{"$ref":"$"},"body":{"Email":"","Password":"meesam","UserName":"meesam"},"_body":true,"cookies":{},"signedCookies":{},"route":{"path":"/login","stack":[{"name":"<anonymous>","keys":[],"regexp":{},"method":"post"}],"methods":{"post":true}}},"outgoing":null,"maxHeaderPairs":2000},"_paused":false,"_consuming":true,"_httpMessage":{"$ref":"$"}},"connection":{"$ref":"$[\"socket\"]"},"_header":null,"_headers":{"0":"X","1":"-","2":"R","3":"e","4":"s","5":"p","6":"o","7":"n","8":"s","9":"e","10":"-","11":"T","12":"i","13":"m","14":"e","x-powered-by":"Express"},"_headerNames":{"0":"0","1":"1","2":"2","3":"3","4":"4","5":"5","6":"6","7":"7","8":"8","9":"9","10":"10","11":"11","12":"12","13":"13","14":"14","x-powered-by":"X-Powered-By"},"req":{"$ref":"$[\"socket\"][\"parser\"][\"incoming\"]"},"locals":{},"level":"debug","message":"POST req at /login takes ","timestamp":"2016-11-12T09:04:12.570Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T09:06:13.746Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T09:06:13.754Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T09:07:02.041Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T09:07:02.049Z"}
-{"level":"debug","message":"POST req at /login takes  object","timestamp":"2016-11-12T09:08:05.675Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T09:12:40.484Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T09:12:40.496Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T09:13:22.586Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T09:13:22.594Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T09:14:46.312Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T09:14:46.320Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T09:16:03.678Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T09:16:03.686Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T09:19:52.063Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T09:19:52.072Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T11:32:54.707Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T11:32:54.715Z"}
-{"level":"debug","message":"POST req at /login takes ","timestamp":"2016-11-12T11:33:25.094Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T11:45:11.367Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T11:45:11.375Z"}
-{"level":"debug","message":"POST req at /login takes ","timestamp":"2016-11-12T11:45:28.737Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T11:46:25.488Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T11:46:25.497Z"}
-{"level":"info","message":"[undefined] http-response-time=26.608627ms","timestamp":"2016-11-12T11:46:31.121Z"}
-{"level":"info","message":"[undefined] http-response-time=8.602219999999999ms","timestamp":"2016-11-12T11:46:31.143Z"}
-{"level":"info","message":"[undefined] http-response-time=4.307651ms","timestamp":"2016-11-12T11:46:31.155Z"}
-{"level":"info","message":"[undefined] http-response-time=0.9424159999999999ms","timestamp":"2016-11-12T11:46:31.191Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T11:47:12.616Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T11:47:12.624Z"}
-{"level":"info","message":"[undefined] http-response-time=7.232888ms","timestamp":"2016-11-12T11:47:16.684Z"}
-{"level":"debug","message":"POST req at /login takes ","timestamp":"2016-11-12T11:47:26.568Z"}
-{"level":"info","message":"[undefined] http-response-time=33.964205ms","timestamp":"2016-11-12T11:47:26.576Z"}
-{"level":"info","message":"[undefined] http-response-time=10.87332ms","timestamp":"2016-11-12T11:47:26.602Z"}
-{"level":"info","message":"[undefined] http-response-time=1.0681859999999999ms","timestamp":"2016-11-12T11:47:26.643Z"}
-{"level":"info","message":"[undefined] http-response-time=3.300265ms","timestamp":"2016-11-12T11:47:28.626Z"}
-{"level":"info","message":"[undefined] http-response-time=1.127881ms","timestamp":"2016-11-12T11:49:25.687Z"}
-{"level":"info","message":"[undefined] http-response-time=6.962791999999999ms","timestamp":"2016-11-12T11:49:26.578Z"}
-{"level":"info","message":"[undefined] http-response-time=3.792061ms","timestamp":"2016-11-12T11:49:26.635Z"}
-{"level":"info","message":"[undefined] http-response-time=3.486849ms","timestamp":"2016-11-12T11:49:26.648Z"}
-{"level":"info","message":"[undefined] http-response-time=0.9483729999999999ms","timestamp":"2016-11-12T11:49:32.112Z"}
-{"level":"info","message":"[undefined] http-response-time=28.246264999999998ms","timestamp":"2016-11-12T11:49:32.192Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T11:50:48.143Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T11:50:48.151Z"}
-{"level":"info","message":"[undefined] http-response-time=8.812351ms","timestamp":"2016-11-12T11:50:54.939Z"}
-{"level":"info","message":"[undefined] http-response-time=56.148545ms","timestamp":"2016-11-12T11:50:55.888Z"}
-{"level":"info","message":"[undefined] http-response-time=1.298292ms","timestamp":"2016-11-12T11:50:55.895Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T11:53:18.231Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T11:53:18.240Z"}
-{"level":"info","message":"[undefined] http-response-time=20.962623999999998ms","timestamp":"2016-11-12T11:53:24.809Z"}
-{"level":"info","message":"[undefined] http-response-time=6.606904999999999ms","timestamp":"2016-11-12T11:53:24.858Z"}
-{"level":"info","message":"[undefined] http-response-time=2.1322829999999997ms","timestamp":"2016-11-12T11:53:25.527Z"}
-{"level":"info","message":"[undefined] http-response-time=4.293042ms","timestamp":"2016-11-12T11:53:25.573Z"}
-{"level":"info","message":"[undefined] http-response-time=7.207598ms","timestamp":"2016-11-12T11:53:25.623Z"}
-{"level":"info","message":"[undefined] http-response-time=3.611408ms","timestamp":"2016-11-12T11:53:25.635Z"}
-{"level":"info","message":"[undefined] http-response-time=2.285546ms","timestamp":"2016-11-12T11:53:28.087Z"}
-{"level":"info","message":"[undefined] http-response-time=32.570008ms","timestamp":"2016-11-12T11:53:28.242Z"}
-{"level":"info","message":"[undefined] http-response-time=1.4384329999999999ms","timestamp":"2016-11-12T11:53:29.073Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T11:54:22.362Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T11:54:22.370Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T11:58:38.056Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T11:58:38.065Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T11:59:40.926Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T11:59:40.934Z"}
-{"level":"info","message":"[undefined] http-response-time=34.301409ms","timestamp":"2016-11-12T11:59:47.707Z"}
-{"level":"info","message":"[undefined] http-response-time=11.953875ms","timestamp":"2016-11-12T11:59:47.754Z"}
-{"level":"info","message":"[undefined] http-response-time=3.2058709999999997ms","timestamp":"2016-11-12T11:59:47.782Z"}
-{"level":"info","message":"[undefined] http-response-time=5.293654999999999ms","timestamp":"2016-11-12T11:59:47.791Z"}
-{"level":"info","message":"[undefined] http-response-time=1.493368ms","timestamp":"2016-11-12T11:59:49.317Z"}
-{"level":"info","message":"[undefined] http-response-time=0.486589ms","timestamp":"2016-11-12T11:59:50.255Z"}
-{"level":"info","message":"[undefined] http-response-time=16.365423ms","timestamp":"2016-11-12T11:59:52.156Z"}
-{"level":"info","message":"[undefined] http-response-time=0.43940599999999996ms","timestamp":"2016-11-12T11:59:52.160Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T12:00:33.161Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T12:00:33.169Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T12:04:01.856Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T12:04:01.864Z"}
-{"level":"info","message":"[[object Object]] http-response-time=4.188264ms","timestamp":"2016-11-12T12:04:06.026Z"}
-{"level":"info","message":"[[object Object]] http-response-time=40.712936ms","timestamp":"2016-11-12T12:04:07.497Z"}
-{"level":"info","message":"[[object Object]] http-response-time=1.212922ms","timestamp":"2016-11-12T12:04:07.502Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T12:04:45.683Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T12:04:45.692Z"}
-{"level":"info","message":"[{\"0\":\"favicon.ico\"}] http-response-time=10.056727ms","timestamp":"2016-11-12T12:04:47.361Z"}
-{"level":"info","message":"[{}] http-response-time=40.865275ms","timestamp":"2016-11-12T12:04:48.272Z"}
-{"level":"info","message":"[{\"0\":\"favicon.ico\"}] http-response-time=1.061043ms","timestamp":"2016-11-12T12:04:48.280Z"}
-{"level":"info","message":"[{\"0\":\"favicon.ico\"}] http-response-time=4.666879ms","timestamp":"2016-11-12T12:04:49.083Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T12:05:59.424Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T12:05:59.433Z"}
-{"level":"info","message":"[/project] http-response-time=51.91303ms","timestamp":"2016-11-12T12:06:03.902Z"}
-{"level":"info","message":"[/favicon.ico] http-response-time=5.247504ms","timestamp":"2016-11-12T12:06:03.919Z"}
-{"level":"info","message":"[/favicon.ico] http-response-time=3.1812169999999997ms","timestamp":"2016-11-12T12:06:04.584Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T12:06:44.310Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T12:06:44.318Z"}
-{"level":"info","message":"[/project] http-response-time=53.072151ms","timestamp":"2016-11-12T12:06:46.736Z"}
-{"level":"info","message":"[/favicon.ico] http-response-time=10.116734ms","timestamp":"2016-11-12T12:06:46.759Z"}
-{"level":"info","message":"[/favicon.ico] http-response-time=1.393597ms","timestamp":"2016-11-12T12:06:47.433Z"}
-{"level":"info","message":"[/project] http-response-time=15.335763ms","timestamp":"2016-11-12T12:06:47.971Z"}
-{"level":"info","message":"[/favicon.ico] http-response-time=0.9893029999999999ms","timestamp":"2016-11-12T12:06:47.975Z"}
-{"level":"info","message":"[/favicon.ico] http-response-time=1.017625ms","timestamp":"2016-11-12T12:06:48.539Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T12:07:35.076Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T12:07:35.084Z"}
-{"level":"info","message":"[\"/favicon.ico\"] http-response-time=6.1637509999999995ms","timestamp":"2016-11-12T12:07:40.564Z"}
-{"level":"info","message":"[\"/project\"] http-response-time=36.738658ms","timestamp":"2016-11-12T12:07:41.584Z"}
-{"level":"info","message":"[\"/favicon.ico\"] http-response-time=1.93445ms","timestamp":"2016-11-12T12:07:41.592Z"}
-{"level":"info","message":"[\"/favicon.ico\"] http-response-time=8.242253999999999ms","timestamp":"2016-11-12T12:07:42.529Z"}
-{"level":"info","message":"[\"/project\"] http-response-time=14.414826ms","timestamp":"2016-11-12T12:07:43.240Z"}
-{"level":"info","message":"[\"/favicon.ico\"] http-response-time=0.42136399999999996ms","timestamp":"2016-11-12T12:07:43.243Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T12:08:51.831Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T12:08:51.839Z"}
-{"level":"info","message":"[/login] http-response-time=6.610589999999999ms","timestamp":"2016-11-12T12:08:57.066Z"}
-{"level":"info","message":"[/favicon.ico] http-response-time=0.8083429999999999ms","timestamp":"2016-11-12T12:08:57.574Z"}
-{"level":"debug","message":"POST req at /login takes ","timestamp":"2016-11-12T12:09:03.811Z"}
-{"level":"info","message":"[/login] http-response-time=30.345093ms","timestamp":"2016-11-12T12:09:03.814Z"}
-{"level":"info","message":"[/modules] http-response-time=5.302096ms","timestamp":"2016-11-12T12:09:03.832Z"}
-{"level":"info","message":"[/favicon.ico] http-response-time=0.678254ms","timestamp":"2016-11-12T12:09:03.859Z"}
-{"level":"info","message":"[/favicon.ico] http-response-time=0.513778ms","timestamp":"2016-11-12T12:09:05.583Z"}
-{"level":"info","message":"[/favicon.ico] http-response-time=2.230508ms","timestamp":"2016-11-12T12:09:06.319Z"}
-{"level":"info","message":"[/project] http-response-time=18.60625ms","timestamp":"2016-11-12T12:09:06.380Z"}
-{"level":"info","message":"[/favicon.ico] http-response-time=1.369816ms","timestamp":"2016-11-12T12:09:07.097Z"}
-{"level":"info","message":"[/favicon.ico] http-response-time=1.9462409999999999ms","timestamp":"2016-11-12T12:09:07.819Z"}
-{"level":"info","message":"[/favicon.ico] http-response-time=0.511159ms","timestamp":"2016-11-12T12:09:08.722Z"}
-{"level":"info","message":"[/project] http-response-time=7.2921ms","timestamp":"2016-11-12T12:09:10.104Z"}
-{"level":"info","message":"[/favicon.ico] http-response-time=0.341643ms","timestamp":"2016-11-12T12:09:10.107Z"}
-{"level":"info","message":"[/project] http-response-time=11.016371999999999ms","timestamp":"2016-11-12T12:09:13.922Z"}
-{"level":"info","message":"[/project] http-response-time=19.357449ms","timestamp":"2016-11-12T12:09:14.695Z"}
-{"level":"info","message":"[/project] http-response-time=42.649257999999996ms","timestamp":"2016-11-12T12:09:16.098Z"}
-{"level":"info","message":"[/project] http-response-time=35.447173ms","timestamp":"2016-11-12T12:09:17.249Z"}
-{"level":"info","message":"[/favicon.ico] http-response-time=4.073354999999999ms","timestamp":"2016-11-12T12:09:18.617Z"}
-{"level":"info","message":"[/projects/new] http-response-time=5.873689ms","timestamp":"2016-11-12T12:09:59.327Z"}
-{"level":"info","message":"[/userfromtoken] http-response-time=10.626961ms","timestamp":"2016-11-12T12:10:00.157Z"}
-{"level":"info","message":"[/modules] http-response-time=4.258029ms","timestamp":"2016-11-12T12:10:00.186Z"}
-{"level":"info","message":"[/favicon.ico] http-response-time=1.648531ms","timestamp":"2016-11-12T12:10:00.197Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T12:16:13.294Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T12:16:13.302Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-12T12:16:13.313Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-12T12:16:15.198Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T12:16:24.577Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T12:16:24.585Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-12T12:16:24.596Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-12T12:16:30.980Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T12:16:46.544Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T12:16:46.553Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-12T12:16:46.563Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-12T12:24:23.673Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-12T17:42:48.630Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-12T17:42:48.639Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-12T17:42:48.649Z"}
-{"level":"info","message":"[/userfromtoken] http-response-time=29.888202999999997ms ","timestamp":"2016-11-12T17:42:58.752Z"}
-{"level":"info","message":"[/modules] http-response-time=7.836783ms ","timestamp":"2016-11-12T17:42:58.778Z"}
-{"level":"info","message":"[/favicon.ico] http-response-time=9.354137ms ","timestamp":"2016-11-12T17:42:58.792Z"}
-{"level":"info","message":"[/favicon.ico] http-response-time=1.399268ms ","timestamp":"2016-11-12T17:42:58.822Z"}
-{"level":"info","message":"[/favicon.ico] http-response-time=2.772175ms ","timestamp":"2016-11-12T17:43:01.435Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-13T04:52:13.403Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-13T04:52:13.411Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-13T04:52:13.423Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-13T04:58:26.722Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-13T04:59:43.744Z"}
-{"level":"debug","message":"server runing at  9000","timestamp":"2016-11-13T04:59:43.755Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-13T04:59:43.768Z"}
-{"level":"info","message":"[/favicon.ico] http-response-time=11.208884ms ","timestamp":"2016-11-13T04:59:48.893Z"}
-{"level":"info","message":"[/login] http-response-time=72.278153ms ","timestamp":"2016-11-13T04:59:57.323Z"}
-{"level":"info","message":"[/modules] http-response-time=11.787123ms ","timestamp":"2016-11-13T04:59:57.364Z"}
-{"level":"info","message":"[/favicon.ico] http-response-time=1.1952209999999999ms ","timestamp":"2016-11-13T04:59:57.377Z"}
-{"level":"info","message":"[/favicon.ico] http-response-time=1.544859ms ","timestamp":"2016-11-13T05:00:00.029Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-13T05:44:43.054Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-13T09:41:43.210Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-13T09:41:43.229Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-13T09:41:54.433Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-13T09:42:58.291Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-13T09:42:58.307Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-13T09:44:43.643Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-13T09:46:47.566Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-13T09:46:47.586Z"}
-{"level":"info","message":"[/userfromtoken] http-response-time=26.232028999999997ms ","timestamp":"2016-11-13T09:47:01.010Z"}
-{"level":"info","message":"[/modules] http-response-time=10.499518ms ","timestamp":"2016-11-13T09:47:01.051Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-13T09:49:12.849Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-13T09:49:22.728Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-13T09:49:22.753Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-13T09:49:38.337Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-13T09:49:45.172Z"}
-{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-13T09:49:45.181Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-13T09:49:45.193Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-13T09:49:52.994Z"}
-{"level":"info","message":"Master cluster setting up 4 workers...","timestamp":"2016-11-13T09:50:23.707Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-13T09:50:23.723Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-13T09:50:23.738Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-13T09:53:21.303Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-13T09:54:46.626Z"}
-{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-13T09:54:46.636Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-13T09:54:46.646Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-13T09:55:28.443Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-13T09:56:07.206Z"}
-{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-13T09:56:07.217Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-13T09:56:07.227Z"}
-{"level":"info","message":"[/userfromtoken] http-response-time=28.528617999999998ms ","timestamp":"2016-11-13T09:56:24.182Z"}
-{"level":"info","message":"[/modules] http-response-time=10.409913999999999ms ","timestamp":"2016-11-13T09:56:24.234Z"}
-{"level":"info","message":"[/login] http-response-time=6.7156899999999995ms ","timestamp":"2016-11-13T09:56:36.764Z"}
-{"level":"info","message":"[/modules] http-response-time=11.10306ms ","timestamp":"2016-11-13T09:56:36.799Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-13T09:57:47.761Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-13T09:57:56.214Z"}
-{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-13T09:57:56.222Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-13T09:57:56.236Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-13T10:12:44.368Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-13T10:12:52.197Z"}
-{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-13T10:12:52.207Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-13T10:12:52.217Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-13T10:13:12.351Z"}
-{"level":"info","message":"Master cluster setting up 4 workers...","timestamp":"2016-11-13T10:13:20.781Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-13T10:13:20.814Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-13T10:13:20.864Z"}
-{"level":"info","message":"Worker 13135 is online","timestamp":"2016-11-13T10:13:20.883Z"}
-{"level":"info","message":"Worker 13129 is online","timestamp":"2016-11-13T10:13:20.883Z"}
-{"level":"info","message":"Worker 13141 is online","timestamp":"2016-11-13T10:13:20.884Z"}
-{"level":"info","message":"Worker 13142 is online","timestamp":"2016-11-13T10:13:20.901Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-13T10:13:21.634Z"}
-{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-13T10:13:21.650Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-13T10:13:21.669Z"}
-{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-13T10:13:21.655Z"}
-{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-13T10:13:21.664Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-13T10:13:21.662Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-13T10:13:21.687Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-13T10:13:21.668Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-13T10:13:21.693Z"}
-{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-13T10:13:21.698Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-13T10:13:21.701Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-13T10:13:21.718Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-13T10:14:07.452Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-13T10:14:07.459Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-13T10:14:07.463Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-13T10:14:07.468Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-13T10:14:07.474Z"}
-{"level":"info","message":"Master cluster setting up 4 workers...","timestamp":"2016-11-13T10:14:17.647Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-13T10:14:17.676Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-13T10:14:17.729Z"}
-{"level":"info","message":"Worker 13205 is online","timestamp":"2016-11-13T10:14:17.745Z"}
-{"level":"info","message":"Worker 13211 is online","timestamp":"2016-11-13T10:14:17.749Z"}
-{"level":"info","message":"Worker 13217 is online","timestamp":"2016-11-13T10:14:17.769Z"}
-{"level":"info","message":"Worker 13223 is online","timestamp":"2016-11-13T10:14:17.781Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-13T10:14:18.492Z"}
-{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-13T10:14:18.497Z"}
-{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-13T10:14:18.507Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-13T10:14:18.525Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-13T10:14:18.501Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-13T10:14:18.530Z"}
-{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-13T10:14:18.565Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-13T10:14:18.567Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-13T10:14:18.590Z"}
-{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-13T10:14:18.585Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-13T10:14:18.590Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-13T10:14:18.607Z"}
-{"level":"info","message":"[/userfromtoken] http-response-time=30.356296999999998ms ","timestamp":"2016-11-13T10:15:11.593Z"}
-{"level":"info","message":"[/modules] http-response-time=8.840009ms ","timestamp":"2016-11-13T10:15:11.637Z"}
-{"level":"info","message":"[/project] http-response-time=48.715387ms ","timestamp":"2016-11-13T10:15:14.370Z"}
-{"level":"info","message":"[/project] http-response-time=14.885076999999999ms ","timestamp":"2016-11-13T10:15:16.243Z"}
-{"level":"info","message":"[/project] http-response-time=9.90128ms ","timestamp":"2016-11-13T10:15:17.839Z"}
-{"level":"info","message":"[/project] http-response-time=13.43366ms ","timestamp":"2016-11-13T10:15:19.203Z"}
-{"level":"info","message":"[/project] http-response-time=15.980341ms ","timestamp":"2016-11-13T10:15:20.043Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-13T10:15:31.624Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-13T10:15:31.623Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-13T10:15:31.627Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-13T10:15:31.645Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-13T10:15:31.649Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-13T10:16:23.078Z"}
-{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-13T10:16:23.086Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-13T10:16:23.100Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-13T10:16:33.392Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-16T16:07:13.688Z"}
-{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-16T16:07:13.697Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-16T16:07:13.715Z"}
-{"level":"info","message":"[/favicon.ico] http-response-time=16.894233ms ","timestamp":"2016-11-16T16:07:27.318Z"}
-{"level":"info","message":"[/login] http-response-time=63.069979ms ","timestamp":"2016-11-16T16:07:39.715Z"}
-{"level":"info","message":"[/modules] http-response-time=8.401086ms ","timestamp":"2016-11-16T16:07:39.759Z"}
-{"level":"info","message":"[/favicon.ico] http-response-time=1.7037479999999998ms ","timestamp":"2016-11-16T16:07:39.764Z"}
-{"level":"info","message":"[/favicon.ico] http-response-time=3.123053ms ","timestamp":"2016-11-16T16:07:41.816Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-16T16:08:09.137Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-16T16:49:01.353Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-16T16:49:01.381Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-16T16:49:04.758Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-16T16:50:03.264Z"}
-{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-16T16:50:03.272Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-16T16:50:03.288Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-16T16:50:18.752Z"}
-{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-16T16:51:47.981Z"}
-{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-16T16:51:47.989Z"}
-{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-16T16:51:48.002Z"}
-{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-16T16:51:56.463Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-27T09:25:40.176Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-27T09:28:51.221Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-27T09:28:51.229Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-27T09:28:51.234Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-27T09:29:15.883Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-27T09:29:31.865Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-27T09:29:31.872Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-27T09:29:31.878Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-27T09:30:34.519Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-27T09:30:59.720Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-27T09:30:59.727Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-27T09:30:59.732Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-27T09:32:16.837Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-27T09:34:36.425Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-27T09:34:36.436Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-27T09:34:36.446Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-27T09:34:40.049Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-27T09:35:44.221Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-27T09:35:44.228Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-27T09:35:44.234Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-27T09:36:07.001Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-27T10:19:24.223Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-27T10:19:24.230Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-27T10:19:24.236Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-27T10:19:28.738Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-27T10:19:55.570Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-27T10:19:55.577Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-27T10:19:55.582Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-27T10:20:14.238Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-28T15:56:18.847Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-28T15:56:18.859Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-28T15:56:18.864Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-28T15:56:24.031Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-29T17:12:26.995Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-29T17:12:27.002Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-29T17:12:27.008Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-29T17:12:42.314Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-29T17:12:42.323Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-29T17:12:42.332Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-29T17:12:45.967Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-29T17:12:48.244Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-29T17:12:48.254Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-29T17:12:48.259Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-29T17:13:52.205Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-29T17:13:52.210Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-29T17:13:52.219Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-29T17:13:52.225Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=7.106424ms ","timestamp":"2016-11-29T17:14:06.561Z"}
+{"level":"info","message":"[/login] http-response-time=90.095303ms ","timestamp":"2016-11-29T17:14:13.915Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=3.3044719999999996ms ","timestamp":"2016-11-29T17:14:13.958Z"}
+{"level":"debug","message":"1480439653.956531: [ 'get', 'allModules' ]","timestamp":"2016-11-29T17:14:13.967Z"}
+{"level":"info","message":"[/modules] http-response-time=26.668751ms ","timestamp":"2016-11-29T17:14:13.980Z"}
+{"level":"debug","message":"1480439653.978838: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":4,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"}]}' ]","timestamp":"2016-11-29T17:14:13.981Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=2.169459ms ","timestamp":"2016-11-29T17:14:16.225Z"}
+{"level":"info","message":"[/project] http-response-time=33.07739ms ","timestamp":"2016-11-29T17:14:16.319Z"}
+{"level":"info","message":"[/name/Dale] http-response-time=29.203265ms ","timestamp":"2016-11-29T17:14:22.872Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.975482ms ","timestamp":"2016-11-29T17:14:22.950Z"}
+{"level":"info","message":"[/name/Randi] http-response-time=16.712122ms ","timestamp":"2016-11-29T17:14:37.233Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=2.8523419999999997ms ","timestamp":"2016-11-29T17:14:37.273Z"}
+{"level":"info","message":"[/name/88] http-response-time=9.036824ms ","timestamp":"2016-11-29T17:14:44.311Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.425799ms ","timestamp":"2016-11-29T17:14:44.352Z"}
+{"level":"info","message":"[/name/Adela] http-response-time=6.568257999999999ms ","timestamp":"2016-11-29T17:14:56.792Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=2.5747549999999997ms ","timestamp":"2016-11-29T17:14:56.879Z"}
+{"level":"info","message":"[/name/28] http-response-time=21.244044ms ","timestamp":"2016-11-29T17:15:06.151Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.724772ms ","timestamp":"2016-11-29T17:15:06.217Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-29T17:15:25.232Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-29T17:15:25.237Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-29T17:15:25.246Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-29T17:15:25.252Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-29T17:15:40.595Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-29T17:15:40.600Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-29T17:15:40.636Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-29T17:15:40.643Z"}
+{"level":"info","message":"[/name/28] http-response-time=25.697958999999997ms ","timestamp":"2016-11-29T17:15:43.501Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=4.862899ms ","timestamp":"2016-11-29T17:15:43.590Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-29T17:29:58.811Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-30T15:05:31.029Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-30T15:05:31.036Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-30T15:05:31.048Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-30T15:05:31.053Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=6.812468ms ","timestamp":"2016-11-30T15:13:17.436Z"}
+{"level":"info","message":"[/login] http-response-time=118.71584899999999ms ","timestamp":"2016-11-30T15:13:25.020Z"}
+{"level":"debug","message":"1480518805.049985: [ 'get', 'allModules' ]","timestamp":"2016-11-30T15:13:25.055Z"}
+{"level":"info","message":"[/modules] http-response-time=15.903533999999999ms ","timestamp":"2016-11-30T15:13:25.065Z"}
+{"level":"debug","message":"1480518805.063406: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":4,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"}]}' ]","timestamp":"2016-11-30T15:13:25.066Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.7837959999999999ms ","timestamp":"2016-11-30T15:13:25.082Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.2220579999999999ms ","timestamp":"2016-11-30T15:13:27.441Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.651764ms ","timestamp":"2016-11-30T15:13:28.662Z"}
+{"level":"info","message":"[/project] http-response-time=72.588386ms ","timestamp":"2016-11-30T15:13:28.716Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.8077649999999998ms ","timestamp":"2016-11-30T15:13:29.727Z"}
+{"level":"info","message":"[/project] http-response-time=7.051305999999999ms ","timestamp":"2016-11-30T15:13:31.044Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.338393ms ","timestamp":"2016-11-30T15:13:31.046Z"}
+{"level":"info","message":"[/project] http-response-time=8.498596ms ","timestamp":"2016-11-30T15:13:33.765Z"}
+{"level":"info","message":"[/project] http-response-time=5.179644ms ","timestamp":"2016-11-30T15:13:35.567Z"}
+{"level":"info","message":"[/project] http-response-time=7.329908ms ","timestamp":"2016-11-30T15:13:37.006Z"}
+{"level":"info","message":"[/project] http-response-time=13.259504ms ","timestamp":"2016-11-30T15:13:39.764Z"}
+{"level":"info","message":"[/projects] http-response-time=1.679155ms ","timestamp":"2016-11-30T15:15:33.811Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=4.0370099999999995ms ","timestamp":"2016-11-30T15:15:34.307Z"}
+{"level":"debug","message":"1480518934.350293: [ 'get', 'allModules' ]","timestamp":"2016-11-30T15:15:34.350Z"}
+{"level":"info","message":"[/modules] http-response-time=2.503336ms ","timestamp":"2016-11-30T15:15:34.352Z"}
+{"level":"debug","message":"1480518934.352417: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-11-30T15:15:34.353Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.759339ms ","timestamp":"2016-11-30T15:15:34.354Z"}
+{"level":"info","message":"[/project] http-response-time=11.4749ms ","timestamp":"2016-11-30T15:15:34.456Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.325818ms ","timestamp":"2016-11-30T15:15:36.242Z"}
+{"level":"info","message":"[/project] http-response-time=10.724696999999999ms ","timestamp":"2016-11-30T15:21:02.779Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.52504ms ","timestamp":"2016-11-30T15:21:02.784Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.391042ms ","timestamp":"2016-11-30T15:21:03.677Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.104373ms ","timestamp":"2016-11-30T15:21:04.370Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.475201ms ","timestamp":"2016-11-30T15:21:05.092Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.255627ms ","timestamp":"2016-11-30T15:21:05.887Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.185881ms ","timestamp":"2016-11-30T15:21:08.924Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.415939ms ","timestamp":"2016-11-30T15:21:10.112Z"}
+{"level":"info","message":"[/project] http-response-time=7.141982ms ","timestamp":"2016-11-30T15:22:22.687Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=3.7172039999999997ms ","timestamp":"2016-11-30T15:22:22.691Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.611914ms ","timestamp":"2016-11-30T15:22:24.351Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.22769199999999998ms ","timestamp":"2016-11-30T15:22:26.768Z"}
+{"level":"info","message":"[/project] http-response-time=6.33683ms ","timestamp":"2016-11-30T15:22:27.335Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.6196079999999999ms ","timestamp":"2016-11-30T15:22:27.340Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.994852ms ","timestamp":"2016-11-30T15:22:27.944Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.617489ms ","timestamp":"2016-11-30T15:22:28.582Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.38134199999999996ms ","timestamp":"2016-11-30T15:22:29.207Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.474357ms ","timestamp":"2016-11-30T15:22:46.548Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.8928429999999999ms ","timestamp":"2016-11-30T15:22:47.480Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.369424ms ","timestamp":"2016-11-30T15:22:48.507Z"}
+{"level":"info","message":"[/project] http-response-time=4.756481ms ","timestamp":"2016-11-30T15:22:48.539Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.322419ms ","timestamp":"2016-11-30T15:22:49.263Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.317666ms ","timestamp":"2016-11-30T15:23:04.667Z"}
+{"level":"info","message":"[/project] http-response-time=4.777532ms ","timestamp":"2016-11-30T15:23:06.035Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=2.442707ms ","timestamp":"2016-11-30T15:23:06.040Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.505014ms ","timestamp":"2016-11-30T15:23:07.588Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.24270499999999998ms ","timestamp":"2016-11-30T15:23:08.826Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.31396399999999997ms ","timestamp":"2016-11-30T15:23:09.972Z"}
+{"level":"info","message":"[/project] http-response-time=4.775113999999999ms ","timestamp":"2016-11-30T15:23:11.101Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.328712ms ","timestamp":"2016-11-30T15:23:11.107Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.458603ms ","timestamp":"2016-11-30T15:23:12.274Z"}
+{"level":"info","message":"[/project] http-response-time=5.5676939999999995ms ","timestamp":"2016-11-30T15:23:13.424Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.27763499999999997ms ","timestamp":"2016-11-30T15:23:13.427Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-30T15:24:28.495Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-30T15:24:31.611Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-30T15:24:31.615Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-30T15:24:31.624Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-30T15:24:31.631Z"}
+{"level":"info","message":"[/projects] http-response-time=13.028196999999999ms ","timestamp":"2016-11-30T15:24:37.084Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=20.449752999999998ms ","timestamp":"2016-11-30T15:24:38.050Z"}
+{"level":"debug","message":"1480519478.105970: [ 'get', 'allModules' ]","timestamp":"2016-11-30T15:24:38.110Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=6.943343ms ","timestamp":"2016-11-30T15:24:38.113Z"}
+{"level":"info","message":"[/modules] http-response-time=16.226155ms ","timestamp":"2016-11-30T15:24:38.121Z"}
+{"level":"debug","message":"1480519478.120685: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-11-30T15:24:38.123Z"}
+{"level":"info","message":"[/project] http-response-time=30.799671ms ","timestamp":"2016-11-30T15:24:38.260Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.785806ms ","timestamp":"2016-11-30T15:24:40.890Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=2.667442ms ","timestamp":"2016-11-30T15:25:30.659Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=4.526752999999999ms ","timestamp":"2016-11-30T15:25:31.091Z"}
+{"level":"debug","message":"1480519531.116838: [ 'get', 'allModules' ]","timestamp":"2016-11-30T15:25:31.117Z"}
+{"level":"info","message":"[/modules] http-response-time=1.3059669999999999ms ","timestamp":"2016-11-30T15:25:31.118Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.537826ms ","timestamp":"2016-11-30T15:25:31.175Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=3.977665ms ","timestamp":"2016-11-30T15:25:45.360Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=5.6004629999999995ms ","timestamp":"2016-11-30T15:25:45.681Z"}
+{"level":"debug","message":"1480519545.706623: [ 'get', 'allModules' ]","timestamp":"2016-11-30T15:25:45.707Z"}
+{"level":"info","message":"[/modules] http-response-time=2.760575ms ","timestamp":"2016-11-30T15:25:45.709Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=4.537976ms ","timestamp":"2016-11-30T15:25:45.753Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.577564ms ","timestamp":"2016-11-30T15:26:06.973Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.664609ms ","timestamp":"2016-11-30T15:26:07.420Z"}
+{"level":"debug","message":"1480519567.458095: [ 'get', 'allModules' ]","timestamp":"2016-11-30T15:26:07.458Z"}
+{"level":"info","message":"[/modules] http-response-time=1.300509ms ","timestamp":"2016-11-30T15:26:07.459Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.42987ms ","timestamp":"2016-11-30T15:26:07.524Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.401717ms ","timestamp":"2016-11-30T15:29:01.370Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=2.536848ms ","timestamp":"2016-11-30T15:29:01.830Z"}
+{"level":"debug","message":"1480519741.877063: [ 'get', 'allModules' ]","timestamp":"2016-11-30T15:29:01.879Z"}
+{"level":"info","message":"[/modules] http-response-time=9.966357ms ","timestamp":"2016-11-30T15:29:01.885Z"}
+{"level":"debug","message":"1480519741.883546: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-11-30T15:29:01.887Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.37318999999999997ms ","timestamp":"2016-11-30T15:29:01.921Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=1.0189709999999998ms ","timestamp":"2016-11-30T15:30:53.041Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.65441ms ","timestamp":"2016-11-30T15:30:53.498Z"}
+{"level":"debug","message":"1480519853.530952: [ 'get', 'allModules' ]","timestamp":"2016-11-30T15:30:53.531Z"}
+{"level":"info","message":"[/modules] http-response-time=2.585299ms ","timestamp":"2016-11-30T15:30:53.533Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=5.450442ms ","timestamp":"2016-11-30T15:30:53.578Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.877678ms ","timestamp":"2016-11-30T15:31:11.776Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.5131459999999999ms ","timestamp":"2016-11-30T15:31:12.202Z"}
+{"level":"debug","message":"1480519872.242233: [ 'get', 'allModules' ]","timestamp":"2016-11-30T15:31:12.244Z"}
+{"level":"info","message":"[/modules] http-response-time=7.76551ms ","timestamp":"2016-11-30T15:31:12.249Z"}
+{"level":"debug","message":"1480519872.249187: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-11-30T15:31:12.250Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.9122049999999999ms ","timestamp":"2016-11-30T15:31:12.281Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.401072ms ","timestamp":"2016-11-30T15:31:23.444Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=3.7926249999999997ms ","timestamp":"2016-11-30T15:31:23.754Z"}
+{"level":"debug","message":"1480519883.780392: [ 'get', 'allModules' ]","timestamp":"2016-11-30T15:31:23.780Z"}
+{"level":"info","message":"[/modules] http-response-time=1.242468ms ","timestamp":"2016-11-30T15:31:23.781Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.42513599999999996ms ","timestamp":"2016-11-30T15:31:23.813Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=1.2076909999999998ms ","timestamp":"2016-11-30T15:38:06.049Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.538948ms ","timestamp":"2016-11-30T15:38:07.033Z"}
+{"level":"debug","message":"1480520287.064358: [ 'get', 'allModules' ]","timestamp":"2016-11-30T15:38:07.064Z"}
+{"level":"info","message":"[/modules] http-response-time=4.448071ms ","timestamp":"2016-11-30T15:38:07.068Z"}
+{"level":"debug","message":"1480520287.067639: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-11-30T15:38:07.070Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=2.378339ms ","timestamp":"2016-11-30T15:38:07.107Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.628396ms ","timestamp":"2016-11-30T15:38:18.788Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=2.335518ms ","timestamp":"2016-11-30T15:38:19.106Z"}
+{"level":"debug","message":"1480520299.124958: [ 'get', 'allModules' ]","timestamp":"2016-11-30T15:38:19.125Z"}
+{"level":"info","message":"[/modules] http-response-time=1.0205629999999999ms ","timestamp":"2016-11-30T15:38:19.126Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.611911ms ","timestamp":"2016-11-30T15:38:19.156Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.462441ms ","timestamp":"2016-11-30T15:38:51.760Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.4594099999999999ms ","timestamp":"2016-11-30T15:38:52.192Z"}
+{"level":"debug","message":"1480520332.235136: [ 'get', 'allModules' ]","timestamp":"2016-11-30T15:38:52.235Z"}
+{"level":"info","message":"[/modules] http-response-time=1.518274ms ","timestamp":"2016-11-30T15:38:52.236Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.619022ms ","timestamp":"2016-11-30T15:38:52.281Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.745131ms ","timestamp":"2016-11-30T15:39:11.449Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=2.623224ms ","timestamp":"2016-11-30T15:39:11.896Z"}
+{"level":"debug","message":"1480520351.941241: [ 'get', 'allModules' ]","timestamp":"2016-11-30T15:39:11.941Z"}
+{"level":"info","message":"[/modules] http-response-time=1.4547619999999999ms ","timestamp":"2016-11-30T15:39:11.942Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=5.359728ms ","timestamp":"2016-11-30T15:39:11.994Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.471504ms ","timestamp":"2016-11-30T15:39:20.986Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.737034ms ","timestamp":"2016-11-30T15:39:21.318Z"}
+{"level":"debug","message":"1480520361.339710: [ 'get', 'allModules' ]","timestamp":"2016-11-30T15:39:21.340Z"}
+{"level":"info","message":"[/modules] http-response-time=1.839893ms ","timestamp":"2016-11-30T15:39:21.341Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.29048799999999997ms ","timestamp":"2016-11-30T15:39:21.385Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-30T15:46:50.718Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-30T15:46:50.722Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-30T15:46:50.731Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-30T15:46:50.737Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=20.816671ms ","timestamp":"2016-11-30T15:46:58.945Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=28.39587ms ","timestamp":"2016-11-30T15:46:59.443Z"}
+{"level":"debug","message":"1480520819.486899: [ 'get', 'allModules' ]","timestamp":"2016-11-30T15:46:59.490Z"}
+{"level":"info","message":"[/modules] http-response-time=9.527398999999999ms ","timestamp":"2016-11-30T15:46:59.496Z"}
+{"level":"debug","message":"1480520819.494986: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-11-30T15:46:59.499Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=4.175566ms ","timestamp":"2016-11-30T15:46:59.501Z"}
+{"level":"debug","message":"Mongoose default connection disconnected","timestamp":"2016-11-30T15:47:14.080Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-30T15:47:17.729Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-30T15:47:17.733Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-30T15:47:17.742Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-30T15:47:17.748Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=11.785919ms ","timestamp":"2016-11-30T15:47:23.205Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=25.301481ms ","timestamp":"2016-11-30T15:47:24.097Z"}
+{"level":"debug","message":"1480520844.157994: [ 'get', 'allModules' ]","timestamp":"2016-11-30T15:47:24.164Z"}
+{"level":"info","message":"[/modules] http-response-time=9.486429ms ","timestamp":"2016-11-30T15:47:24.166Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.768497ms ","timestamp":"2016-11-30T15:47:24.197Z"}
+{"level":"info","message":"[/searchAccount] http-response-time=85.264639ms ","timestamp":"2016-11-30T15:47:39.164Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-30T15:48:13.301Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-30T15:48:13.309Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-30T15:48:13.322Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-30T15:48:13.327Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=12.168293ms ","timestamp":"2016-11-30T15:48:31.581Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=32.701918ms ","timestamp":"2016-11-30T15:48:33.159Z"}
+{"level":"debug","message":"1480520913.223382: [ 'get', 'allModules' ]","timestamp":"2016-11-30T15:48:33.227Z"}
+{"level":"info","message":"[/modules] http-response-time=5.747199ms ","timestamp":"2016-11-30T15:48:33.228Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.56059ms ","timestamp":"2016-11-30T15:48:33.238Z"}
+{"level":"info","message":"[/searchAccount] http-response-time=99.306501ms ","timestamp":"2016-11-30T15:48:38.207Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-30T15:49:23.858Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-30T15:49:23.862Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-30T15:49:23.871Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-30T15:49:23.878Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-30T15:50:05.667Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-30T15:50:05.672Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-30T15:50:05.682Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-30T15:50:05.687Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=6.1400049999999995ms ","timestamp":"2016-11-30T15:50:08.111Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=29.922303999999997ms ","timestamp":"2016-11-30T15:50:08.869Z"}
+{"level":"debug","message":"1480521008.921624: [ 'get', 'allModules' ]","timestamp":"2016-11-30T15:50:08.930Z"}
+{"level":"info","message":"[/modules] http-response-time=21.639118999999997ms ","timestamp":"2016-11-30T15:50:08.942Z"}
+{"level":"debug","message":"1480521008.940737: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-11-30T15:50:08.944Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.5736329999999998ms ","timestamp":"2016-11-30T15:50:08.947Z"}
+{"level":"info","message":"[/searchAccount] http-response-time=55.005961ms ","timestamp":"2016-11-30T15:50:13.869Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-30T15:50:46.470Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-30T15:50:46.477Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-30T15:50:46.493Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-30T15:50:46.502Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-30T15:50:53.076Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-30T15:50:53.086Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-30T15:50:53.107Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-30T15:50:53.124Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=8.914541999999999ms ","timestamp":"2016-11-30T15:50:57.110Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=33.457800999999996ms ","timestamp":"2016-11-30T15:50:57.804Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.040533ms ","timestamp":"2016-11-30T15:50:57.851Z"}
+{"level":"debug","message":"1480521057.859966: [ 'get', 'allModules' ]","timestamp":"2016-11-30T15:50:57.863Z"}
+{"level":"info","message":"[/modules] http-response-time=4.887955ms ","timestamp":"2016-11-30T15:50:57.864Z"}
+{"level":"info","message":"[/searchAccount] http-response-time=60.416748ms ","timestamp":"2016-11-30T15:51:01.753Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-30T15:51:22.424Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-30T15:51:22.428Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-30T15:51:22.437Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-30T15:51:22.444Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-30T15:51:26.470Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-30T15:51:26.476Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-30T15:51:26.494Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-30T15:51:26.502Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=7.844806999999999ms ","timestamp":"2016-11-30T15:51:34.640Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=26.944456ms ","timestamp":"2016-11-30T15:51:35.353Z"}
+{"level":"debug","message":"1480521095.404203: [ 'get', 'allModules' ]","timestamp":"2016-11-30T15:51:35.413Z"}
+{"level":"info","message":"[/modules] http-response-time=11.688761999999999ms ","timestamp":"2016-11-30T15:51:35.415Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.715349ms ","timestamp":"2016-11-30T15:51:35.417Z"}
+{"level":"info","message":"[/searchAccount] http-response-time=61.208999ms ","timestamp":"2016-11-30T15:51:39.089Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-30T15:52:08.884Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-30T15:52:08.889Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-30T15:52:08.898Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-30T15:52:08.904Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-30T15:52:11.155Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-30T15:52:11.165Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-30T15:52:11.181Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-30T15:52:11.202Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=5.206296ms ","timestamp":"2016-11-30T15:52:14.589Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=36.368165999999995ms ","timestamp":"2016-11-30T15:52:15.326Z"}
+{"level":"debug","message":"1480521135.382007: [ 'get', 'allModules' ]","timestamp":"2016-11-30T15:52:15.385Z"}
+{"level":"info","message":"[/modules] http-response-time=10.452435ms ","timestamp":"2016-11-30T15:52:15.391Z"}
+{"level":"debug","message":"1480521135.390935: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-11-30T15:52:15.394Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=4.2342249999999995ms ","timestamp":"2016-11-30T15:52:15.400Z"}
+{"level":"info","message":"[/searchAccount] http-response-time=60.834157ms ","timestamp":"2016-11-30T15:52:19.164Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-30T15:52:59.744Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-30T15:52:59.765Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-30T15:52:59.796Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-30T15:52:59.802Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=9.146367999999999ms ","timestamp":"2016-11-30T15:53:03.927Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=28.074579ms ","timestamp":"2016-11-30T15:53:04.618Z"}
+{"level":"debug","message":"1480521184.681939: [ 'get', 'allModules' ]","timestamp":"2016-11-30T15:53:04.684Z"}
+{"level":"info","message":"[/modules] http-response-time=3.6526899999999998ms ","timestamp":"2016-11-30T15:53:04.685Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.551283ms ","timestamp":"2016-11-30T15:53:04.688Z"}
+{"level":"info","message":"[/api/searchAccount] http-response-time=4.50173ms ","timestamp":"2016-11-30T15:53:12.117Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-30T15:54:06.281Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-30T15:54:06.285Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-30T15:54:06.294Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-30T15:54:06.300Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-11-30T15:54:08.701Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-11-30T15:54:08.705Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-11-30T15:54:08.714Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-11-30T15:54:08.721Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=11.482261999999999ms ","timestamp":"2016-11-30T15:54:13.546Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=30.179837ms ","timestamp":"2016-11-30T15:54:14.262Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.107601ms ","timestamp":"2016-11-30T15:54:14.323Z"}
+{"level":"debug","message":"1480521254.329797: [ 'get', 'allModules' ]","timestamp":"2016-11-30T15:54:14.335Z"}
+{"level":"info","message":"[/modules] http-response-time=6.977364ms ","timestamp":"2016-11-30T15:54:14.336Z"}
+{"level":"info","message":"[/api/searchAccount] http-response-time=2.054748ms ","timestamp":"2016-11-30T15:54:20.049Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=2.979241ms ","timestamp":"2016-11-30T15:55:26.317Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=4.9305449999999995ms ","timestamp":"2016-11-30T15:55:26.993Z"}
+{"level":"debug","message":"1480521327.032970: [ 'get', 'allModules' ]","timestamp":"2016-11-30T15:55:27.034Z"}
+{"level":"info","message":"[/modules] http-response-time=9.582403ms ","timestamp":"2016-11-30T15:55:27.042Z"}
+{"level":"debug","message":"1480521327.041618: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-11-30T15:55:27.043Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=7.093262999999999ms ","timestamp":"2016-11-30T15:55:27.090Z"}
+{"level":"info","message":"[/searchAccount/28] http-response-time=108.646582ms ","timestamp":"2016-11-30T15:55:33.200Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.736645ms ","timestamp":"2016-11-30T15:56:16.670Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=6.132569ms ","timestamp":"2016-11-30T15:56:17.346Z"}
+{"level":"debug","message":"1480521377.393407: [ 'get', 'allModules' ]","timestamp":"2016-11-30T15:56:17.393Z"}
+{"level":"info","message":"[/modules] http-response-time=1.141214ms ","timestamp":"2016-11-30T15:56:17.394Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.4591649999999998ms ","timestamp":"2016-11-30T15:56:17.442Z"}
+{"level":"info","message":"[/searchAccount/28] http-response-time=43.247076ms ","timestamp":"2016-11-30T15:56:21.808Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=2.479578ms ","timestamp":"2016-11-30T15:57:04.651Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.470378ms ","timestamp":"2016-11-30T15:57:05.394Z"}
+{"level":"debug","message":"1480521425.443394: [ 'get', 'allModules' ]","timestamp":"2016-11-30T15:57:05.443Z"}
+{"level":"info","message":"[/modules] http-response-time=1.2114449999999999ms ","timestamp":"2016-11-30T15:57:05.444Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.30292399999999997ms ","timestamp":"2016-11-30T15:57:05.501Z"}
+{"level":"info","message":"[/searchAccount/28] http-response-time=12.807895ms ","timestamp":"2016-11-30T15:57:09.966Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.301153ms ","timestamp":"2016-11-30T15:58:13.931Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=2.003429ms ","timestamp":"2016-11-30T15:58:14.608Z"}
+{"level":"debug","message":"1480521494.644582: [ 'get', 'allModules' ]","timestamp":"2016-11-30T15:58:14.644Z"}
+{"level":"info","message":"[/modules] http-response-time=3.428957ms ","timestamp":"2016-11-30T15:58:14.648Z"}
+{"level":"debug","message":"1480521494.647627: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-11-30T15:58:14.649Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.7687229999999998ms ","timestamp":"2016-11-30T15:58:14.708Z"}
+{"level":"info","message":"[/searchAccount/28] http-response-time=26.377316999999998ms ","timestamp":"2016-11-30T15:58:19.479Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.37679799999999997ms ","timestamp":"2016-11-30T15:58:53.165Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.782395ms ","timestamp":"2016-11-30T15:58:54.323Z"}
+{"level":"debug","message":"1480521534.387830: [ 'get', 'allModules' ]","timestamp":"2016-11-30T15:58:54.388Z"}
+{"level":"info","message":"[/modules] http-response-time=1.148693ms ","timestamp":"2016-11-30T15:58:54.388Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.234866ms ","timestamp":"2016-11-30T15:58:54.438Z"}
+{"level":"info","message":"[/searchAccount/28] http-response-time=13.242353ms ","timestamp":"2016-11-30T15:59:01.203Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.365491ms ","timestamp":"2016-11-30T16:02:42.386Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=2.508587ms ","timestamp":"2016-11-30T16:02:43.082Z"}
+{"level":"debug","message":"1480521763.117262: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:02:43.117Z"}
+{"level":"info","message":"[/modules] http-response-time=3.8098929999999998ms ","timestamp":"2016-11-30T16:02:43.121Z"}
+{"level":"debug","message":"1480521763.120089: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-11-30T16:02:43.121Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.196355ms ","timestamp":"2016-11-30T16:02:43.185Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.753145ms ","timestamp":"2016-11-30T16:02:46.581Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=10.297136ms ","timestamp":"2016-11-30T16:02:47.216Z"}
+{"level":"debug","message":"1480521767.242257: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:02:47.245Z"}
+{"level":"info","message":"[/modules] http-response-time=4.06638ms ","timestamp":"2016-11-30T16:02:47.246Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.275912ms ","timestamp":"2016-11-30T16:02:47.310Z"}
+{"level":"info","message":"[/searchAccount/28] http-response-time=18.033089ms ","timestamp":"2016-11-30T16:02:59.569Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.459708ms ","timestamp":"2016-11-30T16:04:14.410Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=2.9472929999999997ms ","timestamp":"2016-11-30T16:04:15.121Z"}
+{"level":"debug","message":"1480521855.163202: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:04:15.163Z"}
+{"level":"info","message":"[/modules] http-response-time=1.3204129999999998ms ","timestamp":"2016-11-30T16:04:15.164Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.431295ms ","timestamp":"2016-11-30T16:04:15.231Z"}
+{"level":"info","message":"[/searchAccount/28] http-response-time=13.531113999999999ms ","timestamp":"2016-11-30T16:04:21.501Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.482271ms ","timestamp":"2016-11-30T16:04:59.431Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.560868ms ","timestamp":"2016-11-30T16:05:00.116Z"}
+{"level":"debug","message":"1480521900.160855: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:05:00.161Z"}
+{"level":"info","message":"[/modules] http-response-time=3.822999ms ","timestamp":"2016-11-30T16:05:00.164Z"}
+{"level":"debug","message":"1480521900.163951: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-11-30T16:05:00.165Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.27099ms ","timestamp":"2016-11-30T16:05:00.228Z"}
+{"level":"info","message":"[/searchAccount/28] http-response-time=11.258137ms ","timestamp":"2016-11-30T16:05:03.766Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.67409ms ","timestamp":"2016-11-30T16:05:50.747Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=2.780373ms ","timestamp":"2016-11-30T16:05:51.459Z"}
+{"level":"debug","message":"1480521951.498592: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:05:51.499Z"}
+{"level":"info","message":"[/modules] http-response-time=0.99357ms ","timestamp":"2016-11-30T16:05:51.499Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.51449ms ","timestamp":"2016-11-30T16:05:51.561Z"}
+{"level":"info","message":"[/searchAccount/28] http-response-time=10.792664ms ","timestamp":"2016-11-30T16:05:56.683Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.36499499999999996ms ","timestamp":"2016-11-30T16:06:18.696Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.532716ms ","timestamp":"2016-11-30T16:06:19.394Z"}
+{"level":"debug","message":"1480521979.450361: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:06:19.450Z"}
+{"level":"info","message":"[/modules] http-response-time=0.9659169999999999ms ","timestamp":"2016-11-30T16:06:19.451Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.264964ms ","timestamp":"2016-11-30T16:06:19.502Z"}
+{"level":"info","message":"[/searchAccount/28] http-response-time=8.781552ms ","timestamp":"2016-11-30T16:06:25.356Z"}
+{"level":"info","message":"[/searchAccount/19] http-response-time=13.471589999999999ms ","timestamp":"2016-11-30T16:06:52.760Z"}
+{"level":"info","message":"[/searchAccount/19] http-response-time=12.126111ms ","timestamp":"2016-11-30T16:06:58.684Z"}
+{"level":"info","message":"[/searchAccount/17] http-response-time=4.698500999999999ms ","timestamp":"2016-11-30T16:07:03.509Z"}
+{"level":"info","message":"[/searchAccount/321] http-response-time=8.682678ms ","timestamp":"2016-11-30T16:07:08.682Z"}
+{"level":"info","message":"[/searchAccount/370] http-response-time=7.844722999999999ms ","timestamp":"2016-11-30T16:07:16.922Z"}
+{"level":"info","message":"[/searchAccount/Randi] http-response-time=7.818408ms ","timestamp":"2016-11-30T16:07:28.331Z"}
+{"level":"info","message":"[/searchAccount/Ola] http-response-time=11.164411999999999ms ","timestamp":"2016-11-30T16:07:51.956Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.873288ms ","timestamp":"2016-11-30T16:08:06.867Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.6478279999999998ms ","timestamp":"2016-11-30T16:08:07.375Z"}
+{"level":"debug","message":"1480522087.414810: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:08:07.415Z"}
+{"level":"info","message":"[/modules] http-response-time=10.140537ms ","timestamp":"2016-11-30T16:08:07.425Z"}
+{"level":"debug","message":"1480522087.424144: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-11-30T16:08:07.427Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.369867ms ","timestamp":"2016-11-30T16:08:07.464Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=1.0439399999999999ms ","timestamp":"2016-11-30T16:09:17.828Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.766652ms ","timestamp":"2016-11-30T16:09:19.227Z"}
+{"level":"debug","message":"1480522159.253922: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:09:19.254Z"}
+{"level":"info","message":"[/modules] http-response-time=0.92147ms ","timestamp":"2016-11-30T16:09:19.254Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.789368ms ","timestamp":"2016-11-30T16:09:19.305Z"}
+{"level":"info","message":"[/searchAccount/28] http-response-time=8.063381ms ","timestamp":"2016-11-30T16:09:27.158Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.39997099999999997ms ","timestamp":"2016-11-30T16:28:45.633Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=2.29872ms ","timestamp":"2016-11-30T16:28:46.694Z"}
+{"level":"debug","message":"1480523326.730275: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:28:46.730Z"}
+{"level":"info","message":"[/modules] http-response-time=10.34208ms ","timestamp":"2016-11-30T16:28:46.740Z"}
+{"level":"debug","message":"1480523326.739903: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-11-30T16:28:46.741Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.265482ms ","timestamp":"2016-11-30T16:28:46.785Z"}
+{"level":"info","message":"[/searchAccount/28] http-response-time=12.929411ms ","timestamp":"2016-11-30T16:28:50.787Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.695178ms ","timestamp":"2016-11-30T16:29:21.188Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=2.1678219999999997ms ","timestamp":"2016-11-30T16:29:21.626Z"}
+{"level":"debug","message":"1480523361.666399: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:29:21.668Z"}
+{"level":"info","message":"[/modules] http-response-time=3.307814ms ","timestamp":"2016-11-30T16:29:21.669Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.717727ms ","timestamp":"2016-11-30T16:29:21.703Z"}
+{"level":"info","message":"[/searchAccount/28] http-response-time=9.934574999999999ms ","timestamp":"2016-11-30T16:29:25.646Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.457406ms ","timestamp":"2016-11-30T16:29:41.121Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=2.293986ms ","timestamp":"2016-11-30T16:29:41.861Z"}
+{"level":"debug","message":"1480523381.900566: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:29:41.901Z"}
+{"level":"info","message":"[/modules] http-response-time=0.961463ms ","timestamp":"2016-11-30T16:29:41.901Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.97675ms ","timestamp":"2016-11-30T16:29:41.945Z"}
+{"level":"info","message":"[/searchAccount/28] http-response-time=10.818681999999999ms ","timestamp":"2016-11-30T16:29:47.732Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.6474519999999999ms ","timestamp":"2016-11-30T16:30:06.128Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.389468ms ","timestamp":"2016-11-30T16:30:06.528Z"}
+{"level":"debug","message":"1480523406.553927: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:30:06.554Z"}
+{"level":"info","message":"[/modules] http-response-time=1.551308ms ","timestamp":"2016-11-30T16:30:06.555Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.528287ms ","timestamp":"2016-11-30T16:30:06.585Z"}
+{"level":"info","message":"[/searchAccount/28] http-response-time=13.127666ms ","timestamp":"2016-11-30T16:30:10.223Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=1.065509ms ","timestamp":"2016-11-30T16:30:52.096Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.4416309999999999ms ","timestamp":"2016-11-30T16:30:52.540Z"}
+{"level":"debug","message":"1480523452.574637: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:30:52.575Z"}
+{"level":"info","message":"[/modules] http-response-time=4.593735ms ","timestamp":"2016-11-30T16:30:52.579Z"}
+{"level":"debug","message":"1480523452.578795: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-11-30T16:30:52.581Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.432052ms ","timestamp":"2016-11-30T16:30:52.623Z"}
+{"level":"info","message":"[/searchAccount/28] http-response-time=11.565966999999999ms ","timestamp":"2016-11-30T16:30:55.976Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.6969639999999999ms ","timestamp":"2016-11-30T16:31:47.068Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.260236ms ","timestamp":"2016-11-30T16:31:47.498Z"}
+{"level":"debug","message":"1480523507.535014: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:31:47.535Z"}
+{"level":"info","message":"[/modules] http-response-time=1.5619029999999998ms ","timestamp":"2016-11-30T16:31:47.536Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.33013699999999996ms ","timestamp":"2016-11-30T16:31:47.566Z"}
+{"level":"info","message":"[/searchAccount/28] http-response-time=12.876619999999999ms ","timestamp":"2016-11-30T16:31:51.410Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.508381ms ","timestamp":"2016-11-30T16:32:50.635Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.4213369999999999ms ","timestamp":"2016-11-30T16:32:51.063Z"}
+{"level":"debug","message":"1480523571.095543: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:32:51.095Z"}
+{"level":"info","message":"[/modules] http-response-time=0.785763ms ","timestamp":"2016-11-30T16:32:51.096Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.428907ms ","timestamp":"2016-11-30T16:32:51.143Z"}
+{"level":"info","message":"[/searchAccount/28] http-response-time=11.325885999999999ms ","timestamp":"2016-11-30T16:32:54.265Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.870668ms ","timestamp":"2016-11-30T16:33:14.220Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=2.022221ms ","timestamp":"2016-11-30T16:33:14.657Z"}
+{"level":"debug","message":"1480523594.688933: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:33:14.689Z"}
+{"level":"info","message":"[/modules] http-response-time=4.292496ms ","timestamp":"2016-11-30T16:33:14.693Z"}
+{"level":"debug","message":"1480523594.692033: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-11-30T16:33:14.694Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.466095ms ","timestamp":"2016-11-30T16:33:14.744Z"}
+{"level":"info","message":"[/searchAccount/28] http-response-time=12.388520999999999ms ","timestamp":"2016-11-30T16:33:18.496Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.475705ms ","timestamp":"2016-11-30T16:34:57.170Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.3854469999999999ms ","timestamp":"2016-11-30T16:34:57.622Z"}
+{"level":"debug","message":"1480523697.650658: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:34:57.651Z"}
+{"level":"info","message":"[/modules] http-response-time=2.964737ms ","timestamp":"2016-11-30T16:34:57.653Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.396744ms ","timestamp":"2016-11-30T16:34:57.702Z"}
+{"level":"info","message":"[/searchAccount/28] http-response-time=14.627263999999998ms ","timestamp":"2016-11-30T16:35:01.893Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=4.503329ms ","timestamp":"2016-11-30T16:35:32.166Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.5040229999999999ms ","timestamp":"2016-11-30T16:35:32.584Z"}
+{"level":"debug","message":"1480523732.608282: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:35:32.608Z"}
+{"level":"info","message":"[/modules] http-response-time=2.5671939999999998ms ","timestamp":"2016-11-30T16:35:32.610Z"}
+{"level":"debug","message":"1480523732.611185: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-11-30T16:35:32.611Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=2.240173ms ","timestamp":"2016-11-30T16:35:32.657Z"}
+{"level":"info","message":"[/searchAccount/28] http-response-time=16.125194ms ","timestamp":"2016-11-30T16:35:38.453Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.475213ms ","timestamp":"2016-11-30T16:36:21.556Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.2535699999999999ms ","timestamp":"2016-11-30T16:36:21.987Z"}
+{"level":"debug","message":"1480523782.017790: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:36:22.018Z"}
+{"level":"info","message":"[/modules] http-response-time=0.9100199999999999ms ","timestamp":"2016-11-30T16:36:22.018Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.244117ms ","timestamp":"2016-11-30T16:36:22.052Z"}
+{"level":"info","message":"[/searchAccount/28] http-response-time=9.015789ms ","timestamp":"2016-11-30T16:36:25.968Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.441802ms ","timestamp":"2016-11-30T16:36:45.173Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.7989359999999999ms ","timestamp":"2016-11-30T16:36:45.579Z"}
+{"level":"debug","message":"1480523805.610093: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:36:45.610Z"}
+{"level":"info","message":"[/modules] http-response-time=0.744455ms ","timestamp":"2016-11-30T16:36:45.610Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.7314229999999999ms ","timestamp":"2016-11-30T16:36:45.656Z"}
+{"level":"info","message":"[/searchAccount/28] http-response-time=8.402751ms ","timestamp":"2016-11-30T16:36:49.913Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.9402539999999999ms ","timestamp":"2016-11-30T16:37:27.511Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.3652879999999998ms ","timestamp":"2016-11-30T16:37:27.947Z"}
+{"level":"debug","message":"1480523847.978665: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:37:27.979Z"}
+{"level":"info","message":"[/modules] http-response-time=1.1930779999999999ms ","timestamp":"2016-11-30T16:37:27.979Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.274142ms ","timestamp":"2016-11-30T16:37:28.036Z"}
+{"level":"info","message":"[/searchAccount/28] http-response-time=13.695934ms ","timestamp":"2016-11-30T16:37:30.970Z"}
+{"level":"info","message":"[/searchAccount/Court] http-response-time=14.360818ms ","timestamp":"2016-11-30T16:37:50.395Z"}
+{"level":"info","message":"[/searchAccount/713] http-response-time=8.680100999999999ms ","timestamp":"2016-11-30T16:38:12.283Z"}
+{"level":"info","message":"[/searchAccount/Court] http-response-time=6.509327ms ","timestamp":"2016-11-30T16:39:14.390Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=1.126666ms ","timestamp":"2016-11-30T16:46:48.537Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.436972ms ","timestamp":"2016-11-30T16:46:49.573Z"}
+{"level":"debug","message":"1480524409.614586: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:46:49.615Z"}
+{"level":"info","message":"[/modules] http-response-time=4.709436999999999ms ","timestamp":"2016-11-30T16:46:49.619Z"}
+{"level":"debug","message":"1480524409.618861: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-11-30T16:46:49.619Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.622362ms ","timestamp":"2016-11-30T16:46:49.658Z"}
+{"level":"info","message":"[/searchAccount/28] http-response-time=10.580404999999999ms ","timestamp":"2016-11-30T16:46:54.140Z"}
+{"level":"info","message":"[/api/searchAccount/] http-response-time=1.248422ms ","timestamp":"2016-11-30T16:47:09.822Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.387108ms ","timestamp":"2016-11-30T16:48:21.283Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.977941ms ","timestamp":"2016-11-30T16:48:22.037Z"}
+{"level":"debug","message":"1480524502.077501: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:48:22.077Z"}
+{"level":"info","message":"[/modules] http-response-time=1.203036ms ","timestamp":"2016-11-30T16:48:22.079Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.32559899999999997ms ","timestamp":"2016-11-30T16:48:22.153Z"}
+{"level":"info","message":"[/api/searchAccount/] http-response-time=0.8847149999999999ms ","timestamp":"2016-11-30T16:48:22.220Z"}
+{"level":"info","message":"[/searchAccount/28] http-response-time=11.525566999999999ms ","timestamp":"2016-11-30T16:48:31.628Z"}
+{"level":"info","message":"[/searchAccount/2] http-response-time=6.256983ms ","timestamp":"2016-11-30T16:48:35.160Z"}
+{"level":"info","message":"[/api/searchAccount/] http-response-time=0.5578719999999999ms ","timestamp":"2016-11-30T16:48:48.167Z"}
+{"level":"info","message":"[/searchAccount/560] http-response-time=15.679347ms ","timestamp":"2016-11-30T16:48:51.981Z"}
+{"level":"info","message":"[/api/searchAccount/] http-response-time=0.553445ms ","timestamp":"2016-11-30T16:48:59.814Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=4.2663459999999995ms ","timestamp":"2016-11-30T16:52:12.050Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=3.074667ms ","timestamp":"2016-11-30T16:52:13.658Z"}
+{"level":"debug","message":"1480524733.707157: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:52:13.707Z"}
+{"level":"info","message":"[/modules] http-response-time=5.035302ms ","timestamp":"2016-11-30T16:52:13.712Z"}
+{"level":"debug","message":"1480524733.711267: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-11-30T16:52:13.713Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.384972ms ","timestamp":"2016-11-30T16:52:13.753Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.95995ms ","timestamp":"2016-11-30T16:53:22.513Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.8902919999999999ms ","timestamp":"2016-11-30T16:53:23.322Z"}
+{"level":"debug","message":"1480524803.374959: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:53:23.375Z"}
+{"level":"info","message":"[/modules] http-response-time=0.9604779999999999ms ","timestamp":"2016-11-30T16:53:23.375Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.299458ms ","timestamp":"2016-11-30T16:53:23.420Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.288522ms ","timestamp":"2016-11-30T16:53:58.462Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.497414ms ","timestamp":"2016-11-30T16:53:59.295Z"}
+{"level":"debug","message":"1480524839.356560: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:53:59.356Z"}
+{"level":"info","message":"[/modules] http-response-time=1.005499ms ","timestamp":"2016-11-30T16:53:59.357Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.20463299999999998ms ","timestamp":"2016-11-30T16:53:59.412Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.486581ms ","timestamp":"2016-11-30T16:54:22.592Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=4.990587ms ","timestamp":"2016-11-30T16:54:23.316Z"}
+{"level":"debug","message":"1480524863.357080: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:54:23.357Z"}
+{"level":"info","message":"[/modules] http-response-time=7.328766ms ","timestamp":"2016-11-30T16:54:23.364Z"}
+{"level":"debug","message":"1480524863.363815: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-11-30T16:54:23.365Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.28178ms ","timestamp":"2016-11-30T16:54:23.438Z"}
+{"level":"info","message":"[/api/searchAccount/] http-response-time=1.42062ms ","timestamp":"2016-11-30T16:54:23.520Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.811423ms ","timestamp":"2016-11-30T16:55:10.872Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.583863ms ","timestamp":"2016-11-30T16:55:11.588Z"}
+{"level":"debug","message":"1480524911.638036: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:55:11.638Z"}
+{"level":"info","message":"[/modules] http-response-time=0.9385789999999999ms ","timestamp":"2016-11-30T16:55:11.638Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.622317ms ","timestamp":"2016-11-30T16:55:11.678Z"}
+{"level":"info","message":"[/api/searchAccount/] http-response-time=0.627514ms ","timestamp":"2016-11-30T16:55:11.773Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.597764ms ","timestamp":"2016-11-30T16:55:33.001Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.3324829999999999ms ","timestamp":"2016-11-30T16:55:33.724Z"}
+{"level":"debug","message":"1480524933.774617: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:55:33.775Z"}
+{"level":"info","message":"[/modules] http-response-time=0.9235949999999999ms ","timestamp":"2016-11-30T16:55:33.775Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.24784799999999998ms ","timestamp":"2016-11-30T16:55:33.814Z"}
+{"level":"info","message":"[/api/searchAccount/] http-response-time=0.487278ms ","timestamp":"2016-11-30T16:55:33.904Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.8034629999999999ms ","timestamp":"2016-11-30T16:56:23.830Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=3.733951ms ","timestamp":"2016-11-30T16:56:24.558Z"}
+{"level":"debug","message":"1480524984.614470: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:56:24.614Z"}
+{"level":"info","message":"[/modules] http-response-time=3.672837ms ","timestamp":"2016-11-30T16:56:24.618Z"}
+{"level":"debug","message":"1480524984.617774: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-11-30T16:56:24.619Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.407305ms ","timestamp":"2016-11-30T16:56:24.662Z"}
+{"level":"info","message":"[/api/searchAccount/] http-response-time=0.426778ms ","timestamp":"2016-11-30T16:56:24.772Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.31806999999999996ms ","timestamp":"2016-11-30T16:57:16.669Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.824577ms ","timestamp":"2016-11-30T16:57:17.861Z"}
+{"level":"debug","message":"1480525037.904101: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:57:17.904Z"}
+{"level":"info","message":"[/modules] http-response-time=1.137578ms ","timestamp":"2016-11-30T16:57:17.905Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.220224ms ","timestamp":"2016-11-30T16:57:18.021Z"}
+{"level":"info","message":"[/api/searchAccount/] http-response-time=0.32736299999999996ms ","timestamp":"2016-11-30T16:57:18.112Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.286655ms ","timestamp":"2016-11-30T16:58:06.509Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=2.062153ms ","timestamp":"2016-11-30T16:58:07.318Z"}
+{"level":"debug","message":"1480525087.358301: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:58:07.358Z"}
+{"level":"info","message":"[/modules] http-response-time=1.01575ms ","timestamp":"2016-11-30T16:58:07.359Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.623236ms ","timestamp":"2016-11-30T16:58:07.406Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=1.006359ms ","timestamp":"2016-11-30T16:58:39.659Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.394763ms ","timestamp":"2016-11-30T16:58:40.417Z"}
+{"level":"debug","message":"1480525120.464044: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:58:40.465Z"}
+{"level":"info","message":"[/modules] http-response-time=3.3006309999999996ms ","timestamp":"2016-11-30T16:58:40.467Z"}
+{"level":"debug","message":"1480525120.467334: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-11-30T16:58:40.469Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.284926ms ","timestamp":"2016-11-30T16:58:40.514Z"}
+{"level":"info","message":"[/searchAccount/27] http-response-time=16.400092ms ","timestamp":"2016-11-30T16:58:45.500Z"}
+{"level":"info","message":"[/api/searchAccount/] http-response-time=1.612889ms ","timestamp":"2016-11-30T16:58:50.705Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.363396ms ","timestamp":"2016-11-30T16:59:47.313Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.4723279999999999ms ","timestamp":"2016-11-30T16:59:48.030Z"}
+{"level":"debug","message":"1480525188.076034: [ 'get', 'allModules' ]","timestamp":"2016-11-30T16:59:48.076Z"}
+{"level":"info","message":"[/modules] http-response-time=1.164887ms ","timestamp":"2016-11-30T16:59:48.077Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=2.180208ms ","timestamp":"2016-11-30T16:59:48.126Z"}
+{"level":"info","message":"[/searchAccount/28] http-response-time=8.770119ms ","timestamp":"2016-11-30T16:59:52.349Z"}
+{"level":"info","message":"[/searchAccount/2] http-response-time=7.12913ms ","timestamp":"2016-11-30T16:59:55.289Z"}
+{"level":"info","message":"[/api/searchAccount/] http-response-time=1.0485149999999999ms ","timestamp":"2016-11-30T16:59:59.268Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.44680499999999995ms ","timestamp":"2016-11-30T17:05:17.524Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=4.994647ms ","timestamp":"2016-11-30T17:05:18.301Z"}
+{"level":"debug","message":"1480525518.344291: [ 'get', 'allModules' ]","timestamp":"2016-11-30T17:05:18.344Z"}
+{"level":"info","message":"[/modules] http-response-time=6.091114999999999ms ","timestamp":"2016-11-30T17:05:18.350Z"}
+{"level":"debug","message":"1480525518.350461: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-11-30T17:05:18.350Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.311891ms ","timestamp":"2016-11-30T17:05:18.400Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.396651ms ","timestamp":"2016-11-30T17:05:34.810Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.475819ms ","timestamp":"2016-11-30T17:05:35.535Z"}
+{"level":"debug","message":"1480525535.579617: [ 'get', 'allModules' ]","timestamp":"2016-11-30T17:05:35.580Z"}
+{"level":"info","message":"[/modules] http-response-time=1.032328ms ","timestamp":"2016-11-30T17:05:35.580Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.280262ms ","timestamp":"2016-11-30T17:05:35.654Z"}
+{"level":"info","message":"[/searchAccount/24] http-response-time=14.480616999999999ms ","timestamp":"2016-11-30T17:05:39.273Z"}
+{"level":"info","message":"[/searchAccount/2] http-response-time=12.95139ms ","timestamp":"2016-11-30T17:05:42.383Z"}
+{"level":"info","message":"[/api/searchAccount/] http-response-time=1.560315ms ","timestamp":"2016-11-30T17:05:43.925Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.349798ms ","timestamp":"2016-11-30T17:07:47.131Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.5019559999999998ms ","timestamp":"2016-11-30T17:07:48.405Z"}
+{"level":"debug","message":"1480525668.457414: [ 'get', 'allModules' ]","timestamp":"2016-11-30T17:07:48.457Z"}
+{"level":"info","message":"[/modules] http-response-time=8.042038ms ","timestamp":"2016-11-30T17:07:48.466Z"}
+{"level":"debug","message":"1480525668.462452: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-11-30T17:07:48.467Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.542107ms ","timestamp":"2016-11-30T17:07:48.515Z"}
+{"level":"info","message":"[/searchAccount/23] http-response-time=15.692808999999999ms ","timestamp":"2016-11-30T17:07:52.408Z"}
+{"level":"info","message":"[/searchAccount/2] http-response-time=16.567939ms ","timestamp":"2016-11-30T17:07:54.892Z"}
+{"level":"info","message":"[/api/searchAccount/] http-response-time=1.018141ms ","timestamp":"2016-11-30T17:07:56.573Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.42549699999999996ms ","timestamp":"2016-11-30T17:08:57.897Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=3.513363ms ","timestamp":"2016-11-30T17:08:58.636Z"}
+{"level":"debug","message":"1480525738.676006: [ 'get', 'allModules' ]","timestamp":"2016-11-30T17:08:58.676Z"}
+{"level":"info","message":"[/modules] http-response-time=0.975915ms ","timestamp":"2016-11-30T17:08:58.676Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.584677ms ","timestamp":"2016-11-30T17:08:58.731Z"}
+{"level":"info","message":"[/searchAccount/23] http-response-time=16.492034999999998ms ","timestamp":"2016-11-30T17:09:01.918Z"}
+{"level":"info","message":"[/searchAccount/2] http-response-time=17.941651999999998ms ","timestamp":"2016-11-30T17:09:05.137Z"}
+{"level":"info","message":"[/api/searchAccount/] http-response-time=2.9378469999999997ms ","timestamp":"2016-11-30T17:09:06.598Z"}
+{"level":"info","message":"[/searchAccount/34] http-response-time=12.890903ms ","timestamp":"2016-11-30T17:09:14.461Z"}
+{"level":"info","message":"[/api/searchAccount/] http-response-time=1.430895ms ","timestamp":"2016-11-30T17:09:17.206Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.471215ms ","timestamp":"2016-11-30T17:09:47.032Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.970483ms ","timestamp":"2016-11-30T17:09:47.726Z"}
+{"level":"debug","message":"1480525787.780971: [ 'get', 'allModules' ]","timestamp":"2016-11-30T17:09:47.781Z"}
+{"level":"info","message":"[/modules] http-response-time=1.11982ms ","timestamp":"2016-11-30T17:09:47.781Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.28088399999999997ms ","timestamp":"2016-11-30T17:09:47.815Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.990126ms ","timestamp":"2016-11-30T17:11:13.626Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.181737ms ","timestamp":"2016-11-30T17:11:14.545Z"}
+{"level":"debug","message":"1480525874.610593: [ 'get', 'allModules' ]","timestamp":"2016-11-30T17:11:14.611Z"}
+{"level":"info","message":"[/modules] http-response-time=7.627215ms ","timestamp":"2016-11-30T17:11:14.619Z"}
+{"level":"debug","message":"1480525874.617777: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-11-30T17:11:14.621Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.29634099999999997ms ","timestamp":"2016-11-30T17:11:14.650Z"}
+{"level":"info","message":"[/searchAccount/23] http-response-time=17.965736ms ","timestamp":"2016-11-30T17:11:23.144Z"}
+{"level":"info","message":"[/searchAccount/2] http-response-time=20.22638ms ","timestamp":"2016-11-30T17:11:26.765Z"}
+{"level":"info","message":"[/api/searchAccount/] http-response-time=1.372833ms ","timestamp":"2016-11-30T17:11:28.458Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.581614ms ","timestamp":"2016-11-30T17:12:12.138Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.297588ms ","timestamp":"2016-11-30T17:12:12.874Z"}
+{"level":"debug","message":"1480525932.933630: [ 'get', 'allModules' ]","timestamp":"2016-11-30T17:12:12.934Z"}
+{"level":"info","message":"[/modules] http-response-time=0.870621ms ","timestamp":"2016-11-30T17:12:12.934Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.32828999999999997ms ","timestamp":"2016-11-30T17:12:12.975Z"}
+{"level":"info","message":"[/searchAccount/serv] http-response-time=15.188941ms ","timestamp":"2016-11-30T17:12:22.020Z"}
+{"level":"info","message":"[/searchAccount/ser] http-response-time=13.45115ms ","timestamp":"2016-11-30T17:12:24.877Z"}
+{"level":"info","message":"[/searchAccount/se] http-response-time=13.007795999999999ms ","timestamp":"2016-11-30T17:12:27.909Z"}
+{"level":"info","message":"[/searchAccount/s] http-response-time=15.795138ms ","timestamp":"2016-11-30T17:12:30.927Z"}
+{"level":"info","message":"[/api/searchAccount/] http-response-time=1.414766ms ","timestamp":"2016-11-30T17:12:33.062Z"}
+{"level":"info","message":"[/searchAccount/23] http-response-time=19.048955ms ","timestamp":"2016-11-30T17:12:35.982Z"}
+{"level":"info","message":"[/api/searchAccount/] http-response-time=1.102288ms ","timestamp":"2016-11-30T17:12:43.114Z"}
+{"level":"info","message":"[/searchAccount/pl] http-response-time=9.374238ms ","timestamp":"2016-11-30T17:12:47.384Z"}
+{"level":"info","message":"[/searchAccount/pla] http-response-time=17.480603ms ","timestamp":"2016-11-30T17:12:52.034Z"}
+{"level":"info","message":"[/searchAccount/plac] http-response-time=12.129107ms ","timestamp":"2016-11-30T17:12:54.120Z"}
+{"level":"info","message":"[/searchAccount/place] http-response-time=26.079431999999997ms ","timestamp":"2016-11-30T17:12:56.058Z"}
+{"level":"info","message":"[/api/searchAccount/] http-response-time=0.538445ms ","timestamp":"2016-11-30T17:13:21.963Z"}
+{"level":"info","message":"[/searchAccount/Bennett] http-response-time=27.835074ms ","timestamp":"2016-11-30T17:13:23.886Z"}
+{"level":"info","message":"[/searchAccount/Benne] http-response-time=15.463771999999999ms ","timestamp":"2016-11-30T17:13:54.922Z"}
+{"level":"info","message":"[/searchAccount/Benn] http-response-time=14.350897ms ","timestamp":"2016-11-30T17:13:57.024Z"}
+{"level":"info","message":"[/searchAccount/Ben] http-response-time=15.027287999999999ms ","timestamp":"2016-11-30T17:13:59.278Z"}
+{"level":"info","message":"[/searchAccount/Be] http-response-time=19.550766ms ","timestamp":"2016-11-30T17:14:01.253Z"}
+{"level":"info","message":"[/searchAccount/B] http-response-time=15.164337999999999ms ","timestamp":"2016-11-30T17:14:04.931Z"}
+{"level":"info","message":"[/api/searchAccount/] http-response-time=0.597727ms ","timestamp":"2016-11-30T17:14:07.201Z"}
+{"level":"info","message":"[/searchAccount/98] http-response-time=34.980962ms ","timestamp":"2016-11-30T17:14:09.772Z"}
+{"level":"info","message":"[/api/searchAccount/] http-response-time=1.134728ms ","timestamp":"2016-11-30T17:14:17.012Z"}
+{"level":"info","message":"[/searchAccount/85] http-response-time=22.456336999999998ms ","timestamp":"2016-11-30T17:14:19.241Z"}
+{"level":"info","message":"[/api/searchAccount/] http-response-time=1.000497ms ","timestamp":"2016-11-30T17:14:28.847Z"}
+{"level":"info","message":"[/searchAccount/48735] http-response-time=14.497909ms ","timestamp":"2016-11-30T17:14:33.694Z"}
+{"level":"info","message":"[/api/searchAccount/] http-response-time=1.146762ms ","timestamp":"2016-11-30T17:14:37.426Z"}
+{"level":"info","message":"[/searchAccount/34] http-response-time=24.637531ms ","timestamp":"2016-11-30T17:16:47.467Z"}
+{"level":"info","message":"[/searchAccount/3] http-response-time=18.499551999999998ms ","timestamp":"2016-11-30T17:17:01.162Z"}
+{"level":"info","message":"[/api/searchAccount/] http-response-time=1.533037ms ","timestamp":"2016-11-30T17:17:04.290Z"}
+{"level":"info","message":"[/searchAccount/675] http-response-time=4.84898ms ","timestamp":"2016-11-30T17:17:07.820Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.394783ms ","timestamp":"2016-11-30T17:18:09.533Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=2.078982ms ","timestamp":"2016-11-30T17:18:10.741Z"}
+{"level":"debug","message":"1480526290.788765: [ 'get', 'allModules' ]","timestamp":"2016-11-30T17:18:10.789Z"}
+{"level":"info","message":"[/modules] http-response-time=9.70445ms ","timestamp":"2016-11-30T17:18:10.798Z"}
+{"level":"debug","message":"1480526290.797923: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/dynamictable\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"583eece8f6a3840b83a70673\",\"MenuName\":\"Search Account\",\"MenuRoute\":\"/searchaccount\"}]}' ]","timestamp":"2016-11-30T17:18:10.799Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.271003ms ","timestamp":"2016-11-30T17:18:10.834Z"}
+{"level":"info","message":"[/searchAccount/23] http-response-time=21.093821ms ","timestamp":"2016-11-30T17:18:16.270Z"}
+{"level":"info","message":"[/searchaccount] http-response-time=0.541239ms ","timestamp":"2016-11-30T17:18:39.850Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.524116ms ","timestamp":"2016-11-30T17:18:40.585Z"}
+{"level":"debug","message":"1480526320.633007: [ 'get', 'allModules' ]","timestamp":"2016-11-30T17:18:40.633Z"}
+{"level":"info","message":"[/modules] http-response-time=0.91516ms ","timestamp":"2016-11-30T17:18:40.633Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.37879199999999996ms ","timestamp":"2016-11-30T17:18:40.685Z"}
+{"level":"info","message":"[/searchAccount/23] http-response-time=23.781420999999998ms ","timestamp":"2016-11-30T17:18:43.584Z"}
