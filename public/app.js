@@ -1,3 +1,4 @@
+
 let issueTrackerApp=angular.module('issueTrackerApp',['ngRoute','ngCookies','cgNotify','ngSanitize','ui.bootstrap']);
 function getRoute(name) {
     return {
@@ -84,7 +85,7 @@ function mainCtrl($scope, $location, $rootScope, $cookies, notify, $http, appSer
         appServices.doActionGet({ Token: $rootScope.token }, 'modules').then(function (d) {
             if (d.Status == 'success'){
               $scope.mainModule = d.objdata;
-            } 
+            }
         });
     };
 
@@ -103,6 +104,8 @@ function mainCtrl($scope, $location, $rootScope, $cookies, notify, $http, appSer
        $scope.getModules();   
     };
    
+   };
+        
     $rootScope.signout = function () {
         $rootScope.mUser = null;
         $rootScope.token = null;
@@ -215,6 +218,35 @@ issueTrackerApp.directive('userDetails',function () {
            };
        }
    };
+});
+let appStor = {
+    save: function (key, value) { if (typeof (Storage) !== 'undefined') { localStorage.setItem(key, value); } },
+    gettext: function (key, def) { if (typeof (Storage) !== 'undefined') { let val = localStorage.getItem(key); if (val) return val; else return def; } else return def; },
+    getnumber: function (key, def) { if (typeof (Storage) !== 'undefined') { let val = localStorage.getItem(key); if (val && !isNaN(val)) return parseInt(val); else return def; } else return def; }
+};
+
+issueTrackerApp.directive('projectDirective',function () {
+    return{
+      restrict:'AE',
+      templateUrl:'views/project-directive.html',
+      scope:{
+        projectList:'=',
+        projectTitle:'@',
+        plugin:'&'
+      },
+      controller:function ($scope,$element,$attrs) {
+        $scope.removeProject=function (projectid) {
+          console.log('projectid is ' + projectid);
+        };
+      }
+    };
+});
+
+issueTrackerApp.directive('customTable',function ($http) {
+    return{
+      restrict:'AE',
+      templateUrl:'views/'
+    };
 });
 
 let appStor = {

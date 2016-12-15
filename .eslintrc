@@ -5,7 +5,7 @@
   "rules": {
         "no-alert": "error",
         "no-empty-function": "error",
-        "strict": "error",
+       // "strict": "error",
         "block-spacing": 2,
         "camelcase": 2,
         "no-var":2,
