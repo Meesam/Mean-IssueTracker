@@ -7,7 +7,7 @@
 		},
     	"address": {
 	      "type": "string",
-	      "index": "analyzed",
+	      "index": "analyzed", 
 	      "analyzer": "standard_analyzer",
 	      "fields": {
 	        "address": {

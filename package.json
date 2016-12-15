@@ -34,6 +34,7 @@
     "mongoose-explain": "^0.1.1",
     "morgan": "^1.7.0",
     "mssql": "^3.1.2",
+    "node-cron": "^1.1.2",
     "node-statsd": "^0.1.1",
     "q": "^1.4.1",
     "redis": "^2.6.2",

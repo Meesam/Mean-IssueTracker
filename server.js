@@ -67,6 +67,8 @@
     }
   });
 
+
+
  // this is for run  server on localhost
   app.listen(config.get('WEB_PORT'), function () {
     logger.debug('Server runing at ' + config.get('WEB_PORT'));
