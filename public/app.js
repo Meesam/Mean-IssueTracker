@@ -1,17 +1,18 @@
-var issueTrackerApp=angular.module('issueTrackerApp',['ngRoute','ngCookies','cgNotify','ngSanitize','ui.bootstrap']);
+
+let issueTrackerApp=angular.module('issueTrackerApp',['ngRoute','ngCookies','cgNotify','ngSanitize','ui.bootstrap']);
 function getRoute(name) {
     return {
         templateUrl: 'views/' + name + '.html?r=' + FTVer,
         controller: name.substring(name.indexOf('/') + 1) + 'controller',
         resolve: {
             load: function ($q, $route, $rootScope) {
-                var deferred = $q.defer();
+                let deferred = $q.defer();
                 $script(['views/' + name + '.js?r=' + FTVer], function () {
                  $rootScope.$apply(function () { deferred.resolve(); }); });
                 return deferred.promise;
             }
         }
-    }
+    };
 }
 issueTrackerApp.config(function ($routeProvider, $controllerProvider, $locationProvider) {
     issueTrackerApp.registerCtrl = $controllerProvider.register;
@@ -38,9 +39,9 @@ issueTrackerApp.service('appServices', appServices);
 issueTrackerApp.controller('mainCtrl', mainCtrl);
 
 issueTrackerApp.run(function ($rootScope, $location, $cookies, appServices) {
-    var token = $cookies.get('UserToken');
+    let token = $cookies.get('UserToken');
     if (token) $rootScope.token = token;
-    $rootScope.$on("$routeChangeStart", function (event, next, current) {
+    $rootScope.$on('$routeChangeStart', function (event, next, current) {
         $rootScope.attParam = null;
         if (!navigator.onLine) $rootScope.setMsg('Network not connected! Please check internet connection.');
         // Get user if token is there but no user
@@ -49,8 +50,8 @@ issueTrackerApp.run(function ($rootScope, $location, $cookies, appServices) {
                 appServices.getUserByToken(token).then(function (d) {
                     if (d.Status == 'success') {
                         $rootScope.mUser = d.objdata;
-                        if ($rootScope.mUser != null && next.templateUrl == "views/login.html?r=0aq"){
-                          $location.path("/dashboard");
+                        if ($rootScope.mUser != null && next.templateUrl == 'views/login.html?r=0aq'){
+                          $location.path('/dashboard');
                         }
                         $rootScope.$broadcast('userReady', null);
                         $rootScope.processForward();
@@ -60,7 +61,7 @@ issueTrackerApp.run(function ($rootScope, $location, $cookies, appServices) {
            else $rootScope.goSignin(next.templateUrl);
         }
     });
-})
+});
 
 function mainCtrl($scope, $location, $rootScope, $cookies, notify, $http, appServices) {
     $rootScope.mUser = null;
@@ -68,25 +69,25 @@ function mainCtrl($scope, $location, $rootScope, $cookies, notify, $http, appSer
     $rootScope.isBusy = 0;
     $scope.loc = $location;
     $scope.mainMenu = {};
-    $scope.addToken = function (str) { return { Search: str, Token: $rootScope.token }; }
+    $scope.addToken = function (str) { return { Search: str, Token: $rootScope.token }; };
     $rootScope.setMsg = function (msg, succ) {
         notify.closeAll();
-        notify({ message: msg, classes: (succ ? "alert-success" : "alert-danger"), duration: 5000 });
-    }
+        notify({ message: msg, classes: (succ ? 'alert-success' : 'alert-danger'), duration: 5000 });
+    };
     $rootScope.goSignin = function (url) {
         if (url && url.indexOf('login.html') < 0 && url.indexOf('login.html') < 0 && url.indexOf('passwordreset.html') < 0 && url.indexOf('validate.html') < 0) {
             $rootScope.setMsg('Please sign-in to continue...');
-            $location.path("/signin");
+            $location.path('/signin');
         }
-    }
+    };
     // to get module
     $scope.getModules = function () {
         appServices.doActionGet({ Token: $rootScope.token }, 'modules').then(function (d) {
             if (d.Status == 'success'){
               $scope.mainModule = d.objdata;
-            } 
+            }
         });
-    }
+    };
 
 
     $scope.isMenu=false;
@@ -95,24 +96,24 @@ function mainCtrl($scope, $location, $rootScope, $cookies, notify, $http, appSer
             if (d.Status == 'success'){
               $scope.isMenu=true;
               $scope.moduleMenu = d.objdata;
-            } 
-        }); 
-    }
+            }
+        });
+    };
 
     $rootScope.processForward=function(){
-       $scope.getModules();   
-    }
-   
+       $scope.getModules();
+    };
+
     $rootScope.signout = function () {
         $rootScope.mUser = null;
         $rootScope.token = null;
         $cookies.remove('UserToken');
-        $location.path("/login");
-    }
+        $location.path('/login');
+    };
 }
 
 function getTableObj(tableid, token, initSort, apipath, refreshTableFunc) {
-    var itf = {};
+    let itf = {};
     itf.id = tableid;
     itf.Rows = {};
     itf.api = apipath;
@@ -126,37 +127,37 @@ function getTableObj(tableid, token, initSort, apipath, refreshTableFunc) {
     itf.Params = [];
     itf.Filters = [];
     itf.FilBtnClass = function () {
-        var cls = '';
+        let cls = '';
         for (i = 0; i < this.Filters.length; i++) { if (this.Filters[i] > '') cls = 'btn-warning'; }
         return cls;
-    }
+    };
     itf.clearFil = function () {
         for (i = 0; i < this.Filters.length; i++) { this.Filters[i] = ''; }
-    }
+    };
     itf.setSort = function (newSort) {
         if (newSort == this.SortBy) this.SortDesc = !this.SortDesc; else this.SortDesc = false;
         this.SortBy = newSort;
         appStor.save(tableid + 'sort', newSort);
         refreshTableFunc();
-    }
+    };
     itf.setRPP = function (nRPP) {
         this.RPP = nRPP;
         appStor.save(tableid + 'rpp', nRPP);
         refreshTableFunc();
-    }
+    };
     itf.chPage = function (inc) {
         this.CurPage += inc;
         if (this.CurPage > this.NumPages) this.CurPage = this.NumPages;
         if (this.CurPage == 0) this.CurPage = 1;
         refreshTableFunc();
-    }
+    };
     itf.setRows = function (aRes) {
         this.Rows = aRes.objdata;
         this.TotalRows = aRes.Count;
         this.NumPages = Math.floor((this.TotalRows + this.RPP - 1) / this.RPP);
         if (this.CurPage > this.NumPages) this.CurPage = this.NumPages;
         if (this.CurPage == 0) this.CurPage = 1;
-    }
+    };
     return itf;
 }
 
@@ -164,7 +165,7 @@ function getTableObj(tableid, token, initSort, apipath, refreshTableFunc) {
 issueTrackerApp.factory('validationService', function () {
     return {
         Email: function (email) {
-            var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            let re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
             return re.test(email);
         }
     };
@@ -172,7 +173,7 @@ issueTrackerApp.factory('validationService', function () {
 
 issueTrackerApp.filter('UTC2Local', function () {
     return function (date) {
-        if (date == null) { return date }
+        if (date == null) { return date; }
         return new Date(date + 'Z');
     };
 });
@@ -190,8 +191,8 @@ issueTrackerApp.directive('userDetails',function () {
                Email: [{}],
                Address: [{}]
            }];
-           var columns = {};
-           var index = 0;
+           let columns = {};
+           let index = 0;
            scope.addNew = function () {
                scope.personalDetails.push({
                    'Email': [{}],
@@ -200,25 +201,50 @@ issueTrackerApp.directive('userDetails',function () {
            };
            scope.removeRow = function (idx) {
                scope.personalDetails.splice(idx, 1);
-           }
+           };
 
            scope.addMoreEmail = function (idx) {
                scope.personalDetails[idx].Email.push({
                    // Email:''
                });
-           }
+           };
 
            scope.addMoreAddr = function (idx) {
                scope.personalDetails[idx].Address.push({
                    // Address:''
                });
-           }
+           };
        }
    };
-})
+});
 
-var appStor = {
-    save: function (key, value) { if (typeof (Storage) !== "undefined") { localStorage.setItem(key, value); } },
-    gettext: function (key, def) { if (typeof (Storage) !== "undefined") { var val = localStorage.getItem(key); if (val) return val; else return def; } else return def; },
-    getnumber: function (key, def) { if (typeof (Storage) !== "undefined") { var val = localStorage.getItem(key); if (val && !isNaN(val)) return parseInt(val); else return def; } else return def; }
-}
+issueTrackerApp.directive('projectDirective',function () {
+    return{
+      restrict:'AE',
+      templateUrl:'views/project-directive.html',
+      scope:{
+        projectList:'=',
+        projectTitle:'@',
+        plugin:'&'
+      },
+      controller:function ($scope,$element,$attrs) {
+        $scope.removeProject=function (projectid) {
+          console.log('projectid is ' + projectid);
+        };
+      }
+    };
+});
+
+issueTrackerApp.directive('customTable',function ($http) {
+    return{
+      restrict:'AE',
+      templateUrl:'views/'
+    };
+});
+
+let appStor = {
+    save: function (key, value) { if (typeof (Storage) !== 'undefined') { localStorage.setItem(key, value); } },
+    gettext: function (key, def) { if (typeof (Storage) !== 'undefined') { let val = localStorage.getItem(key); if (val) return val; else return def; } else return def; },
+    getnumber: function (key, def) { if (typeof (Storage) !== 'undefined') { let val = localStorage.getItem(key); if (val && !isNaN(val)) return parseInt(val); else return def; } else return def; }
+};
+

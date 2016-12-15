@@ -1,0 +1,14 @@
+<table class="table tblborder">
+    <tr class="bg-primary">
+        <th>Title</th>
+        <th>Start Date</th>
+        <th>End Date</th>
+        <th>ProjectType</th>
+    </tr>
+    <tr class="tblborder cp" ng-repeat="d in data.Rows">
+        <td>{{p.ProjectName}}</td>
+        <td>{{p.StartDate | date:'dd MMM yyyy'}}</td>
+        <td>{{p.EndDate | date:'dd MMM yyyy'}}</td>
+        <td>{{p.ProjectType}}</td>
+    </tr>
+</table>
