@@ -57,9 +57,10 @@
   app.use('/api', statusapi);
 
 
-// For all routes
+
   app.route('/*').get(function(req, res) {
     if(req.path==='/swagger'){
+      // for swagger
       return res.sendFile(path.join(__dirname +'/public/swagger_dist/index.html'));
     }
     else{
@@ -69,7 +70,7 @@
 
 
 
- // this is for run  server on localhost:8080
+ // this is for run  server on localhost:9000
   app.listen(config.get('WEB_PORT'), function () {
     logger.debug('Server runing at ' + config.get('WEB_PORT'));
   });
