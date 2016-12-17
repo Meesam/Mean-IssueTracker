@@ -104,8 +104,6 @@ function mainCtrl($scope, $location, $rootScope, $cookies, notify, $http, appSer
        $scope.getModules();   
     };
    
-   };
-        
     $rootScope.signout = function () {
         $rootScope.mUser = null;
         $rootScope.token = null;
@@ -219,11 +217,6 @@ issueTrackerApp.directive('userDetails',function () {
        }
    };
 });
-let appStor = {
-    save: function (key, value) { if (typeof (Storage) !== 'undefined') { localStorage.setItem(key, value); } },
-    gettext: function (key, def) { if (typeof (Storage) !== 'undefined') { let val = localStorage.getItem(key); if (val) return val; else return def; } else return def; },
-    getnumber: function (key, def) { if (typeof (Storage) !== 'undefined') { let val = localStorage.getItem(key); if (val && !isNaN(val)) return parseInt(val); else return def; } else return def; }
-};
 
 issueTrackerApp.directive('projectDirective',function () {
     return{
@@ -242,15 +235,9 @@ issueTrackerApp.directive('projectDirective',function () {
     };
 });
 
-issueTrackerApp.directive('customTable',function ($http) {
-    return{
-      restrict:'AE',
-      templateUrl:'views/'
-    };
-});
-
 let appStor = {
     save: function (key, value) { if (typeof (Storage) !== 'undefined') { localStorage.setItem(key, value); } },
     gettext: function (key, def) { if (typeof (Storage) !== 'undefined') { let val = localStorage.getItem(key); if (val) return val; else return def; } else return def; },
     getnumber: function (key, def) { if (typeof (Storage) !== 'undefined') { let val = localStorage.getItem(key); if (val && !isNaN(val)) return parseInt(val); else return def; } else return def; }
 };
+
