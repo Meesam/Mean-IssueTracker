@@ -8,6 +8,8 @@ Following language and and framework are used :-
 4. Angular js
 5. Bootstrap
 6. Redis
+7. Cron Job
+8. Elasticsearch
 
 On top level we devide the system in two main parts, one is for server side api and the other one is for client ui .
 On low level we devide the system in following module :-
