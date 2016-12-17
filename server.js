@@ -57,7 +57,7 @@
   app.use('/api', statusapi);
 
 
-
+// For all routes
   app.route('/*').get(function(req, res) {
     if(req.path==='/swagger'){
       return res.sendFile(path.join(__dirname +'/public/swagger_dist/index.html'));
