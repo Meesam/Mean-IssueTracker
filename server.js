@@ -70,7 +70,7 @@
 
 
 
- // this is for run  server on localhost:9000
+ // this is for run  server on 
   app.listen(config.get('WEB_PORT'), function () {
     logger.debug('Server runing at ' + config.get('WEB_PORT'));
   });
