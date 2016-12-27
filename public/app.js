@@ -157,7 +157,6 @@ function getTableObj(tableid, token, initSort, apipath, refreshTableFunc) {
     refreshTableFunc();
   };
   itf.chPage = function (inc) {
-    console.log('inc ' + inc);
     this.CurPage += inc;
     if (this.CurPage > this.NumPages) this.CurPage = this.NumPages;
     if (this.CurPage === 0) this.CurPage = 1;
@@ -276,7 +275,8 @@ issueTrackerApp.directive('customPagination',function () {
     scope:{
       curPage:'=',
       numPages:'=',
-      changePage:'&'
+      changePage:'&',
+      curObj:'@'
     }
   };
 });
