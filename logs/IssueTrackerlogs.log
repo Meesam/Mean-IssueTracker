@@ -1,0 +1,75 @@
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-12-27T11:04:19.474Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-12-27T11:04:19.477Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-12-27T11:04:19.493Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/IssueTrackerDb","timestamp":"2016-12-27T11:04:19.500Z"}
+{"level":"info","message":"[/projects] http-response-time=3.5111879999999998ms ","timestamp":"2016-12-27T11:04:24.565Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=11.131620999999999ms ","timestamp":"2016-12-27T11:04:24.997Z"}
+{"level":"debug","message":"1482836665.013887: [ 'get', 'allModules' ]","timestamp":"2016-12-27T11:04:25.016Z"}
+{"level":"info","message":"[/modules] http-response-time=10.844726999999999ms ","timestamp":"2016-12-27T11:04:25.024Z"}
+{"level":"debug","message":"1482836665.022897: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":0,\"objdata\":[]}' ]","timestamp":"2016-12-27T11:04:25.026Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=2.816395ms ","timestamp":"2016-12-27T11:04:25.028Z"}
+{"level":"debug","message":"request /project takes  7 ms. in mongodb","timestamp":"2016-12-27T11:04:25.139Z"}
+{"level":"info","message":"[/project] http-response-time=10.22566ms ","timestamp":"2016-12-27T11:04:25.142Z"}
+{"level":"info","message":"[/projects] http-response-time=1.603569ms ","timestamp":"2016-12-27T11:04:27.616Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.379217ms ","timestamp":"2016-12-27T11:04:27.904Z"}
+{"level":"debug","message":"1482836667.936230: [ 'get', 'allModules' ]","timestamp":"2016-12-27T11:04:27.937Z"}
+{"level":"info","message":"[/modules] http-response-time=4.820885ms ","timestamp":"2016-12-27T11:04:27.941Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.670546ms ","timestamp":"2016-12-27T11:04:27.947Z"}
+{"level":"debug","message":"request /project takes  7 ms. in mongodb","timestamp":"2016-12-27T11:04:27.989Z"}
+{"level":"info","message":"[/project] http-response-time=8.477338999999999ms ","timestamp":"2016-12-27T11:04:27.990Z"}
+{"level":"info","message":"[/projects] http-response-time=0.707023ms ","timestamp":"2016-12-27T11:04:28.479Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.080241ms ","timestamp":"2016-12-27T11:04:28.698Z"}
+{"level":"debug","message":"1482836668.716520: [ 'get', 'allModules' ]","timestamp":"2016-12-27T11:04:28.717Z"}
+{"level":"info","message":"[/modules] http-response-time=1.391877ms ","timestamp":"2016-12-27T11:04:28.717Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.079159ms ","timestamp":"2016-12-27T11:04:28.737Z"}
+{"level":"debug","message":"request /project takes  5 ms. in mongodb","timestamp":"2016-12-27T11:04:28.787Z"}
+{"level":"info","message":"[/project] http-response-time=7.144406999999999ms ","timestamp":"2016-12-27T11:04:28.790Z"}
+{"level":"info","message":"[/projects] http-response-time=0.436538ms ","timestamp":"2016-12-27T11:04:48.045Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.514953ms ","timestamp":"2016-12-27T11:04:48.588Z"}
+{"level":"debug","message":"1482836688.668713: [ 'get', 'allModules' ]","timestamp":"2016-12-27T11:04:48.669Z"}
+{"level":"info","message":"[/modules] http-response-time=1.296449ms ","timestamp":"2016-12-27T11:04:48.669Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.351413ms ","timestamp":"2016-12-27T11:04:48.670Z"}
+{"level":"debug","message":"request /project takes  4 ms. in mongodb","timestamp":"2016-12-27T11:04:48.709Z"}
+{"level":"info","message":"[/project] http-response-time=4.096407999999999ms ","timestamp":"2016-12-27T11:04:48.710Z"}
+{"level":"info","message":"[/scripts/angular.js] http-response-time=4.665959ms ","timestamp":"2016-12-27T11:04:49.060Z"}
+{"level":"info","message":"[/projects] http-response-time=0.406286ms ","timestamp":"2016-12-27T11:04:55.987Z"}
+{"level":"info","message":"[/scripts/angular.js] http-response-time=0.444248ms ","timestamp":"2016-12-27T11:04:56.451Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=3.119842ms ","timestamp":"2016-12-27T11:04:56.547Z"}
+{"level":"debug","message":"1482836696.605169: [ 'get', 'allModules' ]","timestamp":"2016-12-27T11:04:56.609Z"}
+{"level":"info","message":"[/modules] http-response-time=5.978578ms ","timestamp":"2016-12-27T11:04:56.610Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.676632ms ","timestamp":"2016-12-27T11:04:56.615Z"}
+{"level":"debug","message":"request /project takes  1 ms. in mongodb","timestamp":"2016-12-27T11:04:56.665Z"}
+{"level":"info","message":"[/project] http-response-time=4.000984ms ","timestamp":"2016-12-27T11:04:56.666Z"}
+{"level":"debug","message":"request /project takes  3 ms. in mongodb","timestamp":"2016-12-27T11:04:58.875Z"}
+{"level":"info","message":"[/project] http-response-time=3.1187769999999997ms ","timestamp":"2016-12-27T11:04:58.876Z"}
+{"level":"info","message":"[/projects] http-response-time=0.588849ms ","timestamp":"2016-12-27T11:05:03.431Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=6.26094ms ","timestamp":"2016-12-27T11:05:03.908Z"}
+{"level":"debug","message":"1482836703.937525: [ 'get', 'allModules' ]","timestamp":"2016-12-27T11:05:03.938Z"}
+{"level":"info","message":"[/modules] http-response-time=2.692723ms ","timestamp":"2016-12-27T11:05:03.940Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.25174199999999997ms ","timestamp":"2016-12-27T11:05:03.949Z"}
+{"level":"debug","message":"request /project takes  6 ms. in mongodb","timestamp":"2016-12-27T11:05:04.013Z"}
+{"level":"info","message":"[/project] http-response-time=8.189911ms ","timestamp":"2016-12-27T11:05:04.016Z"}
+{"level":"info","message":"[/projects] http-response-time=0.248694ms ","timestamp":"2016-12-27T11:05:05.195Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.017342ms ","timestamp":"2016-12-27T11:05:05.652Z"}
+{"level":"debug","message":"1482836705.708393: [ 'get', 'allModules' ]","timestamp":"2016-12-27T11:05:05.709Z"}
+{"level":"info","message":"[/modules] http-response-time=2.589454ms ","timestamp":"2016-12-27T11:05:05.711Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.177995ms ","timestamp":"2016-12-27T11:05:05.718Z"}
+{"level":"debug","message":"request /project takes  4 ms. in mongodb","timestamp":"2016-12-27T11:05:05.764Z"}
+{"level":"info","message":"[/project] http-response-time=4.0732539999999995ms ","timestamp":"2016-12-27T11:05:05.764Z"}
+{"level":"info","message":"[/projects] http-response-time=0.410657ms ","timestamp":"2016-12-27T11:05:06.415Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.134051ms ","timestamp":"2016-12-27T11:05:06.865Z"}
+{"level":"debug","message":"1482836706.908934: [ 'get', 'allModules' ]","timestamp":"2016-12-27T11:05:06.910Z"}
+{"level":"info","message":"[/modules] http-response-time=3.7676529999999997ms ","timestamp":"2016-12-27T11:05:06.912Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.875614ms ","timestamp":"2016-12-27T11:05:06.920Z"}
+{"level":"debug","message":"request /project takes  8 ms. in mongodb","timestamp":"2016-12-27T11:05:06.972Z"}
+{"level":"info","message":"[/project] http-response-time=9.190939ms ","timestamp":"2016-12-27T11:05:06.973Z"}
+{"level":"info","message":"[/projects] http-response-time=0.46238999999999997ms ","timestamp":"2016-12-27T11:05:07.512Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=0.993296ms ","timestamp":"2016-12-27T11:05:08.074Z"}
+{"level":"debug","message":"1482836708.124265: [ 'get', 'allModules' ]","timestamp":"2016-12-27T11:05:08.125Z"}
+{"level":"info","message":"[/modules] http-response-time=2.526777ms ","timestamp":"2016-12-27T11:05:08.125Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.252832ms ","timestamp":"2016-12-27T11:05:08.135Z"}
+{"level":"debug","message":"request /project takes  1 ms. in mongodb","timestamp":"2016-12-27T11:05:08.177Z"}
+{"level":"info","message":"[/project] http-response-time=3.197756ms ","timestamp":"2016-12-27T11:05:08.178Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=1.37764ms ","timestamp":"2016-12-27T11:05:11.568Z"}
+{"level":"info","message":"[/login] http-response-time=3.4924389999999996ms ","timestamp":"2016-12-27T11:05:16.996Z"}
+{"level":"info","message":"[/login] http-response-time=1.79918ms ","timestamp":"2016-12-27T11:05:23.066Z"}
