@@ -1,0 +1,59 @@
+<div class="row">
+  <div class="col-md-10">
+    <input type="text" ng-model="Search" class="form-control" ng-model-options="{ debounce: 1000 }"></ins>
+  </div>
+</div>
+&nbsp;
+<div class="row">
+<div class="col-md-4" ng-repeat="u in User">
+ <!-- Widget: user widget style 1 -->
+  <div class="box box-widget widget-user">
+    <!-- Add the bg color to the header using any of the bg-* classes -->
+    <div class="widget-user-header bg-aqua-active">
+      <h3 class="widget-user-username">{{u._source.firstname + ' ' + u._source.lastname}}</h3>
+      <h5 class="widget-user-desc">{{u._source.employer}}</h5>
+    </div>
+  <div class="widget-user-image">
+    <img class="img-circle" src="../dist/img/user1-128x128.jpg" alt="User Avatar">
+                </div>
+                <div class="box-footer">
+                  <div class="row">
+                    <div class="col-sm-4 border-right">
+                      <div class="description-block">
+                        <h5 class="description-header">{{u._source.age}}</h5>
+                        <span class="description-text">Age</span>
+                      </div><!-- /.description-block -->
+                    </div><!-- /.col -->
+                    <div class="col-sm-4 border-right">
+                      <div class="description-block">
+                        <h5 class="description-header">{{u._source.city}}</h5>
+                        <span class="description-text">City</span>
+                      </div><!-- /.description-block -->
+                    </div><!-- /.col -->
+                    <div class="col-sm-4">
+                      <div class="description-block">
+                        <h5 class="description-header">{{u._source.balance}}</h5>
+                        <span class="description-text">Balance</span>
+                      </div><!-- /.description-block -->
+                    </div><!-- /.col -->
+                  </div><!-- /.row -->
+                  <div class="row">
+                    <div class="col-sm-4 border-right">
+                      <div class="description-block">
+                        <h5 class="description-header">{{u._source.email}}</h5>
+                        <span class="description-text">Email</span>
+                      </div><!-- /.description-block -->
+                    </div><!-- /.col -->
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4 border-right">
+                      <div class="description-block">
+                        <h5 class="description-header">{{u._source.address}}</h5>
+                        <span class="description-text">Address</span>
+                      </div><!-- /.description-block -->
+                    </div><!-- /.col -->
+                  </div>
+                </div>
+              </div><!-- /.widget-user -->
+            </div>
+            </div>

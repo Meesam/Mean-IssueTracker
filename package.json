@@ -24,18 +24,26 @@
     "config": "^1.24.0",
     "cookie-parser": "^1.4.1",
     "ejs": "^2.4.1",
+    "elasticsearch": "^12.1.0",
     "eslint": "^3.7.1",
     "express": "^4.13.4",
     "jsonwebtoken": "^5.7.0",
     "jwt-simple": "^0.5.0",
     "mongodb": "^2.2.10",
     "mongoose": "^4.6.1",
+    "mongoose-explain": "^0.1.1",
     "morgan": "^1.7.0",
     "mssql": "^3.1.2",
+    "node-cron": "^1.1.2",
     "node-statsd": "^0.1.1",
     "q": "^1.4.1",
     "redis": "^2.6.2",
+    "redis-monitor": "0.0.5",
     "response-time": "^2.3.1",
     "winston": "^2.3.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0"
   }
 }

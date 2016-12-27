@@ -1,19 +1,22 @@
-var express=require('express');
-var db=require('../core/db');
-var usersModule=require('../controllers/userModule/users');
-var apiRoutes = express.Router();
-var Logger=require('../core/Logger');
+(function () {
+    'use strict';
+
+let express=require('express');
+let db=require('../core/db');
+let usersModule=require('../controllers/userModule/users');
+let apiRoutes = express.Router();
+let Logger=require('../core/Logger');
 
 apiRoutes.post('/login',function(req,resp,next){
-    var users=req.body;
+    let users=req.body;
 	if(users){
        usersModule.doLogin(users,function(data,err){
            if(err){
            	  return next(err);
            }
            else{
-              if(data.Status=="loginfail")
-              	return next(new Error("Login Fail"));
+              if(data.Status=='loginfail')
+              	return next(new Error('Login Fail'));
                resp.json(data);
            }
        });
@@ -22,7 +25,7 @@ apiRoutes.post('/login',function(req,resp,next){
 
 
 apiRoutes.get('/userfromtoken',function(req,resp,next){
-  var token =req.cookies;
+  let token =req.cookies;
   if(token.UserToken){
      usersModule.getUserByEmail(token.UserToken,function(data,err){
        if(err)
@@ -30,7 +33,7 @@ apiRoutes.get('/userfromtoken',function(req,resp,next){
        else{
         resp.json(data);
       }
-     })
+     });
   }
 });
 
@@ -50,3 +53,4 @@ apiRoutes.post('/user/add',function (req,resp,next) {
 });
 
 module.exports = apiRoutes;
+})();

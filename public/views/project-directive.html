@@ -1,0 +1,31 @@
+<div class="row">
+    <h3>{{projectTitle}}</h3>
+    <div class="col-md-4" ng-repeat="p in projectList">
+        <!-- Widget: user widget style 1 -->
+        <div class="box box-widget widget-user">
+            <!-- Add the bg color to the header using any of the bg-* classes -->
+            <div class="widget-user-header bg-aqua-active">
+                <h3 class="widget-user-username">{{p.ProjectName}}</h3>
+                <h5 class="widget-user-desc">{{p.StartDate | date:'dd MMM yyyy'}}</h5>
+                <button class="btn btn-default" ng-click="removeProject(p._id)">Remove</button>
+                <button class="btn btn-default" ng-click="plugin()(p._id)">Plugin</button>
+            </div>
+            <div class="box-footer">
+                <div class="row">
+                    <div class="col-sm-4 border-right">
+                        <div class="description-block">
+                            <h5 class="description-header">{{p.EndDate | date:'dd MMM yyyy'}}</h5>
+                            <span class="description-text">End Date</span>
+                        </div><!-- /.description-block -->
+                    </div><!-- /.col -->
+                    <div class="col-sm-4 border-right">
+                        <div class="description-block">
+                            <h5 class="description-header">{{p.ProjectType}}</h5>
+                            <span class="description-text">Type</span>
+                        </div><!-- /.description-block -->
+                    </div><!-- /.col -->
+                </div><!-- /.row -->
+            </div>
+        </div><!-- /.widget-user -->
+    </div>
+</div>

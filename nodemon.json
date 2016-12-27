@@ -1,0 +1,5 @@
+{
+	"verbose":true,
+	"watch":["server.js","api/**/*.js","controllers/**/*.js","core/**/*.js","models/**/*.js"],
+	"ignore":["public/**/*.js"]
+}
