@@ -1,4 +1,4 @@
-(function () {
+
   'use strict';
   let express=require('express');
   let bodyParser=require('body-parser');
@@ -61,9 +61,8 @@
   app.route('/*').get(function(req, res) {
     if(req.path==='/swagger'){
       return res.sendFile(path.join(__dirname +'/public/swagger_dist/index.html'));
-    }
-    else{
-      return res.sendFile(path.join(__dirname+'/public/index.html')); 
+    } else {
+      return res.sendFile(path.join(__dirname+'/public/index.html'));
     }
   });
 
@@ -73,4 +72,4 @@
   app.listen(config.get('WEB_PORT'), function () {
     logger.debug('Server runing at ' + config.get('WEB_PORT'));
   });
-}());
+

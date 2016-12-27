@@ -11,6 +11,8 @@ issueTrackerApp.registerCtrl('projectscontroller',
         });
     };
     $scope.ProjecTable = getTableObj('ProjectMaster', $rootScope.token, 'ProjectName', 'project', $scope.getProject);
+    console.log('Projecttable is ' + JSON.stringify($scope.ProjecTable));
+
     $scope.getProject();
 
     $scope.addnew=function(){
