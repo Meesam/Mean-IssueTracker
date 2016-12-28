@@ -1,3 +1,5 @@
+ 'use strict';
+
 exports.webPort=9000;
 
 /* This setting for Sql server
