@@ -1855,3 +1855,130 @@
 {"level":"info","message":"[/favicon.ico] http-response-time=1.808995ms ","timestamp":"2016-12-27T10:55:33.909Z"}
 {"level":"debug","message":"request /project takes  4 ms. in mongodb","timestamp":"2016-12-27T10:55:33.970Z"}
 {"level":"info","message":"[/project] http-response-time=5.8162329999999995ms ","timestamp":"2016-12-27T10:55:33.971Z"}
+{"level":"debug","message":"Redis server is connect now.","timestamp":"2016-12-28T03:55:53.314Z"}
+{"level":"debug","message":"Server runing at 9000","timestamp":"2016-12-28T03:55:53.320Z"}
+{"level":"debug","message":"Entering monitoring mode.","timestamp":"2016-12-28T03:55:53.326Z"}
+{"level":"debug","message":"Mongoose default connection open to  mongodb://localhost:27017/issueTrackerDb","timestamp":"2016-12-28T03:55:53.337Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=16.226468ms ","timestamp":"2016-12-28T03:56:05.957Z"}
+{"level":"debug","message":"1482897366.017464: [ 'get', 'allModules' ]","timestamp":"2016-12-28T03:56:06.023Z"}
+{"level":"info","message":"[/modules] http-response-time=23.582601ms ","timestamp":"2016-12-28T03:56:06.039Z"}
+{"level":"debug","message":"1482897366.038122: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/issues\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"585cae20ada451099fd5970e\",\"MenuName\":\"Editor\",\"MenuRoute\":\"/editor\"}]}' ]","timestamp":"2016-12-28T03:56:06.041Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=5.188543ms ","timestamp":"2016-12-28T03:56:06.178Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.772133ms ","timestamp":"2016-12-28T03:56:08.351Z"}
+{"level":"debug","message":"request /project takes  13 ms. in mongodb","timestamp":"2016-12-28T03:56:08.423Z"}
+{"level":"info","message":"[/project] http-response-time=14.968743ms ","timestamp":"2016-12-28T03:56:08.425Z"}
+{"level":"info","message":"[/projects] http-response-time=0.737181ms ","timestamp":"2016-12-28T03:56:10.148Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=3.126502ms ","timestamp":"2016-12-28T03:56:10.413Z"}
+{"level":"debug","message":"1482897370.449197: [ 'get', 'allModules' ]","timestamp":"2016-12-28T03:56:10.453Z"}
+{"level":"info","message":"[/modules] http-response-time=5.77556ms ","timestamp":"2016-12-28T03:56:10.454Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.7739659999999999ms ","timestamp":"2016-12-28T03:56:10.461Z"}
+{"level":"debug","message":"request /project takes  19 ms. in mongodb","timestamp":"2016-12-28T03:56:10.523Z"}
+{"level":"info","message":"[/project] http-response-time=22.618727999999997ms ","timestamp":"2016-12-28T03:56:10.525Z"}
+{"level":"info","message":"[/projects] http-response-time=0.94304ms ","timestamp":"2016-12-28T03:56:48.392Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=3.6770739999999997ms ","timestamp":"2016-12-28T03:56:49.095Z"}
+{"level":"debug","message":"1482897409.129386: [ 'get', 'allModules' ]","timestamp":"2016-12-28T03:56:49.130Z"}
+{"level":"info","message":"[/modules] http-response-time=1.886177ms ","timestamp":"2016-12-28T03:56:49.131Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.988362ms ","timestamp":"2016-12-28T03:56:49.146Z"}
+{"level":"debug","message":"request /project takes  13 ms. in mongodb","timestamp":"2016-12-28T03:56:49.223Z"}
+{"level":"info","message":"[/project] http-response-time=19.562981ms ","timestamp":"2016-12-28T03:56:49.228Z"}
+{"level":"debug","message":"1482897603.103163: [ 'info' ]","timestamp":"2016-12-28T04:00:03.103Z"}
+{"level":"debug","message":"1482897603.104001: [ 'info' ]","timestamp":"2016-12-28T04:00:03.104Z"}
+{"level":"debug","message":"1482897603.104056: [ 'info' ]","timestamp":"2016-12-28T04:00:03.105Z"}
+{"level":"debug","message":"1482897603.104095: [ 'info' ]","timestamp":"2016-12-28T04:00:03.106Z"}
+{"level":"debug","message":"1482897603.104173: [ 'info' ]","timestamp":"2016-12-28T04:00:03.107Z"}
+{"level":"debug","message":"1482897603.104208: [ 'info' ]","timestamp":"2016-12-28T04:00:03.108Z"}
+{"level":"debug","message":"1482897603.104271: [ 'info' ]","timestamp":"2016-12-28T04:00:03.108Z"}
+{"level":"debug","message":"1482897603.104325: [ 'info' ]","timestamp":"2016-12-28T04:00:03.109Z"}
+{"level":"info","message":"[/projects] http-response-time=2.161489ms ","timestamp":"2016-12-28T04:01:27.693Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=2.095395ms ","timestamp":"2016-12-28T04:01:28.355Z"}
+{"level":"debug","message":"1482897688.398535: [ 'get', 'allModules' ]","timestamp":"2016-12-28T04:01:28.400Z"}
+{"level":"info","message":"[/modules] http-response-time=8.600947999999999ms ","timestamp":"2016-12-28T04:01:28.406Z"}
+{"level":"debug","message":"1482897688.405885: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/issues\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"585cae20ada451099fd5970e\",\"MenuName\":\"Editor\",\"MenuRoute\":\"/editor\"}]}' ]","timestamp":"2016-12-28T04:01:28.408Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.728049ms ","timestamp":"2016-12-28T04:01:28.413Z"}
+{"level":"debug","message":"request /project takes  13 ms. in mongodb","timestamp":"2016-12-28T04:01:28.497Z"}
+{"level":"info","message":"[/project] http-response-time=18.868918999999998ms ","timestamp":"2016-12-28T04:01:28.502Z"}
+{"level":"info","message":"[/projects] http-response-time=1.056033ms ","timestamp":"2016-12-28T04:01:51.870Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.8205319999999998ms ","timestamp":"2016-12-28T04:01:52.480Z"}
+{"level":"debug","message":"1482897712.538316: [ 'get', 'allModules' ]","timestamp":"2016-12-28T04:01:52.538Z"}
+{"level":"info","message":"[/modules] http-response-time=0.8773ms ","timestamp":"2016-12-28T04:01:52.539Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.24978199999999998ms ","timestamp":"2016-12-28T04:01:52.541Z"}
+{"level":"debug","message":"request /project takes  5 ms. in mongodb","timestamp":"2016-12-28T04:01:52.615Z"}
+{"level":"info","message":"[/project] http-response-time=9.418008ms ","timestamp":"2016-12-28T04:01:52.618Z"}
+{"level":"info","message":"[/projects] http-response-time=0.7844359999999999ms ","timestamp":"2016-12-28T04:03:43.156Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=3.7944459999999998ms ","timestamp":"2016-12-28T04:03:43.792Z"}
+{"level":"debug","message":"1482897823.846933: [ 'get', 'allModules' ]","timestamp":"2016-12-28T04:03:43.848Z"}
+{"level":"info","message":"[/modules] http-response-time=12.575292ms ","timestamp":"2016-12-28T04:03:43.858Z"}
+{"level":"debug","message":"1482897823.855720: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/issues\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"585cae20ada451099fd5970e\",\"MenuName\":\"Editor\",\"MenuRoute\":\"/editor\"}]}' ]","timestamp":"2016-12-28T04:03:43.860Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.603567ms ","timestamp":"2016-12-28T04:03:43.863Z"}
+{"level":"debug","message":"request /project takes  8 ms. in mongodb","timestamp":"2016-12-28T04:03:43.927Z"}
+{"level":"info","message":"[/project] http-response-time=9.151095999999999ms ","timestamp":"2016-12-28T04:03:43.928Z"}
+{"level":"info","message":"[/projects] http-response-time=1.124905ms ","timestamp":"2016-12-28T04:03:49.652Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=3.989397ms ","timestamp":"2016-12-28T04:03:50.305Z"}
+{"level":"debug","message":"1482897830.353656: [ 'get', 'allModules' ]","timestamp":"2016-12-28T04:03:50.354Z"}
+{"level":"info","message":"[/modules] http-response-time=1.6585949999999998ms ","timestamp":"2016-12-28T04:03:50.355Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.29939499999999997ms ","timestamp":"2016-12-28T04:03:50.360Z"}
+{"level":"debug","message":"request /project takes  4 ms. in mongodb","timestamp":"2016-12-28T04:03:50.423Z"}
+{"level":"info","message":"[/project] http-response-time=8.859435999999999ms ","timestamp":"2016-12-28T04:03:50.425Z"}
+{"level":"info","message":"[/projects] http-response-time=0.767021ms ","timestamp":"2016-12-28T04:04:34.692Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=3.314049ms ","timestamp":"2016-12-28T04:04:35.345Z"}
+{"level":"debug","message":"1482897875.385703: [ 'get', 'allModules' ]","timestamp":"2016-12-28T04:04:35.386Z"}
+{"level":"info","message":"[/modules] http-response-time=1.2791329999999999ms ","timestamp":"2016-12-28T04:04:35.387Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=2.3666519999999998ms ","timestamp":"2016-12-28T04:04:35.401Z"}
+{"level":"debug","message":"request /project takes  8 ms. in mongodb","timestamp":"2016-12-28T04:04:35.468Z"}
+{"level":"info","message":"[/project] http-response-time=11.067159ms ","timestamp":"2016-12-28T04:04:35.470Z"}
+{"level":"info","message":"[/projects] http-response-time=0.805079ms ","timestamp":"2016-12-28T04:06:37.085Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.4849379999999999ms ","timestamp":"2016-12-28T04:06:38.229Z"}
+{"level":"debug","message":"1482897998.269431: [ 'get', 'allModules' ]","timestamp":"2016-12-28T04:06:38.270Z"}
+{"level":"info","message":"[/modules] http-response-time=5.393018ms ","timestamp":"2016-12-28T04:06:38.274Z"}
+{"level":"debug","message":"1482897998.273682: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/issues\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"585cae20ada451099fd5970e\",\"MenuName\":\"Editor\",\"MenuRoute\":\"/editor\"}]}' ]","timestamp":"2016-12-28T04:06:38.274Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.24980899999999998ms ","timestamp":"2016-12-28T04:06:38.280Z"}
+{"level":"debug","message":"request /project takes  5 ms. in mongodb","timestamp":"2016-12-28T04:06:38.362Z"}
+{"level":"info","message":"[/project] http-response-time=8.482999ms ","timestamp":"2016-12-28T04:06:38.365Z"}
+{"level":"info","message":"[/projects] http-response-time=0.576023ms ","timestamp":"2016-12-28T04:06:55.838Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.978691ms ","timestamp":"2016-12-28T04:06:56.437Z"}
+{"level":"debug","message":"1482898016.484298: [ 'get', 'allModules' ]","timestamp":"2016-12-28T04:06:56.485Z"}
+{"level":"info","message":"[/modules] http-response-time=1.776792ms ","timestamp":"2016-12-28T04:06:56.486Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.355663ms ","timestamp":"2016-12-28T04:06:56.496Z"}
+{"level":"debug","message":"request /project takes  7 ms. in mongodb","timestamp":"2016-12-28T04:06:56.566Z"}
+{"level":"info","message":"[/project] http-response-time=9.733794999999999ms ","timestamp":"2016-12-28T04:06:56.568Z"}
+{"level":"info","message":"[/projects] http-response-time=1.615182ms ","timestamp":"2016-12-28T04:09:49.283Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.8544999999999998ms ","timestamp":"2016-12-28T04:09:49.938Z"}
+{"level":"debug","message":"1482898189.987836: [ 'get', 'allModules' ]","timestamp":"2016-12-28T04:09:49.988Z"}
+{"level":"info","message":"[/modules] http-response-time=5.612164ms ","timestamp":"2016-12-28T04:09:49.993Z"}
+{"level":"debug","message":"1482898189.992101: [ 'setex',\n  'allModules',\n  '120',\n  '{\"Status\":\"success\",\"Count\":5,\"objdata\":[{\"_id\":\"57eceebcf0dfe3df542252b9\",\"MenuName\":\"Users\",\"MenuRoute\":\"/users\"},{\"_id\":\"57ecef2cf0dfe3df542252ba\",\"MenuName\":\"Projects\",\"MenuRoute\":\"/projects\"},{\"_id\":\"57ecef3cf0dfe3df542252bb\",\"MenuName\":\"Issues\",\"MenuRoute\":\"/issues\"},{\"_id\":\"57ecef45f0dfe3df542252bc\",\"MenuName\":\"Module\",\"MenuRoute\":\"/modules\"},{\"_id\":\"585cae20ada451099fd5970e\",\"MenuName\":\"Editor\",\"MenuRoute\":\"/editor\"}]}' ]","timestamp":"2016-12-28T04:09:49.998Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.239025ms ","timestamp":"2016-12-28T04:09:49.999Z"}
+{"level":"debug","message":"request /project takes  8 ms. in mongodb","timestamp":"2016-12-28T04:09:50.064Z"}
+{"level":"info","message":"[/project] http-response-time=10.739685999999999ms ","timestamp":"2016-12-28T04:09:50.066Z"}
+{"level":"info","message":"[/projects] http-response-time=0.736669ms ","timestamp":"2016-12-28T04:10:49.488Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.386293ms ","timestamp":"2016-12-28T04:10:50.155Z"}
+{"level":"debug","message":"1482898250.218831: [ 'get', 'allModules' ]","timestamp":"2016-12-28T04:10:50.219Z"}
+{"level":"info","message":"[/modules] http-response-time=2.9322429999999997ms ","timestamp":"2016-12-28T04:10:50.223Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.7576959999999999ms ","timestamp":"2016-12-28T04:10:50.228Z"}
+{"level":"debug","message":"request /project takes  10 ms. in mongodb","timestamp":"2016-12-28T04:10:50.300Z"}
+{"level":"info","message":"[/project] http-response-time=11.069144999999999ms ","timestamp":"2016-12-28T04:10:50.301Z"}
+{"level":"info","message":"[/scripts/angular.js] http-response-time=2.11884ms ","timestamp":"2016-12-28T04:10:52.318Z"}
+{"level":"debug","message":"request /project takes  7 ms. in mongodb","timestamp":"2016-12-28T04:11:03.464Z"}
+{"level":"info","message":"[/project] http-response-time=9.486777ms ","timestamp":"2016-12-28T04:11:03.466Z"}
+{"level":"info","message":"[/projects] http-response-time=0.251669ms ","timestamp":"2016-12-28T04:11:09.307Z"}
+{"level":"info","message":"[/userfromtoken] http-response-time=1.452504ms ","timestamp":"2016-12-28T04:11:09.681Z"}
+{"level":"debug","message":"1482898269.722450: [ 'get', 'allModules' ]","timestamp":"2016-12-28T04:11:09.722Z"}
+{"level":"info","message":"[/modules] http-response-time=1.8181559999999999ms ","timestamp":"2016-12-28T04:11:09.724Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.637292ms ","timestamp":"2016-12-28T04:11:09.735Z"}
+{"level":"debug","message":"request /project takes  2 ms. in mongodb","timestamp":"2016-12-28T04:11:09.791Z"}
+{"level":"info","message":"[/project] http-response-time=6.272842ms ","timestamp":"2016-12-28T04:11:09.795Z"}
+{"level":"debug","message":"request /project takes  2 ms. in mongodb","timestamp":"2016-12-28T04:11:11.861Z"}
+{"level":"info","message":"[/project] http-response-time=2.3935779999999998ms ","timestamp":"2016-12-28T04:11:11.862Z"}
+{"level":"debug","message":"request /project takes  2 ms. in mongodb","timestamp":"2016-12-28T04:11:12.892Z"}
+{"level":"info","message":"[/project] http-response-time=2.8245ms ","timestamp":"2016-12-28T04:11:12.893Z"}
+{"level":"debug","message":"request /project takes  2 ms. in mongodb","timestamp":"2016-12-28T04:11:13.997Z"}
+{"level":"info","message":"[/project] http-response-time=3.542381ms ","timestamp":"2016-12-28T04:11:13.997Z"}
+{"level":"debug","message":"request /project takes  4 ms. in mongodb","timestamp":"2016-12-28T04:11:15.077Z"}
+{"level":"info","message":"[/project] http-response-time=4.252145ms ","timestamp":"2016-12-28T04:11:15.078Z"}
+{"level":"debug","message":"request /project takes  4 ms. in mongodb","timestamp":"2016-12-28T04:11:16.451Z"}
+{"level":"info","message":"[/project] http-response-time=5.964900999999999ms ","timestamp":"2016-12-28T04:11:16.454Z"}
+{"level":"debug","message":"request /project takes  2 ms. in mongodb","timestamp":"2016-12-28T04:11:16.983Z"}
+{"level":"info","message":"[/project] http-response-time=2.844249ms ","timestamp":"2016-12-28T04:11:16.983Z"}
+{"level":"debug","message":"request /project takes  5 ms. in mongodb","timestamp":"2016-12-28T04:11:18.191Z"}
+{"level":"info","message":"[/project] http-response-time=5.033221ms ","timestamp":"2016-12-28T04:11:18.192Z"}
+{"level":"info","message":"[/favicon.ico] http-response-time=0.211271ms ","timestamp":"2016-12-28T04:11:18.653Z"}
+{"level":"info","message":"[/projects/57f1eaf312604e3ba86a2328] http-response-time=39.191502ms ","timestamp":"2016-12-28T04:11:18.774Z"}

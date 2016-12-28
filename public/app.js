@@ -156,10 +156,10 @@ function getTableObj(tableid, token, initSort, apipath, refreshTableFunc) {
     appStor.save(tableid + 'rpp', nRPP);
     refreshTableFunc();
   };
-  itf.chPage = function (inc) {
-    this.CurPage += inc;
-    if (this.CurPage > this.NumPages) this.CurPage = this.NumPages;
-    if (this.CurPage === 0) this.CurPage = 1;
+  itf.chPage = function (inc,obj) {
+    obj.CurPage += inc;
+    if (obj.CurPage > obj.NumPages) obj.CurPage = obj.NumPages;
+    if (obj.CurPage === 0) obj.CurPage = 1;
     refreshTableFunc();
   };
   itf.setRows = function (aRes) {
@@ -276,7 +276,7 @@ issueTrackerApp.directive('customPagination',function () {
       curPage:'=',
       numPages:'=',
       changePage:'&',
-      curObj:'@'
+      curObj:'='
     }
   };
 });
