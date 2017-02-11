@@ -1,6 +1,7 @@
 issueTrackerApp.registerCtrl('projectscontroller',
  function projectscontroller($scope, $rootScope, $http, $location, appServices, $cookies,validationService) {
     $scope.PageHeader='Projects';
+   $scope.ProjecTable={};
      $scope.getProject = function () {
         appServices.getTable($scope.ProjecTable).then(function (d) {
             if (d.Status == 'success'){ 

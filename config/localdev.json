@@ -1,5 +1,5 @@
 {
   "WEB_PORT":9000,
-  "MONGO_URL":"mongodb://localhost:27017/IssueTrackerDb",
+  "MONGO_URL":"mongodb://localhost:27017/issueTrackerDb",
   "REDIS_PORT":6379
 }
