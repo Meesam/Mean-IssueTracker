@@ -6,6 +6,7 @@ function getRoute(name) {
         controller: name.substring(name.indexOf('/') + 1) + 'controller',
         resolve: {
             load: function ($q, $route, $rootScope) {
+                console.log('name is ' + name);
                 let deferred = $q.defer();
                 $script(['views/' + name + '.js?r=' + FTVer], function () {
                  $rootScope.$apply(function () { deferred.resolve(); }); });
